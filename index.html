@@ -9,6 +9,9 @@
     <!-- Font Style -->
     <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,300italic" rel="stylesheet" type="text/css">
 
+    <!-- Ionicons -->
+    <!-- <link rel="stylesheet" type="text/css" href="vendors/css/ionicons.min.css"> -->
+
     <!-- Animate -->
     <link rel="stylesheet" type="text/css" href="vendors/css/animate.css">
 
@@ -34,50 +37,47 @@
                     <img src="resources/img/wuhan.jpg" class="profile-photos" alt="My-Photo">
                     <p>Wu Han</p>
                 </div>
+                <div class="next-box">
+                    <a href="#gradPage">Click Me</a>
+                    <div class="arrow arrow-first"></div>
+                    <div class="arrow arrow-second"></div>
+                </div>
             </header>
         </div>
 
         <!-- Graduation Projects -->
-        <div class="section" id="section1">
-            <h2>Graduation Projects</h2>
-        </div>
-        <div class="section" id="section2">
-            <div class="slide ">
+        <div class="section horizonBar" id="section1">
+            <div class="slide" id="slide1" data-anchor="slide1">
                 <h2>Focus Sandrial</h2>
             </div>
-            <div class="slide">
+            <div class="slide" id="slide1" data-anchor="slide2">
                 <h2>Bicover</h2>
             </div>
         </div>
 
         <!-- Side Projects -->
-        <div class="section" id="section3">
-            <h2>Side Projects</h2>
-        </div>
-        <div class="section" id="section4">
-            <div class="slide active">
+        <div class="section horizonBar" id="section2">
+            <div class="slide" id="slide2" data-anchor="slide1">
                 <h2>ESP 8266 Box</h2>
             </div>
-            <div class="slide">
+            <div class="slide" id="slide2" data-anchor="slide2">
                 <h2>Docker for VMD</h2>
             </div>
-            <div class="slide">
+            <div class="slide" id="slide2" data-anchor="slide3">
                 <h2>LED Design</h2>
             </div>
         </div>
 
         <!-- Upcoming -->
-        <div class="section" id="section5">
-            <h2>Up Coming</h2>
-        </div>
-        <div class="section" id="section6">
+        <div class="section" id="section3">
             <h2>TPL Cloud</h2>
         </div>
 
         <!-- Hust & TPL -->
-        <div class="section" id="section7">
+        <div class="section" id="section4">
             <h2>HUST & TPL</h2>
         </div>
+
     </div>
 
     <!-- jquery -->
@@ -90,7 +90,13 @@
     <script type="text/javascript">
         $(document).ready(function () {
             $('#fullpage').fullpage({
-                sectionsColor: ['#DEDEDE', '#DEDEDE', '#DEDEDE', '#DEDEDE', '#DEDEDE', '#DEDEDE', '#DEDEDE','#DEDEDE']
+                anchors: ['mainPage', 'gradPage', 'sidePage', 'comingPage', 'labPage'],
+                sectionsColor: ['#DEDEDE', '#DEDEDE', '#DEDEDE', '#DEDEDE', '#DEDEDE'],
+                controlArrows: true,
+                slidesNavigation: true,
+                // navigation: true,
+                // navigationPosition: 'right',
+                // navigationTooltips: ['Main Page', 'Graduation Projects', 'Side Projects', 'Up Coming', '']
             });
         });
     </script>

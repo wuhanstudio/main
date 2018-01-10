@@ -66,11 +66,11 @@ header {
     height: 100vh;
 }
 
-header p{
+header p {
     color: #FFF;
 }
 
-.profile-photos{
+.profile-photos {
     border-radius: 50%;
 }
 
@@ -82,18 +82,95 @@ header p{
     transform: translate(-50%, -50%);
 }
 
-.profile-box{
+.profile-box {
     position: absolute;
     width: 120px;
-    top: 8%;
+    top: 10%;
     left: 45%;
 }
 
-.profile-box p{
+.profile-box p {
     text-align: center;
 }
 
 .motto {
     animation-delay: 1s;
     animation-duration: 1s;
-  }
+}
+
+/*  Arrow  */
+
+.next-box {
+    width: 100px;
+}
+
+.next-box a {
+    opacity: 0;
+    position: absolute;
+    height: 100px;
+    left: 47%;
+    top: 90%;
+}
+
+.arrow {
+    opacity: 0;
+    position: absolute;
+    left: 49%;
+    top: 95%;
+    transform-origin: 50% 50%;
+    transform: translate3d(-50%, -50%, 0);
+}
+
+.arrow-first {
+    animation: arrow-movement 1.5s 2.5s ease-in-out infinite;
+}
+
+.arrow-second {
+    animation-delay: 1.7s;
+    animation: arrow-movement 1.5s 3.3s ease-in-out infinite;
+}
+
+.arrow:before, .arrow:after {
+    background: #fff;
+    content: '';
+    display: block;
+    height: 3px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 30px;
+}
+
+.arrow:before {
+    transform: rotate(45deg) translateX(-23%);
+    transform-origin: top left;
+}
+
+.arrow:after {
+    transform: rotate(-45deg) translateX(23%);
+    transform-origin: top right;
+}
+
+/*  Animation */
+
+@keyframes arrow-movement {
+    0% {
+        opacity: 0;
+        top: 90%;
+    }
+    70% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+/*  Horizontal Navigation Dot */
+ .horizonBar {
+    text-align: center;
+} 
+
+.fp-slidesNav.bottom {
+    bottom: 25px;
+}
