@@ -6,30 +6,98 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
+    <!-- Font Style -->
     <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,300italic" rel="stylesheet" type="text/css">
+
+    <!-- Animate -->
     <link rel="stylesheet" type="text/css" href="vendors/css/animate.css">
 
+    <!-- Full Page Scroll -->
+    <link rel="stylesheet" type="text/css" href="vendors/css/jquery.fullPage.css" />
+
+    <!-- My Style -->
     <link rel="stylesheet" href="resources/css/style.css">
+
     <title>WuhanStudio</title>
 </head>
 
 <body>
-    <header>
-        <div class="hero-text-box">
-            <h1 class="motto animated fadeInUp">Look Inside · Think Different</h1>
+    <div id="fullpage">
+
+        <!-- Front Page -->
+        <div class="section active" id="section0">
+            <header>
+                <div class="hero-text-box">
+                    <h1 class="motto animated fadeInUp">Look Inside · Think Different</h1>
+                </div>
+                <div class="profile-box">
+                    <img src="resources/img/wuhan.jpg" class="profile-photos" alt="My-Photo">
+                    <p>Wu Han</p>
+                </div>
+            </header>
         </div>
-        <div class="profile-box">
-            <img src="resources/img/wuhan.jpg" class="profile-photos" alt="My-Photo">
-            <p>Wu Han</p>
+
+        <!-- Graduation Projects -->
+        <div class="section" id="section1">
+            <h2>Graduation Projects</h2>
         </div>
-    </header>
+        <div class="section" id="section2">
+            <div class="slide ">
+                <h2>Focus Sandrial</h2>
+            </div>
+            <div class="slide">
+                <h2>Bicover</h2>
+            </div>
+        </div>
 
-    <section class="section-graduation">
+        <!-- Side Projects -->
+        <div class="section" id="section3">
+            <h2>Side Projects</h2>
+        </div>
+        <div class="section" id="section4">
+            <div class="slide active">
+                <h2>ESP 8266 Box</h2>
+            </div>
+            <div class="slide">
+                <h2>Docker for VMD</h2>
+            </div>
+            <div class="slide">
+                <h2>LED Design</h2>
+            </div>
+        </div>
 
-    </section>
+        <!-- Upcoming -->
+        <div class="section" id="section5">
+            <h2>Up Coming</h2>
+        </div>
+        <div class="section" id="section6">
+            <h2>TPL Cloud</h2>
+        </div>
 
-    <script src="vendors/js/jquery.waypoints.min.js"></script>
+        <!-- Hust & TPL -->
+        <div class="section" id="section7">
+            <h2>HUST & TPL</h2>
+        </div>
+    </div>
+
+    <!-- jquery -->
+    <script src="vendors/js/jquery-1.8.3.min.js"></script>
+    <script src="vendors/js/jquery-ui.min.js"></script>
+
+    <!-- Full Page Scroll -->
+    <script type="text/javascript" src="vendors/js/scrolloverflow.js"></script>
+    <script type="text/javascript" src="vendors/js/jquery.fullPage.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('#fullpage').fullpage({
+                sectionsColor: ['#DEDEDE', '#DEDEDE', '#DEDEDE', '#DEDEDE', '#DEDEDE', '#DEDEDE', '#DEDEDE','#DEDEDE']
+            });
+        });
+    </script>
+
+    <!-- My Script -->
     <script src="resources/js/script.js"></script>
- </body>
+
+</body>
 
 </html>
