@@ -18,6 +18,9 @@
     <!-- Full Page Scroll -->
     <link rel="stylesheet" type="text/css" href="vendors/css/jquery.fullPage.css" />
 
+    <!-- Grid -->
+    <link rel="stylesheet" type="text/css" href="vendors/css/grid.css">
+
     <!-- My Style -->
     <link rel="stylesheet" href="resources/css/style.css">
 
@@ -74,35 +77,66 @@
         </div>
 
         <!-- Hust & TPL -->
-        <div class="section" id="section4">
-            <h2>HUST & TPL</h2>
+        <div class="section section-location" id="section4">
+            <div class="row intro">
+                <div class="col span-1-of-2">
+                    <img src="resources/img/wuhanstudio.jpg" alt="Wu Han">
+                </div>
+                <div class=col span-1-of-2 "">
+                    <ul>
+                        <li>Machine Desgin</li>
+                        <li>Embeded Programming</li>
+                        <li>Sofware Development</li>
+                        <li>Web Design</li>
+                        <li>Algorithms</li>
+                        <li>Simulation</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row footer">
+                    <div class="col span-1-of-3">
+                        <a href="http://english.hust.edu.cn/">
+                            <img class="hust" src="resources/img/hust.png" alt="Huazhong Univercity of Science and Technology">
+                        </a>
+                    </div>
+                    <div class="col span-1-of-3">
+                        <div class="back-box">
+                            <a href="#mainPage">Click Me</a>
+                            <div class="arrow-reverse arrow-reverse-first"></div>
+                            <div class="arrow-reverse arrow-reverse-second"></div>
+                        </div>
+                    </div>
+                    <div class="col span-1-of-3">
+                        <a href="http://tpl.energy.hust.edu.cn/English1.htm">
+                            <img class="tpl" src="resources/img/tpl.png" alt="Thermal Packaging Laboratory">
+                        </a>
+                    </div>
+            </div>
         </div>
 
-    </div>
+        <!-- jquery -->
+        <script src="vendors/js/jquery-1.8.3.min.js"></script>
+        <script src="vendors/js/jquery-ui.min.js"></script>
 
-    <!-- jquery -->
-    <script src="vendors/js/jquery-1.8.3.min.js"></script>
-    <script src="vendors/js/jquery-ui.min.js"></script>
-
-    <!-- Full Page Scroll -->
-    <script type="text/javascript" src="vendors/js/scrolloverflow.js"></script>
-    <script type="text/javascript" src="vendors/js/jquery.fullPage.js"></script>
-    <script type="text/javascript">
-        $(document).ready(function () {
-            $('#fullpage').fullpage({
-                anchors: ['mainPage', 'gradPage', 'sidePage', 'comingPage', 'labPage'],
-                sectionsColor: ['#DEDEDE', '#DEDEDE', '#DEDEDE', '#DEDEDE', '#DEDEDE'],
-                controlArrows: true,
-                slidesNavigation: true,
-                // navigation: true,
-                // navigationPosition: 'right',
-                // navigationTooltips: ['Main Page', 'Graduation Projects', 'Side Projects', 'Up Coming', '']
+        <!-- Full Page Scroll -->
+        <script type="text/javascript" src="vendors/js/scrolloverflow.js"></script>
+        <script type="text/javascript" src="vendors/js/jquery.fullPage.js"></script>
+        <script type="text/javascript">
+            $(document).ready(function () {
+                $('#fullpage').fullpage({
+                    anchors: ['mainPage', 'gradPage', 'sidePage', 'comingPage', 'labPage'],
+                    sectionsColor: ['#DEDEDE', '#DEDEDE', '#DEDEDE', '#DEDEDE', '#DEDEDE'],
+                    controlArrows: true,
+                    slidesNavigation: true,
+                    // navigation: true,
+                    // navigationPosition: 'right',
+                    // navigationTooltips: ['Main Page', 'Graduation Projects', 'Side Projects', 'Up Coming', '']
+                });
             });
-        });
-    </script>
+        </script>
 
-    <!-- My Script -->
-    <script src="resources/js/script.js"></script>
+        <!-- My Script -->
+        <script src="resources/js/script.js"></script>
 
 </body>
 
