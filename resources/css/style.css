@@ -100,7 +100,7 @@ input[type=checkbox]+label {
 }
 
 input[type=checkbox]:checked+label {
-    animation: closing 0.3s forwards ease-in-out, moving 0.3s forwards ease-in-out;
+    animation: closing 0.2s forwards ease-in-out, moving 0.2s forwards ease-in-out;
 }
 
 .pointer-cursor {
