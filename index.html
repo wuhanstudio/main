@@ -12,6 +12,9 @@
     <!-- Ionicons -->
     <link rel="stylesheet" type="text/css" href="vendors/css/ionicons.min.css">
 
+    <!-- Docker Icon -->
+    <link rel="stylesheet" type="text/css" href="vendors/css/fontcustom/fontcustom.css">
+
     <!-- Animate -->
     <link rel="stylesheet" type="text/css" href="vendors/css/animate.css">
 
@@ -49,9 +52,21 @@
         </div>
 
         <!-- Graduation Projects -->
-        <div class="section horizonBar" id="section1">
+        <div class="section horizonBar section-graduation" id="section1">
             <div class="slide" id="slide1" data-anchor="slide1">
                 <h2>Focus Sandrial</h2>
+                <div>
+                    <div>
+                        <label for="grad_but" class="pointer-cursor">
+                            <i class="ion-ios-information-outline"></i>
+                        </label>
+                    </div>
+                    <input type="checkbox" id="grad_but" checked="false" class="hidden">
+                    <label for="grad_but" class="alert-message js--wp-1">
+                        My Graduation Projects
+                        <span class="close">×</span>
+                    </label>
+                </div>
             </div>
             <div class="slide" id="slide1" data-anchor="slide2">
                 <h2>Bicover</h2>
@@ -59,9 +74,21 @@
         </div>
 
         <!-- Side Projects -->
-        <div class="section horizonBar" id="section2">
+        <div class="section horizonBar section-side" id="section2">
             <div class="slide" id="slide2" data-anchor="slide1">
                 <h2>ESP 8266 Box</h2>
+                <div>
+                    <div>
+                        <label for="side_but" class="pointer-cursor">
+                            <i class="ion-ios-information-outline"></i>
+                        </label>
+                    </div>
+                    <input type="checkbox" id="side_but" checked="false" class="hidden">
+                    <label for="side_but" class="alert-message js--wp-2">
+                         My Side Projects
+                        <span class="close">×</span>
+                    </label>
+                </div>
             </div>
             <div class="slide" id="slide2" data-anchor="slide2">
                 <h2>Docker for VMD</h2>
@@ -72,8 +99,33 @@
         </div>
 
         <!-- Upcoming -->
-        <div class="section" id="section3">
-            <h2>TPL Cloud</h2>
+        <div class="section section-tplcloud" id="section3">
+            <h1>TPL Cloud Desktop</h1>
+            <div>
+                <div>
+                    <label for="com_but" class="pointer-cursor">
+                        <i class="ion-ios-information-outline"></i>
+                    </label>
+                </div>
+                <input type="checkbox" id="com_but" checked="false" class="hidden">
+                <label for="com_but" class="alert-message js--wp-3">
+                     This is a part-time project I'm still working on ...
+                    <span class="close">×</span>
+                </label>
+            </div>
+
+            <div>
+                <h2> - A Desktop Client for Remote Docker Service
+                    <br/>- Create your instant Linux
+                    <br/>- An easy way for beginners getting familiar with Linux
+                </h2>
+            </div>
+
+            <div class="icon-coming">
+                <i class="ion-android-sync"></i> Coming Soon
+                <i class="fa fa-docker"></i> Docker
+                <i class="ion-social-windows"></i> DotNet
+            </div>
         </div>
 
         <!-- Hust & TPL -->
@@ -130,7 +182,7 @@
                     </div>
                 </div>
                 <div class="col span-1-of-3">
-                    <div class="skill-box js--wp-1">
+                    <div class="skill-box js--wp-4">
                         <div>
                             <h3>Introduction</h3>
                         </div>
@@ -145,7 +197,8 @@
                                 I understand that I can learn nothing without suffering, so I'm always ready to embrace new challenges.
                             </p>
                             <p style="font-style:italic;text-align:center">
-                                Hello World ! &nbsp; <i class="ion-android-happy"></i>
+                                Hello World ! &nbsp;
+                                <i class="ion-android-happy"></i>
                             </p>
                         </div>
                     </div>
@@ -224,14 +277,41 @@
                     // navigationPosition: 'right',
                     // navigationTooltips: ['Main Page', 'Graduation Projects', 'Side Projects', 'Up Coming', '']
                     onLeave: function (index, nextIndex, direction) {
+                        if (nextIndex == '1') {
+                            $('.js--wp-1').removeClass('animated fadeInDown');
+                            $('#grad_but').attr('checked', true);
+                        }
+                        if (nextIndex == '2') {
+                            $('.js--wp-2').removeClass('animated fadeInDown');
+                            $('#side_but').attr('checked', true);
+                        }
+                        if (nextIndex == '3') {
+                            $('.js--wp-3').removeClass('animated fadeInDown');
+                            $('#com_but').attr('checked', true);
+                        }
                         if (nextIndex == '4') {
-                            $('.js--wp-1').removeClass('animated pulse');
+                            $('.js--wp-4').removeClass('animated pulse');
                         }
                         // console.log("onLeave--" + "index: " + index + " nextIndex: " + nextIndex + " direction: " + direction);
                     },
                     afterLoad: function (anchorLink, index) {
+                        if (anchorLink == 'gradPage') {
+                            var t = setTimeout("$('.js--wp-1').addClass('animated fadeInDown');", 300);
+                            var t = setTimeout(" $('#grad_but').attr('checked',false);", 300);
+                        }
+                       
+                        if (anchorLink == 'sidePage') {
+                            var t = setTimeout("$('.js--wp-2').addClass('animated fadeInDown');", 300);
+                            var t = setTimeout(" $('#side_but').attr('checked',false);", 300);
+                        }
+
+                        if (anchorLink == 'comingPage') {
+                            var t = setTimeout("$('.js--wp-3').addClass('animated fadeInDown');", 300);
+                            var t = setTimeout(" $('#com_but').attr('checked',false);", 300);
+                        }
+
                         if (anchorLink == 'labPage') {
-                            $('.js--wp-1').addClass('animated pulse');
+                            $('.js--wp-4').addClass('animated pulse');
                         }
                         // console.log('===============');
                         // console.log("afterLoad--" + "anchorLink: " + anchorLink + " index: " + index);
