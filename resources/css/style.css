@@ -138,7 +138,7 @@ input[type=checkbox]:checked+label {
     width: 100%;
     padding: 12px;
     box-sizing: border-box;
-    color: rgba(255, 255, 255, .9);
+    color: rgba(255, 255, 255, .8);
     box-shadow: 0px 10px 50px rgba(0, 0, 0, .6);
     background: #34495eb0;
 }
@@ -343,8 +343,117 @@ header p {
 
 /* Side Projects */
 
+input {
+    border-style: none;
+    background: transparent;
+    outline: none;
+}
+
+button {
+    padding: 0;
+    background: none;
+    border: none;
+    outline: none;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top:89%;
+    height: 100vh;
+    width: 100% ;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0 0
+    }
+    100% {
+        background-position: 100% 0
+    }
+}
+
+.webflow-style-input {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    max-width: 460px;
+    margin: 0 auto;
+    border-radius: 2px;
+    padding: 0.3rem 1.5rem 0.3rem;
+    background:rgba(57, 63, 84, 0.8);
+}
+
+.webflow-style-input::after {
+    content: "";
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    z-index: 999;
+    height: 2px;
+    border-bottom-left-radius: 2px;
+    border-bottom-right-radius: 2px;
+    background-position: 0% 0%;
+    background: linear-gradient(to right, #B294FF, #57E6E6, #FEFFB8, #57E6E6, #B294FF, #57E6E6);
+    background-size: 500% auto;
+    animation: gradient 3s linear infinite;
+}
+
+.webflow-style-input input {
+    flex-grow: 1;
+    color: #BFD2FF;
+    font-size: 0.9rem;
+    line-height: 1.2rem;
+    vertical-align: middle;
+}
+
+.webflow-style-input button {
+    color: #7881A1;
+    font-size: 2rem;
+    line-height: 2rem;
+    vertical-align: middle;
+    transition: color .25s;
+}
+
+.webflow-style-input button:hover {
+    color: #BFD2FF;
+}
+
 .section-side .alert-message {
-    width: 1263px;
+    width: 100%;
+}
+
+.section-side h1 {
+    position: absolute;
+    left: 20%;
+    top: 35%;
+}
+
+.section-side ul {
+    position: absolute;
+    left: 42%;
+    margin-top: 5x;
+    width: 200px;
+    padding-top: 20px;
+    /* border-top:#F0F0F0 solid 1px; */
+}
+
+.section-side li {
+    list-style: none;
+    margin-bottom: 10px;
+    color: #D0D0D0;
+}
+
+.section-side img {
+    opacity: 0.7;
+    position: absolute;
+    right: 0;
+    bottom: 0;
 }
 
 /* TPL Cloud */
@@ -367,7 +476,7 @@ header p {
     position: absolute;
     width: 48%;
     bottom: 18%;
-    left: 10px;
+    left: 30px;
     text-transform: none;
     background: rgba(255, 255, 255, 0.75);
     padding: 4px 8px;
