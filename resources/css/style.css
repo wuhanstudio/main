@@ -438,7 +438,7 @@ header p {
 
 .section-graduation .main-intro {
     margin-top: 14%;
-    margin-right:0;
+    margin-right: 0;
     padding-right: 5%;
 }
 
@@ -489,7 +489,7 @@ header p {
 
 /*        Bicover          */
 
-.section-graduation .bicover .alert-message {
+.bicover .alert-message {
     width: 50%;
     position: absolute;
     left: 50%;
@@ -500,17 +500,17 @@ header p {
 }
 
 .bicover .pointer-cursor {
-    width:50%;
+    width: 50%;
     position: absolute;
     top: 10px;
-    left:50%;
+    left: 50%;
     cursor: pointer;
     cursor: hand;
 }
 
 .bicover .pointer-cursor i {
     position: absolute;
-    left:2%;
+    left: 2%;
     font-size: 28px;
     color: #000;
 }
@@ -521,6 +521,21 @@ header p {
     cursor: pointer;
     cursor: hand;
     font-size: 25px;
+}
+
+.bicover input[type=checkbox]:checked+label {
+    animation: closing 0.2s forwards ease-in-out, bc_moving 0.2s forwards ease-in-out;
+}
+
+@keyframes bc_moving {
+    0%, 90% {
+        top: 0;
+        left: 50%;
+    }
+    100% {
+        top: -100px;
+        left: 50%;
+    }
 }
 
 /* ------------------------- */

@@ -12,7 +12,7 @@ $(document).ready(function () {
     var gradTimer, sideTimer, comTimer;
     $('#fullpage').fullpage({
         anchors: ['mainPage', 'gradPage', 'sidePage', 'comingPage', 'labPage'],
-        sectionsColor: ['#DEDEDE', '#EEEEEE', '#202020', '#DEDEDE', '#e8e8e8'],
+        sectionsColor: ['#DEDEDE', '#DDDDDD', '#202020', '#DEDEDE', '#e8e8e8'],
         controlArrows: false,
         slidesNavigation: true,
         scrollBar: true,
@@ -45,6 +45,8 @@ $(document).ready(function () {
             if (anchorLink == 'gradPage') {
                 setTimeout("$('.js--wp-1').addClass('animated fadeInDown');", 200);
                 setTimeout(" $('#focus_but').attr('checked',false);", 200);
+                setTimeout("$('.js--wp-1-2').addClass('animated fadeInDown');", 200);
+                setTimeout(" $('#bc_but').attr('checked',false);", 200);
                 // window.clearTimeout(gradTimer);
                 // gradTimer = setTimeout(" $('#grad_but').attr('checked',true);", 9000);
             }
@@ -96,9 +98,13 @@ $(document).ready(function () {
             if (index == 2 && slideIndex == 0 ) {
                 $('.js--wp-1').removeClass('animated fadeInDown');
                 $('#focus_but').attr('checked', true);
+                $('.js--wp-1-2').removeClass('animated fadeInDown');
+                $('#bc_but').attr('checked', true);
             }
             
             if (index == 2  && slideIndex == 1) {
+                $('.js--wp-1').removeClass('animated fadeInDown');
+                $('#focus_but').attr('checked', true);
                 $('.js--wp-1-2').removeClass('animated fadeInDown');
                 $('#bc_but').attr('checked', true);
             }
