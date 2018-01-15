@@ -1,6 +1,6 @@
 /* ------------------------- */
 
-/* Basic setup               */
+/*       Basic Setup         */
 
 /* ------------------------- */
 
@@ -163,6 +163,12 @@ input[type=checkbox]:checked+label {
     }
 }
 
+/* ------------------------- */
+
+/*      Front Page           */
+
+/* ------------------------- */
+
 /* Header */
 
 header {
@@ -205,7 +211,7 @@ header p {
     animation-duration: 1s;
 }
 
-/*  Arrow  */
+/*  Next Arrow  */
 
 .next-box {
     width: 100px;
@@ -297,7 +303,7 @@ header p {
     transform-origin: top left;
 }
 
-/*  Animation */
+/*  Arrow Animation */
 
 @keyframes arrow-movement {
     0% {
@@ -335,13 +341,193 @@ header p {
     bottom: 25px;
 }
 
-/* Graduation Projects */
+/* ------------------------- */
 
-.section-graduation .alert-message {
-    width: 50%;
+/*    Graduation Projects    */
+
+/* ------------------------- */
+
+/*           Focus           */
+
+.mfp-hide {
+    display: none!important;
 }
 
-/* Side Projects */
+.mfp-fade.mfp-bg {
+    opacity: 0;
+    -webkit-transition: all 0.15s ease-out;
+    -moz-transition: all 0.15s ease-out;
+    transition: all 0.15s ease-out;
+}
+
+.mfp-fade.mfp-bg.mfp-ready {
+    opacity: 0.8;
+}
+
+.mfp-fade.mfp-bg.mfp-removing {
+    opacity: 0;
+}
+
+.mfp-fade.mfp-wrap .mfp-content {
+    opacity: 0;
+    -webkit-transition: all 0.15s ease-out;
+    -moz-transition: all 0.15s ease-out;
+    transition: all 0.15s ease-out;
+}
+
+.mfp-fade.mfp-wrap.mfp-ready .mfp-content {
+    opacity: 1;
+}
+
+.mfp-fade.mfp-wrap.mfp-removing .mfp-content {
+    opacity: 0;
+}
+
+.button {
+    position: absolute;
+    padding: 10px 30px;
+    border-color: #f3f3f3;
+    font-size: 12px;
+    font-size: 1.5rem;
+    font-family: "museo-sans", Arial, Verdana;
+    font-weight: 500;
+    left: 7%;
+    bottom: 15%;
+}
+
+.button {
+    border: 2px solid #fff;
+    color: #fff;
+    text-transform: uppercase;
+    transition: all 0.15s ease-in-out;
+}
+
+.button .fa {
+    margin-left: 20px;
+}
+
+.button:hover {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.focus .close {
+    color: black;
+}
+
+.focus .pointer-cursor i {
+    font-size: 28px;
+    color: #000;
+}
+
+.focus .alert-message {
+    width: 50%;
+    border: 1px solid rgba(#34495e, 0.25);
+    color: rgba(0, 0, 0, .8);
+    box-shadow: 0px 10px 50px rgba(0, 0, 0, .1);
+    background: rgba(254, 254, 254, 0.219);
+}
+
+.section-graduation #slide1 img {
+    float: right;
+    width: 60%;
+    filter: brightness(0.95);
+    border-radius: 10px;
+    box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.6);
+    margin-right: 15%;
+}
+
+.section-graduation .main-intro {
+    margin-top: 14%;
+    margin-right:0;
+    padding-right: 5%;
+}
+
+/* ----- TITILE ----- */
+
+.title-text-box {
+    width: 100%;
+}
+
+.section-graduation h1 {
+    color: #000;
+}
+
+/* ----- LINKS ----- */
+
+.section-graduation a:link, .section-graduation a:visited {
+    color: #FFF;
+    text-decoration: none;
+    transition: border-bottom 0.2s, color 0.2s;
+}
+
+.section-graduation a:hover, .section-graduation a:active {
+    color: #DDD;
+}
+
+/* ----- BUTTONS ----- */
+
+.btn:link, .btn:visited {
+    display: inline-block;
+    padding: 10px 30px;
+    font-weight: 300;
+    text-decoration: none;
+    border-radius: 200px;
+    transition: background-color 0.2s, color 0.2s;
+}
+
+.btn-full:link, .btn-full:visited {
+    background-color: #0000FF;
+    color: #fff;
+    margin-right: 15px;
+}
+
+.btn {
+    /* position: absolute; */
+    margin-top: 8%;
+    margin-left: 55%;
+}
+
+/*        Bicover          */
+
+.section-graduation .bicover .alert-message {
+    width: 50%;
+    position: absolute;
+    left: 50%;
+    border: 1px solid rgba(#34495e, 0.25);
+    color: rgba(0, 0, 0, .8);
+    box-shadow: 0px 10px 50px rgba(0, 0, 0, .1);
+    background: rgba(254, 254, 254, 0.219);
+}
+
+.bicover .pointer-cursor {
+    width:50%;
+    position: absolute;
+    top: 10px;
+    left:50%;
+    cursor: pointer;
+    cursor: hand;
+}
+
+.bicover .pointer-cursor i {
+    position: absolute;
+    left:2%;
+    font-size: 28px;
+    color: #000;
+}
+
+.bicover .alert-message .close {
+    float: right;
+    color: #000;
+    cursor: pointer;
+    cursor: hand;
+    font-size: 25px;
+}
+
+/* ------------------------- */
+
+/*       Side Projects       */
+
+/* ------------------------- */
 
 input {
     border-style: none;
@@ -360,9 +546,9 @@ button {
     display: flex;
     flex-direction: column;
     position: absolute;
-    top:89%;
+    top: 89%;
     height: 100vh;
-    width: 100% ;
+    width: 100%;
     padding: 0 15px;
     margin: 0 auto;
 }
@@ -385,7 +571,7 @@ button {
     margin: 0 auto;
     border-radius: 2px;
     padding: 0.3rem 1.5rem 0.3rem;
-    background:rgba(57, 63, 84, 0.8);
+    background: rgba(57, 63, 84, 0.8);
 }
 
 .webflow-style-input::after {
@@ -456,7 +642,11 @@ button {
     bottom: 0;
 }
 
-/* TPL Cloud */
+/* ------------------------- */
+
+/*        TPL Cloud          */
+
+/* ------------------------- */
 
 .section-tplcloud {
     background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.7)), url('../img/TPLCloud.jpg');
@@ -502,7 +692,11 @@ button {
     margin-left: 20px;
 }
 
-/* Profile */
+/* ------------------------- */
+
+/*         Profile           */
+
+/* ------------------------- */
 
 .avatar {
     position: absolute;
@@ -625,14 +819,14 @@ blockquote {
 }
 
 .embedded-prog {
-    width: 80%;
+    width: 65%;
     animation: embedded-prog 2s ease-out;
     background-color: #f0bb4b;
     background-image: linear-gradient(top, #f0bb4b, #d9aa44);
 }
 
 .software-dev {
-    width: 95%;
+    width: 75%;
     animation: software-dev 2s ease-out;
     background-color: #f5f107;
     background-image: linear-gradient(top, #a1ce5b, #91ba52);
@@ -704,7 +898,11 @@ blockquote {
     }
 }
 
-/* HUST & TPL */
+/* ------------------------- */
+
+/*         Footer            */
+
+/* ------------------------- */
 
 .footer {
     position: absolute;
