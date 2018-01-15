@@ -332,6 +332,7 @@
         <script type="text/javascript" src="vendors/js/jquery.fullPage.js"></script>
         <script type="text/javascript">
             $(document).ready(function () {
+                var gradTimer,sideTimer,comTimer;
                 $('#fullpage').fullpage({
                     anchors: ['mainPage', 'gradPage', 'sidePage', 'comingPage', 'labPage'],
                     sectionsColor: ['#DEDEDE', '#DEDEDE', '#202020', '#DEDEDE', '#e8e8e8'],
@@ -342,6 +343,8 @@
                     // navigationPosition: 'right',
                     // navigationTooltips: ['Main Page', 'Graduation Projects', 'Side Projects', 'Up Coming', '']
                     onLeave: function (index, nextIndex, direction) {
+                        if (nextIndex == '0') {
+                        }
                         if (nextIndex == '1') {
                             $('.js--wp-1').removeClass('animated fadeInDown');
                             $('#grad_but').attr('checked', true);
@@ -363,19 +366,22 @@
                         if (anchorLink == 'gradPage') {
                             setTimeout("$('.js--wp-1').addClass('animated fadeInDown');", 200);
                             setTimeout(" $('#grad_but').attr('checked',false);", 200);
-                            setTimeout(" $('#grad_but').attr('checked',true);", 5000);
+                            window.clearTimeout(gradTimer);
+                            gradTimer = setTimeout(" $('#grad_but').attr('checked',true);", 5000);
                         }
 
                         if (anchorLink == 'sidePage') {
                             setTimeout("$('.js--wp-2').addClass('animated fadeInDown');", 200);
                             setTimeout(" $('#side_but').attr('checked',false);", 200);
-                            setTimeout(" $('#side_but').attr('checked',true);", 9000);
+                            window.clearTimeout(sideTimer);
+                            sideTimer = setTimeout(" $('#side_but').attr('checked',true);", 9000);
                         }
 
                         if (anchorLink == 'comingPage') {
                             setTimeout("$('.js--wp-3').addClass('animated fadeInDown');", 200);
                             setTimeout(" $('#com_but').attr('checked',false);", 200);
-                            setTimeout(" $('#com_but').attr('checked',true);", 5000);
+                            window.clearTimeout(comTimer);
+                            comTimer = setTimeout(" $('#com_but').attr('checked',true);", 5000);
                         }
 
                         if (anchorLink == 'labPage') {
