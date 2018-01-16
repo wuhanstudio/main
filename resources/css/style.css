@@ -427,7 +427,7 @@ header p {
     background: rgba(254, 254, 254, 0.219);
 }
 
-.section-graduation #slide1 img {
+.section-graduation .focus img {
     float: right;
     width: 60%;
     filter: brightness(0.95);
@@ -488,6 +488,20 @@ header p {
 }
 
 /*        Bicover          */
+
+.section-graduation .bicover h1{
+    margin-top:40%;
+}
+
+.section-graduation .bicover img {
+    float: right;
+    width: 75%;
+    filter: brightness(0.95);
+    /* border-radius: 10px; */
+    /* box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.6); */
+    margin-top:15%;
+    margin-right: 15%;
+}
 
 .bicover .alert-message {
     width: 50%;
