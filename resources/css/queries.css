@@ -1,4 +1,5 @@
 /* Big Desktop to 1600px */
+
 /* @media only screen and (max-width: 1600px) and (orientation: portrait) {
     h1 {
         font-size: 300%;
@@ -11,17 +12,25 @@
 } */
 
 @media only screen and (max-width: 1600px) and (orientation: landscape) {
-    .profile-box{
-        width:10%;
+    .profile-box {
+        width: 12%;
     }
-    
     h1 {
         font-size: 300%;
         font-weight: 300;
     }
-    
     .enter {
         display: none;
+    }
+    .focus-enter {
+        display: none;
+    }
+    /* Graduation Project */
+    .main-intro h1 {
+        font-size: 260%;
+    }
+    .bicover h1 {
+        font-size: 260%;
     }
 }
 
@@ -36,30 +45,36 @@
     }
 } */
 
-@media only screen and (max-width: 1440px) and (orientation: landscape){
-
-    .profile-box{
-        width:13%;
+@media only screen and (max-width: 1440px) and (orientation: landscape) {
+    
+    .profile-box {
+        width: 13%;
     }
 
     h1 {
         font-size: 230%;
         font-weight: 300;
     }
-
-    .hero-text-box{
-        width:60%;
-        left:58%;
+    .hero-text-box {
+        width: 60%;
+        left: 58%;
     }
-    
     .enter {
         display: none;
     }
+    /* Graduation Project */
+    .main-intro h1 {
+        font-size: 220%;
+    }
+    .bicover h1 {
+        font-size: 220%;
+    }
+
 }
 
 /* Big tablet to 1200px (from 1024px to 1199px) */
 
-@media only screen and (max-width: 1200px) and (orientation: portrait){
+@media only screen and (max-width: 1200px) and (orientation: portrait) {
     h1 {
         font-size: 220%;
         font-weight: 300;
@@ -73,9 +88,19 @@
     .profile-box {
         left: 45%;
     }
+    /* Graduation Project */
+    .main-intro h1 {
+        font-size: 150%;
+    }
+    .bicover h1 {
+        font-size: 150%;
+    }
+    .button {
+        font-size: 100%;
+    }
 }
 
-@media only screen and (max-width: 1200px) and (orientation: landscape){
+@media only screen and (max-width: 1200px) and (orientation: landscape) {
     h1 {
         font-size: 220%;
         font-weight: 300;
@@ -84,11 +109,18 @@
         display: none;
     }
     .hero-text-box {
-        width:70%;
-        left: 60%;
+        width: 75%;
+        left: 55%;
     }
     .profile-box {
         left: 45%;
+    }
+    /* Graduation Project */
+    .main-intro h1 {
+        font-size: 200%;
+    }
+    .bicover h1 {
+        font-size: 200%;
     }
 }
 
@@ -117,7 +149,6 @@
         font-size: 165%;
         font-weight: 300;
     }
-    
     .hero-text-box {
         width: 75%;
         left: 56%;
@@ -126,9 +157,31 @@
         left: 42%;
         width: 15%;
     }
+    /* Graduation Project */
+    .main-intro h1 {
+        font-size: 170%;
+    }
+    .bicover h1 {
+        font-size: 180%;
+    }
+    .main-intro p {
+        font-size: 90%;
+    }
+    .bicover p {
+        font-size: 90%;
+    }
+    .alert-message {
+        font-size: 85%;
+    }
+    .button {
+        font-size: 100%;
+    }
+    .btn-full {
+        font-size: 80%;
+    }
 }
 
-@media only screen and (max-height: 1023px) and (orientation: landscape) {
+/* @media only screen and (max-height: 1023px) and (orientation: landscape) {
     h1 {
         font-size: 165%;
         font-weight: 300;
@@ -136,13 +189,15 @@
     
     .hero-text-box {
         width: 75%;
-        left: 56%;
+        left: 62%;
     }
+
     .profile-box {
-        left: 42%;
-        width: 15%;
+        left: 43%;
+        width: 13%;
     }
-}
+
+} */
 
 /* Small phones to small tablets: from 481px to 767px */
 
@@ -162,8 +217,29 @@
     }
     .hero-text-box {
         /* top:40%; */
-        width: 90%;
-        left: 65%;
+        width: 70%;
+        left: 60%;
+    }
+    /* Graduation Project */
+    .main-intro h1 {
+        font-size: 120%;
+    }
+    .bicover h1 {
+        font-size: 120%;
+    }
+    .main-intro p {
+        font-size: 65%;
+    }
+    .bicover p {
+        font-size: 65%;
+    }
+    .button {
+        font-size: 90%;
+    }
+    .btn {
+        font-size: 80%;
+        width: 60%;
+        margin-left: 30%;
     }
 }
 
@@ -171,7 +247,59 @@
     h1 {
         font-size: 170%;
     }
-    
+    /* Graduation Project */
+    .section-graduation .focus img {
+        width: 50%;
+        margin-right: 20%;
+    }
+    .main-intro h1 {
+        font-size: 130%;
+    }
+    .bicover h1 {
+        font-size: 130%;
+    }
+    .main-intro p {
+        font-size: 70%;
+    }
+    .bicover p {
+        font-size: 70%;
+    }
+    .alert-message {
+        font-size: 65%;
+        line-height: 25px;
+        padding: 5px;
+    }
+    .button {
+        width: 50%;
+        font-size: 70%;
+        padding: 7px 0px;
+        font-weight: 500;
+        margin-top: -10%;
+        margin-right: 20%;
+    }
+    .btn-full {
+        font-size: 70%;
+    }
+    .section-graduation .main-intro {
+        margin-top: 12%;
+    }
+    .focus .pointer-cursor {
+        left: 1%;
+        top: 4px;
+    }
+    .focus .pointer-cursor i {
+        font-size: 15px;
+    }
+    .bicover .pointer-cursor {
+        top: 8px;
+        left: 50%;
+    }
+    .bicover .pointer-cursor i {
+        font-size: 15px;
+    }
+    .close {
+        font-size: 15px;
+    }
 }
 
 /* Small phones: from 425px to 479px */
@@ -190,6 +318,13 @@
         top: 55%;
         left: 60%;
     }
+    /* Graduation Project */
+    .btn {
+        width: 35%;
+    }
+    .alert-message {
+        font-size: 65%;
+    }
 }
 
 @media only screen and (max-height: 479px) and (orientation: landscape) {
@@ -201,7 +336,25 @@
         top: 15%;
         left: 34%;
     }
-
+    /* Graduation Project */
+    .main-intro h1 {
+        font-size: 110%;
+    }
+    .bicover h1 {
+        font-size: 110%;
+    }
+    .main-intro p {
+        font-size: 60%;
+    }
+    .bicover p {
+        font-size: 60%;
+    }
+    .alert-message {
+        font-size: 65%;
+    }
+    .btn-full {
+        font-size: 60%;
+    }
 }
 
 /* Small phones: from 375px to 425px */
@@ -220,8 +373,15 @@
     }
     .hero-text-box {
         top: 55%;
-        width: 85%;
+        width: 80%;
         left: 60%;
+    }
+    /* Graduation Project */
+    .btn {
+        width: 40%;
+    }
+    .alert-message {
+        font-size: 60%;
     }
 }
 
@@ -238,7 +398,6 @@
         width: 14%;
         left: 42%;
     }
-    
 }
 
 /* Small phones: from 321px to 474px */
@@ -255,13 +414,25 @@
     .profile-box p {
         font-size: 80%;
     }
+    /* Graduation Project */
+    .btn {
+        width: 43%;
+    }
+    .btn:link, .btn:visited {
+        padding: 8px 8px;
+        font-weight: 300;
+    }
+    .alert-message {
+        font-size: 60%;
+    }
+    .btn-full:link, .btn-full:visited {
+        background-color: #0000FF;
+        color: #fff;
+        margin-right: 25%;
+    }
 }
 
-@media only screen and (max-height: 374px) and (orientation: landscape) {
-
-
-}
-
+@media only screen and (max-height: 374px) and (orientation: landscape) {}
 
 /* Small phones: from 0 to 320px */
 
@@ -274,21 +445,131 @@
     }
     .hero-text-box {
         top: 52%;
-        width: 80%;
+        width: 75%;
         left: 55%;
+    }
+    .section-graduation .focus img {
+        width: 50%;
+        float: left;
+        margin-left: 25%;
+        margin-right: 0;
+    }
+    .button {
+        font-size: 80%;
+        position: absolute;
+        width: 24%;
+        left: 13%;
+        bottom: 45%;
+        z-index: 999;
+    }
+
+    .focus-detail{
+        display:none;   
+    }
+    .bicover-detail{
+        display:none;
+    }
+    .section-graduation .bicover img {
+        float: right;
+        width: 50%;
+        margin-top: 5%;
+        margin-right: 25%;
+    }
+
+    .btn{
+        width:30%;  
+        font-size:50%;
     }
 }
 
-@media only screen and (max-height: 320px) and (orientation: landscape) {
-    
-    .profile-box p{
+@media only screen and (max-height: 320px) and (max-width: 480px) and (orientation: landscape) {
+    .profile-box p {
         font-size: 50%;
     }
-    
     h1 {
         font-size: 105%;
     }
     .hero-text-box {
         left: 58%;
     }
+    /* Graduation Project */
+    .section-graduation .focus img {
+        width: 30%;
+        float: left;
+        margin-left: 5%;
+        margin-right: 0;
+    }
+    .main-intro h1 {
+        font-size: 90%;
+    }
+    .bicover h1 {
+        font-size: 90%;
+    }
+    .main-intro {
+        display: none;
+    }
+    .focus-small {
+        display: block;
+        float: right;
+        margin-right: 15%;
+        margin-top: 10%;
+    }
+    .focus-small h1 {
+        font-size: 90%;
+    }
+    .focus-small p {
+        font-size: 50%;
+    }
+    .bicover p {
+        font-size: 50%;
+    }
+    .alert-message {
+        font-size: 55%;
+    }
+    .button {
+        position: absolute;
+        width: 15%;
+        left: 3%;
+        bottom: 20%;
+        z-index: 999;
+    }
+    .btn {
+        width: 50%;
+        margin-top: 8%;
+    }
+    .btn-full {
+        font-size: 50%;
+    }
+    .focus-small .btn:link, .btn:visited {
+        padding: 5px 5px;
+        font-weight: 300;
+    }
+    /* Bicover */
+    .bicover-big {
+        display: none;
+    }
+    .bicover-small {
+        display: inline-block;
+        margin-top: 12%;
+    }
+    .bicover-small .btn:link, .btn:visited {
+        padding: 5px 5px;
+        font-weight: 300;
+    }
+    .bicover-small .btn {
+        width: 50%;
+        margin-top: 8%;
+    }
+    .section-graduation .bicover img {
+        float: right;
+        width: 35%;
+        margin-top: 15%;
+        margin-right: 15%;
+    }
+    /* .scrollable-element{
+        height: 200px;
+        width: 500px;
+        overflow-y: scroll;
+        margin: 0 auto;
+    } */
 }

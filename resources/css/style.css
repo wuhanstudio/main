@@ -389,20 +389,21 @@ header p {
 }
 
 .button {
-    position: absolute;
-    padding: 10px 30px;
-    border-color: #f3f3f3;
+    position:relative;
+    float:right;
+    width:60%;
+    padding: 8px 0px;
+    border: 2px solid #fff;
     font-size: 12px;
-    font-size: 1.5rem;
+    font-size: 1.4rem;
     font-family: "museo-sans", Arial, Verdana;
     font-weight: 500;
-    left: 7%;
-    bottom: 15%;
+    margin-top: -10%;
+    margin-right: 15%;
+    z-index: 2;
 }
 
 .button {
-    border: 2px solid #fff;
-    color: #fff;
     text-transform: uppercase;
     transition: all 0.15s ease-in-out;
 }
@@ -439,6 +440,14 @@ header p {
     border-radius: 10px;
     box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.6);
     margin-right: 15%;
+}
+
+.focus-small{
+    display:none;
+}
+
+.bicover-small{
+    display:none;
 }
 
 .section-graduation .main-intro {
@@ -487,9 +496,8 @@ header p {
 }
 
 .btn {
-    /* position: absolute; */
     margin-top: 8%;
-    margin-left: 55%;
+    margin-left: 45%;
 }
 
 /*        Bicover          */
@@ -539,7 +547,6 @@ header p {
     color: #000;
     cursor: pointer;
     cursor: hand;
-    font-size: 25px;
 }
 
 .bicover input[type=checkbox]:checked+label {

@@ -16,6 +16,7 @@ $(document).ready(function () {
         controlArrows: false,
         slidesNavigation: true,
         scrollBar: true,
+        // normalScrollElements: '.scrollable-element',
         // navigation: true,
         // navigationPosition: 'right',
         // navigationTooltips: ['Main Page', 'Graduation Projects', 'Side Projects', 'Up Coming', '']
