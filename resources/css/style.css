@@ -126,7 +126,7 @@ input[type=checkbox]:checked+label {
 
 .alert-message {
     background-color: #f2dede;
-    border: 1px solid rgba(#34495e, 0.25);
+    border: 1px solid rgba(52, 73, 95, 0.25);
     color: #b94b45;
     text-align: center;
     border-radius: 3px;
@@ -140,7 +140,7 @@ input[type=checkbox]:checked+label {
     box-sizing: border-box;
     color: rgba(255, 255, 255, .8);
     box-shadow: 0px 10px 50px rgba(0, 0, 0, .6);
-    background: #34495eb0;
+    background: rgba(52, 73, 94, 0.69);
 }
 
 @keyframes closing {
@@ -189,10 +189,10 @@ header p {
 
 .hero-text-box {
     position: absolute;
-    width: 800px;
+    width: 80%;
     top: 55%;
-    left: 20%;
-    /* transform: translate(-50%, -50%); */
+    left: 60%;
+    transform: translate(-50%, -50%);
 }
 
 .profile-box {
@@ -200,6 +200,11 @@ header p {
     width: 120px;
     top: 10%;
     left: 45%;
+}
+
+.profile-box img{
+    width:80%;
+    margin-left: 10%;
 }
 
 .profile-box p {
@@ -350,7 +355,7 @@ header p {
 /*           Focus           */
 
 .mfp-hide {
-    display: none!important;
+    display: none;
 }
 
 .mfp-fade.mfp-bg {
@@ -421,7 +426,7 @@ header p {
 
 .focus .alert-message {
     width: 50%;
-    border: 1px solid rgba(#34495e, 0.25);
+    border: 1px solid rgba(52, 73, 94,0.25);
     color: rgba(0, 0, 0, .8);
     box-shadow: 0px 10px 50px rgba(0, 0, 0, .1);
     background: rgba(254, 254, 254, 0.219);
@@ -507,7 +512,7 @@ header p {
     width: 50%;
     position: absolute;
     left: 50%;
-    border: 1px solid rgba(#34495e, 0.25);
+    border: 1px solid rgba(52, 73, 95, 0.25);
     color: rgba(0, 0, 0, .8);
     box-shadow: 0px 10px 50px rgba(0, 0, 0, .1);
     background: rgba(254, 254, 254, 0.219);
@@ -652,7 +657,7 @@ button {
 .section-side ul {
     position: absolute;
     left: 42%;
-    margin-top: 5x;
+    margin-top: 5px;
     width: 200px;
     padding-top: 20px;
     /* border-top:#F0F0F0 solid 1px; */
