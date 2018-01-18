@@ -641,7 +641,7 @@ button {
 
 .webflow-style-input button {
     color: #7881A1;
-    font-size: 2rem;
+    font-size: 1rem;
     line-height: 2rem;
     vertical-align: middle;
     transition: color .25s;
@@ -665,6 +665,7 @@ button {
     position: absolute;
     left: 42%;
     margin-top: 5px;
+    font-size:110%;
     width: 200px;
     padding-top: 20px;
     /* border-top:#F0F0F0 solid 1px; */
