@@ -463,7 +463,7 @@
         left: 5%;
     }
     .section-side ul {
-        left: 35%;
+        left: 25%;
     }
     /* TPL Cloud */
     .section-tplcloud h1 {
@@ -837,6 +837,9 @@
             opacity: 0;
         }
     }
+    .back-box{
+        width:70%;
+    }
 }
 
 @media only screen and (max-height: 479px) and (orientation: landscape) {
@@ -912,16 +915,13 @@
         width: 30%;
     }
     .section-side h1 {
-        font-size: 120%;
-        left: 5%;
-    }
-    .section ul {
-        left: 28%;
+        font-size: 110%;
+        left: 0%;
     }
     /* TPL Cloud */
     .section-tplcloud h1 {
-        width: 95%;
-        left: 8%;
+        width: 85%;
+        left: 12%;
         font-size: 140%;
     }
     .icon-coming {
@@ -939,7 +939,6 @@
         font-size: 80%;
     }
     #skill {
-        margin-left: -25%;
         margin-top: 10%;
     }
 }
@@ -1019,8 +1018,8 @@
     }
     .hero-text-box {
         top: 55%;
-        width: 85%;
-        left: 58%;
+        width: 83%;
+        left: 57%;
     }
     .profile-box p {
         font-size: 80%;
@@ -1040,6 +1039,12 @@
         background-color: #0000FF;
         color: #fff;
         margin-right: 25%;
+    }
+    /* TPL Cloud */
+    .section-tplcloud h1 {
+        width: 90%;
+        left: 7%;
+        font-size: 140%;
     }
     /* Profile */
     .skill-box {
@@ -1310,6 +1315,9 @@
         width: 60%;
         margin-top:3%;
         margin-left: 20%;
+    }
+    .back-box{
+        width: 70%;
     }
     .arrow-reverse {
         bottom: 5%;
