@@ -1,5 +1,6 @@
 
 $(document).ready(function () {
+    // alert(window.screen.availWidth + ',' + window.screen.availHeight);
     $('.popup-youtube, .popup-vimeo, .popup-gmaps').magnificPopup({
         disableOn: 700,
         type: 'iframe',
@@ -16,7 +17,7 @@ $(document).ready(function () {
         controlArrows: false,
         slidesNavigation: true,
         scrollBar: true,
-        autoScrolling:false,
+        autoScrolling: false,
         // normalScrollElements: '.scrollable-element',
         // navigation: true,
         // navigationPosition: 'right',
@@ -97,14 +98,14 @@ $(document).ready(function () {
             var leavingSlide = $(this);
 
             //leaving the first slide of the 2nd Section to the right
-            if (index == 2 && slideIndex == 0 ) {
+            if (index == 2 && slideIndex == 0) {
                 $('.js--wp-1').removeClass('animated fadeInDown');
                 $('#focus_but').attr('checked', true);
                 $('.js--wp-1-2').removeClass('animated fadeInDown');
                 $('#bc_but').attr('checked', true);
             }
-            
-            if (index == 2  && slideIndex == 1) {
+
+            if (index == 2 && slideIndex == 1) {
                 $('.js--wp-1').removeClass('animated fadeInDown');
                 $('#focus_but').attr('checked', true);
                 $('.js--wp-1-2').removeClass('animated fadeInDown');

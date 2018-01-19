@@ -519,6 +519,28 @@
 }
 
 @media only screen and (max-width: 767px) and (orientation: landscape) {
+    .arrow {
+        opacity: 0;
+        position: absolute;
+        left: 47%;
+        top: 92%;
+        transform-origin: 50% 50%;
+        transform: translate3d(-50%, -50%, 0);
+    }
+    /*  Arrow Animation */
+    
+    @keyframes arrow-movement {
+        0% {
+            opacity: 0;
+            top: 85%;
+        }
+        70% {
+            opacity: 1;
+        }
+        100% {
+            opacity: 0;
+        }
+    }
     /* TPL Cloud */
     .section-tplcloud h2 {
         font-size: 60%;
@@ -676,6 +698,29 @@
 /* Small phones: from 425px to 479px */
 
 @media only screen and (max-width: 479px) and (orientation: portrait) {
+    .arrow {
+        opacity: 0;
+        position: absolute;
+        left: 45%;
+        top: 85%;
+        transform-origin: 50% 50%;
+        transform: translate3d(-50%, -50%, 0);
+    }
+    /*  Arrow Animation */
+    
+    @keyframes arrow-movement {
+        0% {
+            opacity: 0;
+            top: 80%;
+        }
+        70% {
+            opacity: 1;
+        }
+        100% {
+            opacity: 0;
+        }
+    }
+    
     .profile-box {
         width: 25%;
         top: 15%;
@@ -768,20 +813,22 @@
     .tpl {
         float: none;
         width: 50%;
+        margin-bottom:3%;
         margin-left: 25%;
     }
     .hust {
         float: none;
         width: 60%;
+        margin-top:3%;
         margin-left: 20%;
     }
     .arrow-reverse {
-        bottom: 4%;
+        bottom: 5%;
     }
     @keyframes arrow-reverse-movement {
         0% {
             opacity: 0;
-            bottom: 3%;
+            bottom: 4%;
         }
         70% {
             opacity: 1;
@@ -1255,11 +1302,13 @@
     .tpl {
         float: none;
         width: 50%;
+        margin-bottom:3%;
         margin-left: 25%;
     }
     .hust {
         float: none;
         width: 60%;
+        margin-top:3%;
         margin-left: 20%;
     }
     .arrow-reverse {
