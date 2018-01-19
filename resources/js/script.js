@@ -1,6 +1,17 @@
 
 $(document).ready(function () {
     // alert(window.screen.availWidth + ',' + window.screen.availHeight);
+
+    // Lazy Load library
+    lozad('.lozad', {
+        load: function (el) {
+            el.src = el.dataset.src;
+            el.onload = function () {
+                el.classList.add('fade')
+            }
+        }
+    }).observe()
+
     $('.popup-youtube, .popup-vimeo, .popup-gmaps').magnificPopup({
         disableOn: 700,
         type: 'iframe',
@@ -18,7 +29,7 @@ $(document).ready(function () {
         slidesNavigation: true,
         scrollBar: true,
         autoScrolling: false,
-        lazyLoading:true,
+        lazyLoading: false,
         // normalScrollElements: '.scrollable-element',
         // navigation: true,
         // navigationPosition: 'right',
