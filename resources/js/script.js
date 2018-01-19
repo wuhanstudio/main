@@ -16,6 +16,7 @@ $(document).ready(function () {
         controlArrows: false,
         slidesNavigation: true,
         scrollBar: true,
+        autoScrolling:false,
         // normalScrollElements: '.scrollable-element',
         // navigation: true,
         // navigationPosition: 'right',
