@@ -206,6 +206,21 @@
     #skill li:first-child {
         margin-top: 18%;
     }
+    .arrow-reverse {
+        bottom: 14%;
+    }
+    @keyframes arrow-reverse-movement {
+        0% {
+            opacity: 0;
+            bottom: 12%;
+        }
+        70% {
+            opacity: 1;
+        }
+        100% {
+            opacity: 0;
+        }
+    }
 }
 
 @media only screen and (max-width: 1200px) and (orientation: landscape) {
@@ -441,22 +456,30 @@
     .main-intro h1 {
         font-size: 120%;
     }
+    .main-intro p {
+        font-size: 90%;
+    }
     .bicover h1 {
         font-size: 120%;
-    }
-    .main-intro p {
-        font-sizes: 65%;
     }
     .bicover p {
         font-size: 65%;
     }
     .button {
-        font-size: 90%;
+        font-size: 80%;
+        left: -3%;
     }
     .btn {
         font-size: 80%;
         width: 60%;
         margin-left: 30%;
+    }
+    .section-graduation .focus img {
+        width: 60%;
+        margin-right: 18%;
+    }
+    .section-graduation .bicover img {
+        margin-top: 0;
     }
     /* Side Project */
     .section-side h1 {
@@ -516,6 +539,21 @@
     .back-box {
         width: 90%;
     }
+    .arrow-reverse {
+        bottom: 21%;
+    }
+    @keyframes arrow-reverse-movement {
+        0% {
+            opacity: 0;
+            bottom: 19%;
+        }
+        70% {
+            opacity: 1;
+        }
+        100% {
+            opacity: 0;
+        }
+    }
 }
 
 @media only screen and (max-width: 767px) and (orientation: landscape) {
@@ -528,7 +566,6 @@
         transform: translate3d(-50%, -50%, 0);
     }
     /*  Arrow Animation */
-    
     @keyframes arrow-movement {
         0% {
             opacity: 0;
@@ -707,7 +744,6 @@
         transform: translate3d(-50%, -50%, 0);
     }
     /*  Arrow Animation */
-    
     @keyframes arrow-movement {
         0% {
             opacity: 0;
@@ -720,7 +756,6 @@
             opacity: 0;
         }
     }
-    
     .profile-box {
         width: 25%;
         top: 15%;
@@ -813,13 +848,13 @@
     .tpl {
         float: none;
         width: 50%;
-        margin-bottom:3%;
+        margin-bottom: 3%;
         margin-left: 25%;
     }
     .hust {
         float: none;
         width: 60%;
-        margin-top:3%;
+        margin-top: 3%;
         margin-left: 20%;
     }
     .arrow-reverse {
@@ -837,8 +872,8 @@
             opacity: 0;
         }
     }
-    .back-box{
-        width:70%;
+    .back-box {
+        width: 70%;
     }
 }
 
@@ -1307,16 +1342,16 @@
     .tpl {
         float: none;
         width: 50%;
-        margin-bottom:3%;
+        margin-bottom: 3%;
         margin-left: 25%;
     }
     .hust {
         float: none;
         width: 60%;
-        margin-top:3%;
+        margin-top: 3%;
         margin-left: 20%;
     }
-    .back-box{
+    .back-box {
         width: 70%;
     }
     .arrow-reverse {
