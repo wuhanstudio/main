@@ -100,7 +100,8 @@ input[type=checkbox]+label {
 }
 
 input[type=checkbox]:checked+label {
-    animation: closing 0.2s forwards ease-in-out, moving 0.2s forwards ease-in-out;
+    -webkit-animation: closing 0.2s forwards ease-in-out, moving 0.2s forwards ease-in-out;
+            animation: closing 0.2s forwards ease-in-out, moving 0.2s forwards ease-in-out;
 }
 
 .pointer-cursor {
@@ -137,11 +138,22 @@ input[type=checkbox]:checked+label {
     display: block;
     width: 100%;
     padding: 12px;
-    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
     color: rgba(255, 255, 255, .8);
-    box-shadow: 0px 10px 50px rgba(0, 0, 0, .6);
+    -webkit-box-shadow: 0px 10px 50px rgba(0, 0, 0, .6);
+            box-shadow: 0px 10px 50px rgba(0, 0, 0, .6);
     background: rgba(52, 73, 94, 0.69);
     z-index: 999;
+}
+
+@-webkit-keyframes closing {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+    }
 }
 
 @keyframes closing {
@@ -150,6 +162,17 @@ input[type=checkbox]:checked+label {
     }
     to {
         opacity: 0;
+    }
+}
+
+@-webkit-keyframes moving {
+    0%, 90% {
+        top: 0;
+        left: 0;
+    }
+    100% {
+        top: -100px;
+        left: 0;
     }
 }
 
@@ -173,6 +196,7 @@ input[type=checkbox]:checked+label {
 /* Header */
 
 header {
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0.7))), url('http://cdn.wuhanstudio.cc/background.jpg');
     background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.7)), url('http://cdn.wuhanstudio.cc/background.jpg');
     background-attachment: fixed;
     background-size: cover;
@@ -193,7 +217,8 @@ header p {
     width: 80%;
     top: 55%;
     left: 60%;
-    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
 }
 
 .profile-box {
@@ -213,8 +238,10 @@ header p {
 }
 
 .motto {
-    animation-delay: 1s;
-    animation-duration: 1s;
+    -webkit-animation-delay: 1s;
+            animation-delay: 1s;
+    -webkit-animation-duration: 1s;
+            animation-duration: 1s;
 }
 
 /*  Next Arrow  */
@@ -229,7 +256,7 @@ header p {
     padding: 2% 10%;
     border: 2px solid #FFF;
     left: 38%;
-    top: 88%;
+    top: 80%;
 }
 
 .arrow {
@@ -237,17 +264,22 @@ header p {
     position: absolute;
     left: 49%;
     top: 90%;
-    transform-origin: 50% 50%;
-    transform: translate3d(-50%, -50%, 0);
+    -webkit-transform-origin: 50% 50%;
+            transform-origin: 50% 50%;
+    -webkit-transform: translate3d(-50%, -50%, 0);
+            transform: translate3d(-50%, -50%, 0);
 }
 
 .arrow-first {
-    animation: arrow-movement 1.5s 2.5s ease-in-out infinite;
+    -webkit-animation: arrow-movement 1.5s 2.5s ease-in-out infinite;
+            animation: arrow-movement 1.5s 2.5s ease-in-out infinite;
 }
 
 .arrow-second {
-    animation-delay: 1.7s;
-    animation: arrow-movement 1.5s 3.3s ease-in-out infinite;
+    -webkit-animation-delay: 1.7s;
+            animation-delay: 1.7s;
+    -webkit-animation: arrow-movement 1.5s 3.3s ease-in-out infinite;
+            animation: arrow-movement 1.5s 3.3s ease-in-out infinite;
 }
 
 .arrow:before, .arrow:after {
@@ -262,13 +294,17 @@ header p {
 }
 
 .arrow:before {
-    transform: rotate(45deg) translateX(-23%);
-    transform-origin: top left;
+    -webkit-transform: rotate(45deg) translateX(-23%);
+            transform: rotate(45deg) translateX(-23%);
+    -webkit-transform-origin: top left;
+            transform-origin: top left;
 }
 
 .arrow:after {
-    transform: rotate(-45deg) translateX(23%);
-    transform-origin: top right;
+    -webkit-transform: rotate(-45deg) translateX(23%);
+            transform: rotate(-45deg) translateX(23%);
+    -webkit-transform-origin: top right;
+            transform-origin: top right;
 }
 
 .arrow-reverse {
@@ -276,17 +312,22 @@ header p {
     position: absolute;
     left: 50%;
     bottom: 10%;
-    transform-origin: 50% 50%;
-    transform: translate3d(-50%, -50%, 0);
+    -webkit-transform-origin: 50% 50%;
+            transform-origin: 50% 50%;
+    -webkit-transform: translate3d(-50%, -50%, 0);
+            transform: translate3d(-50%, -50%, 0);
 }
 
 .arrow-reverse-first {
-    animation: arrow-reverse-movement 1.5s 2.5s ease-in-out infinite;
+    -webkit-animation: arrow-reverse-movement 1.5s 2.5s ease-in-out infinite;
+            animation: arrow-reverse-movement 1.5s 2.5s ease-in-out infinite;
 }
 
 .arrow-reverse-second {
-    animation-delay: 1.7s;
-    animation: arrow-reverse-movement 1.5s 3.3s ease-in-out infinite;
+    -webkit-animation-delay: 1.7s;
+            animation-delay: 1.7s;
+    -webkit-animation: arrow-reverse-movement 1.5s 3.3s ease-in-out infinite;
+            animation: arrow-reverse-movement 1.5s 3.3s ease-in-out infinite;
 }
 
 .arrow-reverse:before, .arrow-reverse:after {
@@ -299,21 +340,51 @@ header p {
 }
 
 .arrow-reverse:before {
-    transform: rotate(45deg) translateX(-9%) translateY(-0%);
-    transform-origin: top left;
+    -webkit-transform: rotate(45deg) translateX(-9%) translateY(-0%);
+            transform: rotate(45deg) translateX(-9%) translateY(-0%);
+    -webkit-transform-origin: top left;
+            transform-origin: top left;
 }
 
 .arrow-reverse:after {
-    transform: rotate(135deg) translateY(0%);
-    transform-origin: top left;
+    -webkit-transform: rotate(135deg) translateY(0%);
+            transform: rotate(135deg) translateY(0%);
+    -webkit-transform-origin: top left;
+            transform-origin: top left;
 }
 
 /*  Arrow Animation */
+
+@-webkit-keyframes arrow-movement {
+    0% {
+        opacity: 0;
+        top: 85%;
+    }
+    70% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
 
 @keyframes arrow-movement {
     0% {
         opacity: 0;
         top: 85%;
+    }
+    70% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+@-webkit-keyframes arrow-reverse-movement {
+    0% {
+        opacity: 0;
+        bottom: 5%;
     }
     70% {
         opacity: 1;
@@ -361,7 +432,6 @@ header p {
 .mfp-fade.mfp-bg {
     opacity: 0;
     -webkit-transition: all 0.15s ease-out;
-    -moz-transition: all 0.15s ease-out;
     transition: all 0.15s ease-out;
 }
 
@@ -376,7 +446,6 @@ header p {
 .mfp-fade.mfp-wrap .mfp-content {
     opacity: 0;
     -webkit-transition: all 0.15s ease-out;
-    -moz-transition: all 0.15s ease-out;
     transition: all 0.15s ease-out;
 }
 
@@ -405,6 +474,7 @@ header p {
 
 .button {
     text-transform: uppercase;
+    -webkit-transition: all 0.15s ease-in-out;
     transition: all 0.15s ease-in-out;
 }
 
@@ -429,16 +499,19 @@ header p {
     width: 50%;
     border: 1px solid rgba(52, 73, 94, 0.25);
     color: rgba(0, 0, 0, .8);
-    box-shadow: 0px 10px 50px rgba(0, 0, 0, .1);
+    -webkit-box-shadow: 0px 10px 50px rgba(0, 0, 0, .1);
+            box-shadow: 0px 10px 50px rgba(0, 0, 0, .1);
     background: rgba(254, 254, 254, 0.219);
 }
 
 .section-graduation .focus img {
     float: right;
     width: 60%;
-    filter: brightness(0.95);
+    -webkit-filter: brightness(0.95);
+            filter: brightness(0.95);
     border-radius: 10px;
-    box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.6);
+    -webkit-box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.6);
+            box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.6);
     margin-right: 15%;
 }
 
@@ -471,6 +544,7 @@ header p {
 .section-graduation a:link, .section-graduation a:visited {
     color: #FFF;
     text-decoration: none;
+    -webkit-transition: border-bottom 0.2s, color 0.2s;
     transition: border-bottom 0.2s, color 0.2s;
 }
 
@@ -486,6 +560,7 @@ header p {
     font-weight: 300;
     text-decoration: none;
     border-radius: 200px;
+    -webkit-transition: background-color 0.2s, color 0.2s;
     transition: background-color 0.2s, color 0.2s;
 }
 
@@ -509,7 +584,8 @@ header p {
 .section-graduation .bicover img {
     float: right;
     width: 75%;
-    filter: brightness(0.95);
+    -webkit-filter: brightness(0.95);
+            filter: brightness(0.95);
     /* border-radius: 10px; */
     /* box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.6); */
     margin-top: 10%;
@@ -522,7 +598,8 @@ header p {
     left: 50%;
     border: 1px solid rgba(52, 73, 95, 0.25);
     color: rgba(0, 0, 0, .8);
-    box-shadow: 0px 10px 50px rgba(0, 0, 0, .1);
+    -webkit-box-shadow: 0px 10px 50px rgba(0, 0, 0, .1);
+            box-shadow: 0px 10px 50px rgba(0, 0, 0, .1);
     background: rgba(254, 254, 254, 0.219);
 }
 
@@ -550,7 +627,19 @@ header p {
 }
 
 .bicover input[type=checkbox]:checked+label {
-    animation: closing 0.2s forwards ease-in-out, bc_moving 0.2s forwards ease-in-out;
+    -webkit-animation: closing 0.2s forwards ease-in-out, bc_moving 0.2s forwards ease-in-out;
+            animation: closing 0.2s forwards ease-in-out, bc_moving 0.2s forwards ease-in-out;
+}
+
+@-webkit-keyframes bc_moving {
+    0%, 90% {
+        top: 0;
+        left: 50%;
+    }
+    100% {
+        top: -100px;
+        left: 50%;
+    }
 }
 
 @keyframes bc_moving {
@@ -584,14 +673,28 @@ button {
 }
 
 .container {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
     position: absolute;
     top: 89%;
     height: 100vh;
     width: 100%;
     padding: 0 15px;
     margin: 0 auto;
+}
+
+@-webkit-keyframes gradient {
+    0% {
+        background-position: 0 0
+    }
+    100% {
+        background-position: 100% 0
+    }
 }
 
 @keyframes gradient {
@@ -605,8 +708,13 @@ button {
 
 .webflow-style-input {
     position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: row;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
     width: 100%;
     max-width: 460px;
     margin: 0 auto;
@@ -626,13 +734,17 @@ button {
     border-bottom-left-radius: 2px;
     border-bottom-right-radius: 2px;
     background-position: 0% 0%;
+    background: -webkit-gradient(linear, left top, right top, from(#B294FF), color-stop(#57E6E6), color-stop(#FEFFB8), color-stop(#57E6E6), color-stop(#B294FF), to(#57E6E6));
     background: linear-gradient(to right, #B294FF, #57E6E6, #FEFFB8, #57E6E6, #B294FF, #57E6E6);
     background-size: 500% auto;
-    animation: gradient 3s linear infinite;
+    -webkit-animation: gradient 3s linear infinite;
+            animation: gradient 3s linear infinite;
 }
 
 .webflow-style-input input {
-    flex-grow: 1;
+    -webkit-box-flex: 1;
+        -ms-flex-positive: 1;
+            flex-grow: 1;
     color: #BFD2FF;
     font-size: 0.9rem;
     line-height: 1.2rem;
@@ -644,6 +756,7 @@ button {
     font-size: 1rem;
     line-height: 2rem;
     vertical-align: middle;
+    -webkit-transition: color .25s;
     transition: color .25s;
 }
 
@@ -691,6 +804,7 @@ button {
 /* ------------------------- */
 
 .section-tplcloud {
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0.7))), url('http://cdn.wuhanstudio.cc/TPLCloud.jpg');
     background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.7)), url('http://cdn.wuhanstudio.cc/TPLCloud.jpg');
     background-attachment: fixed;
     background-size: cover;
@@ -768,7 +882,8 @@ button {
     width: 92%;
     height: 500px;
     margin-left: 3%;
-    box-shadow: 0 2px 2px #efefef;
+    -webkit-box-shadow: 0 2px 2px #efefef;
+            box-shadow: 0 2px 2px #efefef;
 }
 
 .skill-box ul {
@@ -826,10 +941,12 @@ blockquote {
 #skill li {
     margin-top: 15%;
     background: #e9e5e2;
-    background-image: linear-gradient(top, #e1ddd9, #e9e5e2);
+    background-image: -webkit-gradient(linear, left bottom, left top, from(#e1ddd9), to(#e9e5e2));
+    background-image: linear-gradient(to top, #e1ddd9, #e9e5e2);
     height: 20px;
     border-radius: 10px;
-    box-shadow: 0 1px 0px #bebbb9 inset, 0 1px 0 #fcfcfc;
+    -webkit-box-shadow: 0 1px 0px #bebbb9 inset, 0 1px 0 #fcfcfc;
+            box-shadow: 0 1px 0px #bebbb9 inset, 0 1px 0 #fcfcfc;
 }
 
 #skill li h4 {
@@ -847,49 +964,70 @@ blockquote {
     margin: 1px 2px;
     position: absolute;
     border-radius: 10px;
-    box-shadow: 0 1px 0px #fcfcfc inset, 0 1px 0 #bebbb9;
+    -webkit-box-shadow: 0 1px 0px #fcfcfc inset, 0 1px 0 #bebbb9;
+            box-shadow: 0 1px 0px #fcfcfc inset, 0 1px 0 #bebbb9;
 }
 
 .machine-design {
     width: 40%;
-    animation: machine-design 2s ease-out;
+    -webkit-animation: machine-design 2s ease-out;
+            animation: machine-design 2s ease-out;
     background-color: #f674a4;
-    background-image: linear-gradient(top, #f674a4, #e06995);
+    background-image: -webkit-gradient(linear, left bottom, left top, from(#f674a4), to(#e06995));
+    background-image: linear-gradient(to top, #f674a4, #e06995);
 }
 
 .embedded-prog {
     width: 65%;
-    animation: embedded-prog 2s ease-out;
+    -webkit-animation: embedded-prog 2s ease-out;
+            animation: embedded-prog 2s ease-out;
     background-color: #f0bb4b;
-    background-image: linear-gradient(top, #f0bb4b, #d9aa44);
+    background-image: -webkit-gradient(linear, left bottom, left top, from(#f0bb4b), to(#d9aa44));
+    background-image: linear-gradient(to top, #f0bb4b, #d9aa44);
 }
 
 .software-dev {
     width: 75%;
-    animation: software-dev 2s ease-out;
+    -webkit-animation: software-dev 2s ease-out;
+            animation: software-dev 2s ease-out;
     background-color: #f5f107;
-    background-image: linear-gradient(top, #a1ce5b, #91ba52);
+    background-image: -webkit-gradient(linear, left bottom, left top, from(#a1ce5b), to(#91ba52));
+    background-image: linear-gradient(to top, #a1ce5b, #91ba52);
 }
 
 .machine-learning {
     width: 50%;
-    animation: machine-learning 2s ease-out;
+    -webkit-animation: machine-learning 2s ease-out;
+            animation: machine-learning 2s ease-out;
     background-color: #a1ce5b;
-    background-image: linear-gradient(top, #66b3cc, #5da3ba)
+    background-image: -webkit-gradient(linear, left bottom, left top, from(#66b3cc), to(#5da3ba));
+    background-image: linear-gradient(to top, #66b3cc, #5da3ba)
 }
 
 .simulation {
     width: 30%;
-    animation: simulation 2s ease-out;
+    -webkit-animation: simulation 2s ease-out;
+            animation: simulation 2s ease-out;
     background-color: #66b3cc;
-    background-image: linear-gradient(top, #66b3cc, #5da3ba)
+    background-image: -webkit-gradient(linear, left bottom, left top, from(#66b3cc), to(#5da3ba));
+    background-image: linear-gradient(to top, #66b3cc, #5da3ba)
 }
 
 .others {
     width: 0%;
     /* animation: simulation 2s ease-out; */
     background-color: #66b3cc;
-    background-image: linear-gradient(top, #66b3cc, #5da3ba)
+    background-image: -webkit-gradient(linear, left bottom, left top, from(#66b3cc), to(#5da3ba));
+    background-image: linear-gradient(to top, #66b3cc, #5da3ba)
+}
+
+@-webkit-keyframes machine-design {
+    0% {
+        width: 0px;
+    }
+    100% {
+        width: 100%;
+    }
 }
 
 @keyframes machine-design {
@@ -898,6 +1036,15 @@ blockquote {
     }
     100% {
         width: 100%;
+    }
+}
+
+@-webkit-keyframes embedded-prog {
+    0% {
+        width: 0px;
+    }
+    100% {
+        width: 90%;
     }
 }
 
@@ -910,6 +1057,15 @@ blockquote {
     }
 }
 
+@-webkit-keyframes software-dev {
+    0% {
+        width: 0px;
+    }
+    100% {
+        width: 65%;
+    }
+}
+
 @keyframes software-dev {
     0% {
         width: 0px;
@@ -919,7 +1075,25 @@ blockquote {
     }
 }
 
+@-webkit-keyframes machine-learning {
+    0% {
+        width: 0px;
+    }
+    100% {
+        width: 80%;
+    }
+}
+
 @keyframes machine-learning {
+    0% {
+        width: 0px;
+    }
+    100% {
+        width: 80%;
+    }
+}
+
+@-webkit-keyframes simulation {
     0% {
         width: 0px;
     }
@@ -977,8 +1151,19 @@ blockquote {
 /* Lazy Load */
 
 .fade {
-    animation-name: fade;
-    animation-duration: 2s;
+    -webkit-animation-name: fade;
+            animation-name: fade;
+    -webkit-animation-duration: 2s;
+            animation-duration: 2s;
+}
+
+@-webkit-keyframes fade {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
 }
 
 @keyframes fade {
