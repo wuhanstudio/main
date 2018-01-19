@@ -173,7 +173,7 @@ input[type=checkbox]:checked+label {
 /* Header */
 
 header {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.7)), url('../img/background.jpg');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.7)), url('http://cdn.wuhanstudio.cc/background.jpg');
     background-attachment: fixed;
     background-size: cover;
     background-position: center;
