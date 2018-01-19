@@ -18,6 +18,7 @@ $(document).ready(function () {
         slidesNavigation: true,
         scrollBar: true,
         autoScrolling: false,
+        lazyLoading:true,
         // normalScrollElements: '.scrollable-element',
         // navigation: true,
         // navigationPosition: 'right',
