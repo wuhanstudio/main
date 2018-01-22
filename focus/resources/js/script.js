@@ -1,6 +1,16 @@
 
 $(document).ready(function () {
 
+       // Lazy Load library
+       lozad('.lozad', {
+        load: function (el) {
+            el.src = el.dataset.src;
+            el.onload = function () {
+                el.classList.add('fade')
+            }
+        }
+    }).observe()
+
     $('.popup-youtube, .popup-vimeo, .popup-gmaps').magnificPopup({
 		disableOn: 700,
 		type: 'iframe',
@@ -12,7 +22,7 @@ $(document).ready(function () {
 	});
 
     // For the sticky navigation
-    $('.js-section-purpose').waypoint(function (direction) {
+    $('.js-section-intro').waypoint(function (direction) {
         if (direction == 'down') {
             $('nav').addClass('sticky');
         }
@@ -24,11 +34,11 @@ $(document).ready(function () {
 
     // Scroll on buttons
     $('.js-scroll-to-start').click(function () {
-        $('html, body').animate({ scrollTop: $('.js-section-purpose').offset().top }, 1000);
+        $('html, body').animate({ scrollTop: $('.js-section-intro').offset().top }, 1000);
     });
     
     $('.js-scroll-to-plans').click(function () {
-        $('html, body').animate({ scrollTop: $('.js-section-plans').offset().top }, 1000);
+        $('html, body').animate({ scrollTop: $('.js-section-features').offset().top }, 1000);
     });
 
     // Select all links with hashes

@@ -8,24 +8,41 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-    <!-- Stylesheets -->
-    <link rel="stylesheet" href="vendors/css/normalize.css">
-    <link rel="stylesheet" href="vendors/css/ionicons.min.css">
-    <link rel="stylesheet" href="vendors/css/grid.css">
-    <link rel="stylesheet" href="vendors/css/animate.css">
-    <link rel="stylesheet" href="resources/css/style.css">
-    <link rel="stylesheet" href="resources/css/queries.css">
-    <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,300italic" rel="stylesheet" type="text/css">
+     <!-- Font Style -->
+     <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,300italic" rel="stylesheet" type="text/css">
 
-    <link rel="apple-touch-icon" sizes="152x152" href="/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-    <link rel="manifest" href="/manifest.json">
-    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
-    <meta name="theme-color" content="#ffffff">
-
-    <!-- Magnific Popup core CSS file -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css">
+     <!-- Ionicons -->
+     <link rel="stylesheet" type="text/css" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+ 
+     <!-- Animate -->
+     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+ 
+     <!-- Full Page Scroll -->
+     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.9.5/jquery.fullpage.min.css"/>
+ 
+     <!-- Magnific Popup core CSS file -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css">
+ 
+     <!-- Normalize -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+ 
+     <!-- Magnific Popup core CSS file -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css">
+ 
+     <!-- Grid -->
+     <link rel="stylesheet" type="text/css" href="vendors/css/grid.css">
+ 
+     <!-- My Style -->
+     <link rel="stylesheet" href="resources/css/style.css">
+     <link rel="stylesheet" href="resources/css/queries.css">
+ 
+     <!-- Favicon -->
+     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+     <link rel="manifest" href="/manifest.json">
+     <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+     <meta name="theme-color" content="#ffffff">
 
     <title>Focus Sandrial</title>
 </head>
@@ -35,7 +52,7 @@
         <nav>
             <div class="row">
                 <a href="#main">
-                    <img src="resources/img/logo.png " class="logo-black" alt="Focus Logo">
+                    <img data-src="http://wuhanstudio-cc.oss-us-west-1.aliyuncs.com/logo.png " class="logo-black lozad" alt="Focus Logo">
                 </a>
                 <ul class="main-nav js-main-nav">
                     <li>
@@ -66,13 +83,14 @@
             <a href="#" class="btn btn-ghost js-scroll-to-plans">Features</a>
         </div>
     </header>
-    <section class="section-features js-section-purpose" id="intro">
+
+    <section class="section-intro js-section-intro" id="intro">
         <div class="row">
             <h2>Introduction</h2>
         </div>
         <div class="row">
             <div class="col span-1-of-2 steps-box">
-                <img src="http://wuhanstudio-cc.oss-us-west-1.aliyuncs.com/whole-machine.png" alt="Omnifood app on iPhone" class="app-screen js-wp-2">
+                <img data-src="http://wuhanstudio-cc.oss-us-west-1.aliyuncs.com/whole-machine.png" alt="Whole Machine" class="app-screen js-wp-2 lozad">
             </div>
             <div class="col span-1-of-2 steps-box">
                 <div class="works-step">
@@ -97,7 +115,7 @@
         </div>
     </section>
 
-    <section class="section-purpose js-section-plans" id="features">
+    <section class="section-features js-section-features" id="features">
         <div class="row">
             <h2>Main Features</h2>
             <p class="long-copy">
@@ -148,51 +166,47 @@
             <div class="col span-1-of-3 box">
                 <div>
                     <a class="popup-vimeo" href="https://vimeo.com/252003238">
-                        <img src="resources/img/printer.jpg" alt="3D Printing">
+                        <img data-src="http://wuhanstudio-cc.oss-us-west-1.aliyuncs.com/printer.jpg" alt="3D Printing" class="lozad">
                     </a>
                 </div>
                 <h3>3D Printing</h3>
-                <div class="city-feature">
+                <div class="machine-features">
                     <i class="ion-checkmark icon-small"></i>
                     Material : ABS / PLA 
                 </div>
-                <div class="city-feature">
+                <div class="machine-features">
                     <i class="ion-checkmark icon-small"></i>
                     Extruder Diameter : 0.4mm
                 </div>
-                <!-- <div class="city-feature">
-                    <i class="ion-checkmark icon-small"></i>
-                    <a href="#">@omnifood_lx</a>
-                </div> -->
             </div>
             <div class="col span-1-of-3 box">
                 <a class="popup-vimeo" href="https://vimeo.com/252003158">
-                    <img src="resources/img/switch.jpg" alt="Automatic Tool Switch">
+                    <img data-src="http://wuhanstudio-cc.oss-us-west-1.aliyuncs.com/switch.jpg" alt="Automatic Tool Switch" class="lozad">
                 </a>
                 <h3>Automatic Tool Switch</h3>
-                <div class="city-feature">
+                <div class="machine-features">
                     <i class="ion-checkmark icon-small"></i>
                     Raise extruder
                 </div>
-                <div class="city-feature">
+                <div class="machine-features">
                     <i class="ion-checkmark icon-small"></i>
                     Activate milling tool
                 </div>
-                <div class="city-feature">
+                <div class="machine-features">
                     <i class="ion-checkmark icon-small"></i>
                     Start Milling
                 </div>
             </div>
             <div class="col span-1-of-3 box">
                 <a class="popup-vimeo" href="https://vimeo.com/252003029">
-                    <img src="resources/img/cnc.jpg" alt="Five Axis Milling">
+                    <img data-src="http://wuhanstudio-cc.oss-us-west-1.aliyuncs.com/cnc.jpg" alt="Five Axis Milling" class="lozad">
                 </a>
                 <h3>Five Axis Milling</h3>
-                <div class="city-feature">
+                <div class="machine-features">
                     <i class="ion-checkmark icon-small"></i>
                     Three rectangular axis
                 </div>
-                <div class="city-feature">
+                <div class="machine-features">
                     <i class="ion-checkmark icon-small"></i>
                     Two rotary axis
                 </div>
@@ -204,49 +218,49 @@
         <div class="row">
             <h2>We enjoy it</h2>
         </div>
-        <ul class="meals-showcase clearfix">
+        <ul class="team-show clearfix">
             <li>
-                <figure class="meals-photos">
-                    <img src="http://wuhanstudio-cc.oss-us-west-1.aliyuncs.com/hongshu.jpg" alt="Hong Shu">
+                <figure class="team-photos">
+                    <img data-src="http://wuhanstudio-cc.oss-us-west-1.aliyuncs.com/hongshu.jpg" alt="Hong Shu" class="lozad">
                 </figure>
             </li>
             <li>
-                <figure class="meals-photos">
-                    <img src="http://wuhanstudio-cc.oss-us-west-1.aliyuncs.com/pleader.jpg" alt="With Zhangyang">
+                <figure class="team-photos">
+                    <img data-src="http://wuhanstudio-cc.oss-us-west-1.aliyuncs.com/pleader.jpg" alt="With Zhangyang" class="lozad">
                 </figure>
             </li>
             <li>
-                <figure class="meals-photos">
-                    <img src="http://wuhanstudio-cc.oss-us-west-1.aliyuncs.com/testing.jpg" alt="Preparing for Competetion">
+                <figure class="team-photos">
+                    <img data-src="http://wuhanstudio-cc.oss-us-west-1.aliyuncs.com/testing.jpg" alt="Preparing for Competetion" class="lozad">
                 </figure>
             </li>
             <li>
-                <figure class="meals-photos">
-                    <img src="http://wuhanstudio-cc.oss-us-west-1.aliyuncs.com/canpei.png" alt="Canpei In the Box">
+                <figure class="team-photos">
+                    <img data-src="http://wuhanstudio-cc.oss-us-west-1.aliyuncs.com/canpei.png" alt="Canpei In the Box" class="lozad">
                 </figure>
             </li>
         </ul>
 
-        <ul class="meals-showcase clearfix">
+        <ul class="team-show clearfix">
             <li>
-                <figure class="meals-photos">
-                    <img src="http://wuhanstudio-cc.oss-us-west-1.aliyuncs.com/team.JPG" alt="Team">
+                <figure class="team-photos">
+                    <img data-src="http://wuhanstudio-cc.oss-us-west-1.aliyuncs.com/team.JPG" alt="Team" class="lozad">
                 </figure>
             </li>
             <li>
-                <figure class="meals-photos">
-                    <img src="http://wuhanstudio-cc.oss-us-west-1.aliyuncs.com/assembly.jpg" alt="Assembling">
+                <figure class="team-photos">
+                    <img data-src="http://wuhanstudio-cc.oss-us-west-1.aliyuncs.com/assembly.jpg" alt="Assembling" class="lozad">
                 </figure>
             </li>
             <li>
-                <figure class="meals-photos">
-                    <img src="http://wuhanstudio-cc.oss-us-west-1.aliyuncs.com/machine.jpg" alt="Machine">
+                <figure class="team-photos">
+                    <img data-src="http://wuhanstudio-cc.oss-us-west-1.aliyuncs.com/machine.jpg" alt="Machine" class="lozad">
                 </figure>
             </li>
 
             <li>
-                <figure class="meals-photos">
-                    <img src="http://wuhanstudio-cc.oss-us-west-1.aliyuncs.com/national.jpg" alt="Special Honor">
+                <figure class="team-photos">
+                    <img data-src="http://wuhanstudio-cc.oss-us-west-1.aliyuncs.com/national.jpg" alt="Special Honor" class="lozad">
                 </figure>
             </li>
         </ul>
@@ -258,32 +272,32 @@
         </div>
         <div class="row">
             <div class="col span-1-of-4">
-                <div class="plan-box js-wp-4">
+                <div class="achieve-box js-wp-4">
                     <div>
                         <h3>Cooperations</h3>
                     </div>
                     <div class="coop" >
-                        <img src="resources/img/cooperations.png" alt="cooperqations">
+                        <img data-src="http://wuhanstudio-cc.oss-us-west-1.aliyuncs.com/cooperations.png" alt="cooperqations" class="lozad">
                     </div>
                 </div>
             </div>
             <div class="col span-2-of-4">
-                <div class="plan-box">
+                <div class="achieve-box">
                     <div>
                         <h3>Patents / Software Copyright</h3>
                     </div>
                     <div class="patents">
-                        <img src="resources/img/patents.png" alt="patents">
+                        <img data-src="http://wuhanstudio-cc.oss-us-west-1.aliyuncs.com/patents.png" alt="patents" class="lozad">
                     </div>
                 </div>
             </div>
             <div class="col span-1-of-4">
-                <div class="plan-box">
+                <div class="achieve-box">
                     <div>
                         <h3>Paper</h3>
                     </div>
                     <div class="paper">
-                        <img src="resources/img/paper.jpg" alt="">
+                        <img data-src="http://wuhanstudio-cc.oss-us-west-1.aliyuncs.com/paper.jpg" alt="paper" class="lozad">
                     </div>
                 </div>
             </div>
@@ -299,12 +313,20 @@
         </div>
     </footer>
 
-    <script src="http://code.jquery.com/jquery-1.12.1.min.js"></script>
-    <script src="vendors/js/jquery.waypoints.min.js"></script>
-    <script src="resources/js/script.js"></script>
+    <!-- jQuery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.1/jquery.min.js"></script>
+
+    <!-- Waypoint -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
 
     <!-- Magnific Popup core JS file -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
+
+    <!-- Lazy Load -->
+    <script src="https://cdn.jsdelivr.net/npm/lozad"></script>
+
+    <!-- My Script-->
+    <script src="resources/js/script.js"></script>
 
 </body>
 
