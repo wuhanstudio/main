@@ -482,6 +482,10 @@
     .hero-text-box {
         width: 80%;
     }
+    .pointer-cursor{
+        top:7px;
+        left:5px;
+    }
     /* Graduation Project */
     .btn {
         width: 35%;
