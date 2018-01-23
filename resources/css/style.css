@@ -1123,14 +1123,18 @@ blockquote {
 
 .hust {
     float: left;
+    margin-top:1%;
+    margin-bottom:1%;
     margin-left: 5%;
-    width: 60%;
+    width: 20%;
 }
 
 .tpl {
     float: right;
+    margin-bottom:1%;
+    margin-top:1%;
     margin-right: 8%;
-    width: 50%;
+    width: 17%;
 }
 
 .back-box {
