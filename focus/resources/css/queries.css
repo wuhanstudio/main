@@ -145,11 +145,40 @@
 /* Small phones: from 0 to 480px */
 
 @media only screen and (max-width:480px) {
+    body {
+        font-size: 14px;
+    }
     section {
         padding: 25%, 0;
     }
     .contact-form {
         width: 100%;
         margin: 0 auto;
+    }
+    h1{
+        font-size:155%;
+    }
+
+    h2 {
+        font-size: 130%;
+    }
+    .coop img{
+        width:60%;
+    }
+    .patents img{
+        width:100%;
+    }
+    .paper img{
+        margin-left: 5%;
+        width:90%;
+    }
+}
+
+@media only screen and (max-width:320px) {
+    body {
+        font-size: 12px;
+    }
+    .btn:link, .btn:visited, input[type=submit] {
+        padding: 10px 25px;
     }
 }
