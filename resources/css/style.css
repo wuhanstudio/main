@@ -113,7 +113,7 @@ input[type=checkbox]:checked+label {
 }
 
 .pointer-cursor i {
-    font-size: 30px;
+    font-size: 180%;
     color: #FFF;
 }
 
@@ -122,7 +122,7 @@ input[type=checkbox]:checked+label {
     color: #FFF;
     cursor: pointer;
     cursor: hand;
-    font-size: 25px;
+    font-size: 180%;
 }
 
 .alert-message {
@@ -214,16 +214,15 @@ header p {
 
 .hero-text-box {
     position: absolute;
-    width: 80%;
+    width: 60%;
     top: 55%;
-    left: 60%;
+    left: 55%;
     -webkit-transform: translate(-50%, -50%);
             transform: translate(-50%, -50%);
 }
 
 .profile-box {
     position: absolute;
-    width: 120px;
     top: 10%;
     left: 45%;
 }
@@ -262,7 +261,7 @@ header p {
 .arrow {
     opacity: 0;
     position: absolute;
-    left: 49%;
+    left: 47%;
     top: 90%;
     -webkit-transform-origin: 50% 50%;
             transform-origin: 50% 50%;
@@ -311,7 +310,7 @@ header p {
     opacity: 0;
     position: absolute;
     left: 50%;
-    bottom: 10%;
+    bottom: 8%;
     -webkit-transform-origin: 50% 50%;
             transform-origin: 50% 50%;
     -webkit-transform: translate3d(-50%, -50%, 0);
@@ -463,8 +462,7 @@ header p {
     width: 60%;
     padding: 8px 0px;
     border: 2px solid #fff;
-    font-size: 12px;
-    font-size: 1.4rem;
+    font-size: 90%;
     font-family: "museo-sans", Arial, Verdana;
     font-weight: 500;
     margin-top: -10%;
@@ -491,7 +489,6 @@ header p {
 }
 
 .focus .pointer-cursor i {
-    font-size: 28px;
     color: #000;
 }
 
@@ -615,7 +612,6 @@ header p {
 .bicover .pointer-cursor i {
     position: absolute;
     left: 2%;
-    font-size: 28px;
     color: #000;
 }
 
@@ -658,6 +654,10 @@ header p {
 /*       Side Projects       */
 
 /* ------------------------- */
+
+.github-corner img{
+    width:10%;
+}
 
 input {
     border-style: none;
@@ -715,8 +715,8 @@ button {
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
             flex-direction: row;
-    width: 100%;
-    max-width: 460px;
+    width: 35%;
+    /* max-width: 460px; */
     margin: 0 auto;
     border-radius: 2px;
     padding: 0.3rem 1.5rem 0.3rem;
@@ -746,15 +746,14 @@ button {
         -ms-flex-positive: 1;
             flex-grow: 1;
     color: #BFD2FF;
-    font-size: 0.9rem;
+    font-size:80%;
     line-height: 1.2rem;
     vertical-align: middle;
 }
 
 .webflow-style-input button {
     color: #7881A1;
-    font-size: 1rem;
-    line-height: 2rem;
+    font-size: 90%;
     vertical-align: middle;
     -webkit-transition: color .25s;
     transition: color .25s;
@@ -779,7 +778,6 @@ button {
     left: 42%;
     margin-top: 5px;
     font-size: 110%;
-    width: 200px;
     padding-top: 20px;
     /* border-top:#F0F0F0 solid 1px; */
 }
@@ -790,11 +788,12 @@ button {
     color: #D0D0D0;
 }
 
-.section-side img {
+.nodemcu img {
     opacity: 0.7;
     position: absolute;
     right: 0;
     bottom: 0;
+    width:20%;
 }
 
 /* ------------------------- */
@@ -818,7 +817,7 @@ button {
     bottom: 50%;
 }
 
-.section-tplcloud h2 {
+.section-tplcloud h3 {
     position: absolute;
     width: 48%;
     bottom: 18%;
@@ -828,7 +827,6 @@ button {
     padding: 4px 8px;
     color: black;
     margin: 0;
-    font-size: 18px;
     text-align: left;
     border-top-right-radius: 1%;
     border-bottom-right-radius: 1%;
@@ -900,8 +898,8 @@ button {
 
 .avatar img {
     position: absolute;
-    width: 8%;
-    top: 2%;
+    width: 6%;
+    top: 1%;
     left: 45%;
     border-radius: 50%;
 }
@@ -951,7 +949,7 @@ blockquote {
 
 #skill li h4 {
     position: relative;
-    top: -35px;
+    top: -200%;
 }
 
 #skill li:first-child {
@@ -1126,13 +1124,13 @@ blockquote {
 .hust {
     float: left;
     margin-left: 5%;
-    width: 80%;
+    width: 60%;
 }
 
 .tpl {
     float: right;
     margin-right: 8%;
-    width: 70%;
+    width: 50%;
 }
 
 .back-box {

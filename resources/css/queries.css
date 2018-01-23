@@ -1,23 +1,8 @@
 /* Big Desktop to 1600px */
 
-/* @media only screen and (max-width: 1600px) and (orientation: portrait) {
-    h1 {
-        font-size: 300%;
-        font-weight: 200;
-    }
-
-    .enter {
-        display: none;
-    }s
-} */
-
 @media only screen and (max-width: 1600px) and (orientation: landscape) {
-    .profile-box {
-        width: 12%;
-    }
-    h1 {
-        font-size: 300%;
-        font-weight: 300;
+    body {
+        font-size: 21px;
     }
     .enter {
         display: none;
@@ -25,104 +10,16 @@
     .focus-enter {
         display: none;
     }
-    /* Graduation Project */
-    .main-intro h1 {
-        font-size: 260%;
-    }
-    .bicover h1 {
-        font-size: 260%;
-    }
-    /* TPL Cloud */
-    .section-tplcloud h2 {
-        font-size: 135%;
-    }
-    .alert-message {
-        font-size: 120%;
-    }
-    /* Profile */
-    .avatar {
-        margin-top: 0
-    }
-    .avatar p {
-        font-size: 150%;
-    }
-    .avatar img {
-        top: 1%;
-    }
     .skill-box {
-        height: 530px;
-    }
-    /* Footer */
-    .hust {
-        width: 60%;
-    }
-    .tpl {
-        width: 50%;
-    }
-    .arrow-reverse {
-        bottom: 8%;
-    }
-    @keyframes arrow-reverse-movement {
-        0% {
-            opacity: 0;
-            bottom: 3%;
-        }
-        70% {
-            opacity: 1;
-        }
-        100% {
-            opacity: 0;
-        }
+        height: 600px;
     }
 }
 
 /* Big Laptop to 1440px */
 
-/* @media only screen and (max-width: 1440px) and (orientation: portrait){
-    h1 {
-        font-size: 220%;
-    }
-    .enter {
-        display: none;
-    }
-} */
-
 @media only screen and (max-width: 1440px) and (orientation: landscape) {
-    .profile-box {
-        width: 13%;
-    }
-    h1 {
-        font-size: 230%;
-        font-weight: 300;
-    }
-    .hero-text-box {
-        width: 60%;
-        left: 55%;
-    }
-    .enter {
-        display: none;
-    }
-    /* Graduation Project */
-    .main-intro h1 {
-        font-size: 220%;
-    }
-    .bicover h1 {
-        font-size: 220%;
-    }
-    .section-tplcloud h2 {
-        font-size: 120%;
-        width: 55%;
-    }
-    .icon-coming {
-        left: 32%;
-        font-size: 110%;
-    }
-    /* Profile */
-    .avatar {
-        font-size: 100%;
-    }
-    .avatar img {
-        top: 1%;
+    body {
+        font-size: 20px;
     }
     .skill-box {
         height: 550px;
@@ -132,47 +29,335 @@
 /* Small laptop to 1280px */
 
 @media only screen and (max-width: 1280px) and (orientation:landscape) {
-    .avatar {
-        margin-top: 3%;
+    body {
+        font-size: 18px;
     }
-    .avatar img {
-        width: 7%;
+    .skill-box {
+        height: 500px;
     }
 }
 
 /* Big tablet to 1200px (from 1024px to 1199px) */
 
-@media only screen and (max-width: 1200px) and (orientation: portrait) {
-    h1 {
-        font-size: 220%;
+@media only screen and (max-width: 1200px) and (orientation: landscape) {
+    body {
+        font-size: 16px;
+    }
+}
+
+/* Small tablet to big tablet: from 768px to 1023px */
+
+@media only screen and (max-width: 1023px) and (orientation: landscape) {
+    body {
+        font-size: 14px;
+    }
+    .skill-box {
+        height: 400px;
+    }
+    #skill li h4 {
+        top: -130%;
+    }
+}
+
+/* Small phones to small tablets: from 481px to 767px */
+
+@media only screen and (max-width: 767px) and (orientation: landscape) {
+    body {
+        font-size: 10px;
+    }
+    .profile-box {
+        position: absolute;
+        top: 10%;
+        left: 41%;
+    }
+    .profile-box img {
+        width: 50%;
+        margin-left: 25%;
+    }
+    .icon-small {
+        margin-left: 8px;
+        margin-right: -10px;
+    }
+    .section-graduation .focus img {
+        width: 45%;
+        margin-right: 15%;
+    }
+    .button {
+        width: 45%;
+    }
+    .section-graduation .bicover img {
+        width: 50%;
+        margin-top: 10%;
+        margin-right: 15%;
+    }
+    /* Side Project */
+    .webflow-style-input {
+        width: 45%;
+    }
+    .webflow-style-input input {
+        font-size: 10px;
+        line-height: 0.1rem;
+    }
+    /* Profile right */
+    #skill {
+        width: 85%;
+    }
+    #skill h4 {
+        width: 100%;
+    }
+    #skill li {
+        margin-top: 22%;
+    }
+    #skill li:first-child {
+        margin-top: 18%;
+    }
+}
+
+@media only screen and (max-width: 680px) and (orientation: landscape) {
+    body {
+        font-size: 10px;
+    }
+    .hero-text-box{
+        width:70%;
+    }
+    .icon-coming {
+        left: 25%;
+    }
+    .webflow-style-input {
+        width: 50%;
+    }
+    /* Graduation Project */
+    .alert-message {
+        padding: 3px;
+    }
+    .section-graduation .main-intro {
+        margin-top: 10%;
+    }
+    .section-graduation .bicover h1{
+        margin-top:20%;
+    }
+
+    /* Profile left */
+    .icon-small {
+        margin-right: -14px;
+    }
+    .skill-box{
+        height:370px;
+    }
+}
+
+/* Small phones: from 425px to 479px */
+
+@media only screen and (max-width: 600px) and (orientation: landscape) {
+    body {
+        font-size: 7px;
+    }
+    
+    /* Side Project */
+    .section-side h1 {
+        width: 60%;
+    }
+
+    /* Profile left */
+    .skill-box h4{
+        letter-spacing: 0;
+    }
+    .icon-small {
+        margin-right: -18px;
+    }
+    .skill-box {
+        height: 450px;
+    }
+    /* Profile right */
+    #skill {
+        width: 90%;
+    }
+    #skill h4 {
+        width: 110%;
+    }
+    #skill li {
+        margin-top: 30%;
+    }
+    #skill li:first-child {
+        margin-top: 20%;
+    }
+}
+
+@media only screen and (max-height: 320px) and (max-width: 480px) and (orientation: landscape) {
+    body{
+        font-size:6px;
+    }
+
+    .profile-box{
+        left:38%;
+    }
+
+    .profile-box img{
+        width:30%;
+        margin-left:35%;
+    }
+    /* Graduation Project */
+    .alert-message{
+        font-size:6px;
+        letter-spacing: 0;
+    }
+
+    .pointer-cursor{
+        left:10px;
+    }
+
+    .section-graduation .focus img {
+        width: 30%;
+        float: left;
+        margin-left: 5%;
+        margin-right: 0;
+    }
+    .main-intro {
+        display: none;
+    }
+    .focus-small {
+        display: block;
+        float: right;
+        margin-right: 15%;
+        margin-top: 10%;
+    }
+    .button {
+        position: absolute;
+        width: 15%;
+        left: 3%;
+        bottom: 20%;
+        z-index: 999;
+    }
+    .btn {
+        width: 50%;
+        margin-top: 8%;
+    }
+    .focus-small .btn:link, .btn:visited {
+        padding: 5px 5px;
         font-weight: 300;
     }
+    /* Bicover */
+    .bicover-big {
+        display: none;
+    }
+    .bicover-small {
+        display: inline-block;
+        margin-top: 12%;
+    }
+    .bicover-small .btn:link, .btn:visited {
+        padding: 5px 5px;
+        font-weight: 300;
+    }
+    .bicover-small .btn {
+        width: 50%;
+        margin-top: 8%;
+    }
+    .section-graduation .bicover h1{
+        margin-top:30%;
+    }
+    .section-graduation .bicover img {
+        float: right;
+        width: 35%;
+        margin-top: 15%;
+        margin-right: 15%;
+    }
+    /* Side Project */
+    .section-side ul {
+        left: 40%;
+    }
+    /* TPL Cloud */
+    .section-tplcloud h3{
+        width:70%;
+    }
+    .icon-coming{
+        left:20%;
+    }
+
+    /* Profile */
+    .avatar {
+        width: 90%;
+    }
+    .avatar div:first-child {
+        text-align: center;
+    }
+    .avatar div:last-child {
+        text-align: center;
+    }
+    .avatar img {
+        position: relative;
+        width: 20%;
+        margin-left: -5%;
+    }
+    .skill-box {
+        margin-top: 5%;
+        height: 420px;
+    }
+    /* Profile Header */
+    /* Profile left */
+    .skill-box h4 {
+        letter-spacing: 1px;
+    }
+    .icon-small {
+        margin-right: -5px;
+    }
+    /* Profile Medium */
+    /* Profile right */
+    #skill {
+        width: 90%;
+    }
+    #skill h4 {
+        margin-left: 1%;
+        width: 90%;
+    }
+    #skill li {
+        margin-top: 10%;
+    }
+    #skill li:first-child {
+        margin-top: 9%;
+    }
+    /* Footer */
+    .tpl {
+        float: none;
+        width: 40%;
+        margin-bottom: 3%;
+        margin-left: 30%;
+    }
+    .hust {
+        float: none;
+        width: 50%;
+        margin-top: 3%;
+        margin-left: 28%;
+    }
+    .back-box {
+        width: 70%;
+    }
+}
+
+
+
+/* ---------------------- */
+
+/*        Portrait       */
+
+/* --------------------- */
+
+@media only screen and (max-width: 1200px) and (orientation: portrait) {
     .enter {
         display: none;
     }
-    .hero-text-box {
+    /* .hero-text-box {
         left: 55%;
-    }
+    } */
     .profile-box {
         left: 45%;
     }
     /* Graduation Project */
-    .main-intro h1 {
-        font-size: 150%;
-    }
-    .bicover h1 {
-        font-size: 150%;
-    }
-    .button {
-        font-size: 100%;
-    }
     /* TPL CLoud */
     .section-tplcloud h1 {
         left: 25%;
     }
     .section-tplcloud h2 {
         width: 75%;
-        font-size: 100%;
     }
     .icon-coming {
         left: 25%;
@@ -182,23 +367,14 @@
         width: 10%;
         top: 7%;
     }
-    .avatar p {
-        font-size: 80%;
-    }
     .skill-box {
         height: 650px;
     }
     /* Left */
-    .skill-box h3 {
-        font-size: 95%;
-    }
     .skill-box h4 {
         letter-spacing: 0;
     }
     /* Intro */
-    .skill-box p {
-        font-size: 80%;
-    }
     /* Right */
     #skill li {
         margin-top: 25%;
@@ -206,109 +382,17 @@
     #skill li:first-child {
         margin-top: 18%;
     }
-    .arrow-reverse {
-        bottom: 14%;
-    }
-    @keyframes arrow-reverse-movement {
-        0% {
-            opacity: 0;
-            bottom: 12%;
-        }
-        70% {
-            opacity: 1;
-        }
-        100% {
-            opacity: 0;
-        }
-    }
 }
-
-@media only screen and (max-width: 1200px) and (orientation: landscape) {
-    h1 {
-        font-size: 220%;
-        font-weight: 300;
-    }
-    .enter {
-        display: none;
-    }
-    .hero-text-box {
-        width: 75%;
-        left: 55%;
-    }
-    .profile-box {
-        left: 45%;
-    }
-    /* Graduation Project */
-    .main-intro h1 {
-        font-size: 200%;
-    }
-    .bicover h1 {
-        font-size: 200%;
-    }
-    /* Side Project */
-    .section-side h1 {
-        position: absolute;
-        left: 15%;
-        top: 35%;
-    }
-    .section-tplcloud h2 {
-        font-size: 110%;
-        width: 58%;
-    }
-    .icon-coming {
-        left: 35%;
-        font-size: 90%;
-    }
-    .alert-message {
-        font-size: 100%;
-        padding: 8px;
-    }
-    .pointer-cursor i {
-        font-size: 120%;
-    }
-    /* Profile */
-    .avatar p {
-        font-size: 125%;
-    }
-    .skill-box {
-        height: 600px;
-    }
-    .skill-box p {
-        font-size: 90%;
-    }
-    /* Footer */
-    .arrow-reverse {
-        bottom: 6%;
-    }
-    @keyframes arrow-reverse-movement {
-        0% {
-            opacity: 0;
-            bottom: 3%;
-        }
-        70% {
-            opacity: 1;
-        }
-        100% {
-            opacity: 0;
-        }
-    }
-}
-
-/* Small tablet to big tablet: from 768px to 1023px */
 
 @media only screen and (max-width: 1023px) and (orientation: portrait) {
-    h1 {
-        font-size: 200%;
-        font-weight: 300;
-    }
     .enter {
         display: none;
     }
-    .hero-text-box {
+    /* .hero-text-box {
         top: 50%;
         width: 90%;
         left: 52%;
-    }
+    } */
     .profile-box {
         top: 20%;
     }
@@ -332,114 +416,10 @@
     }
 }
 
-@media only screen and (max-width: 1023px) and (orientation: landscape) {
-    h1 {
-        font-size: 165%;
-        font-weight: 300;
-    }
-    .hero-text-box {
-        width: 75%;
-        left: 56%;
-    }
-    .profile-box {
-        left: 42%;
-        width: 15%;
-    }
-    .next-box a {
-        top: 80%;
-    }
-    /* Graduation Project */
-    .main-intro h1 {
-        font-size: 170%;
-    }
-    .bicover h1 {
-        font-size: 180%;
-    }
-    .main-intro p {
-        font-size: 90%;
-    }
-    .bicover p {
-        font-size: 90%;
-    }
-    .alert-message {
-        font-size: 85%;
-    }
-    .button {
-        font-size: 75%;
-    }
-    .btn-full {
-        font-size: 80%;
-    }
-    .section-side h1 {
-        left: 18%;
-    }
-    .section-side ul {
-        position: absolute;
-        left: 35%;
-        margin-top: 5px;
-        width: 200px;
-        padding-top: 20px;
-        /* border-top: #F0F0F0 solid 1px; */
-    }
-    .webflow-style-input {
-        margin: 0 20%;
-    }
-    /* TPL Cloud */
-    .section-tplcloud h2 {
-        font-size: 80%;
-    }
-    .icon-coming {
-        left: 30%;
-        font-size: 70%;
-    }
-    .pointer-cursor i {
-        font-size: 100%;
-    }
-    .close {
-        font-size: 120%;
-    }
-    .alert-message {
-        padding: 6px;
-    }
-    /* Profile */
-    .skill-box {
-        height: 580px;
-    }
-    .avatar p {
-        font-size: 115%;
-    }
-    .skill-box p {
-        font-size: 85%;
-    }
-}
-
-/* @media only screen and (max-height: 1023px) and (orientation: landscape) {
-    h1 {
-        font-size: 165%;
-        font-weight: 300;
-    }
-    
-    .hero-text-box {
-        width: 75%;
-        left: 62%;
-    }
-
-    .profile-box {
-        left: 43%;
-        width: 13%;
-    }
-
-} */
-
-/* Small phones to small tablets: from 481px to 767px */
-
 @media only screen and (max-width: 767px) and (orientation: portrait) {
     .profile-box {
         top: 20%;
         left: 40%;
-    }
-    h1 {
-        font-size: 210%;
     }
     .enter {
         display: inline;
@@ -447,30 +427,15 @@
     .dot {
         display: none;
     }
-    .hero-text-box {
-        /* top:40%; */
+    /* .hero-text-box {
         width: 70%;
         left: 55%;
-    }
+    } */
     /* Graduation Project */
-    .main-intro h1 {
-        font-size: 120%;
-    }
-    .main-intro p {
-        font-size: 90%;
-    }
-    .bicover h1 {
-        font-size: 120%;
-    }
-    .bicover p {
-        font-size: 65%;
-    }
     .button {
-        font-size: 80%;
         left: -3%;
     }
     .btn {
-        font-size: 80%;
         width: 60%;
         margin-left: 30%;
     }
@@ -489,12 +454,6 @@
         left: 25%;
     }
     /* TPL Cloud */
-    .section-tplcloud h1 {
-        font-size: 200%;
-    }
-    .section-tplcloud h2 {
-        font-size: 95%;
-    }
     .icon-coming {
         bottom: 3%;
     }
@@ -503,31 +462,10 @@
         width: 10%;
         top: 14%;
     }
-    .avatar p {
-        font-size: 60%;
-    }
     .skill-box {
         height: 500px;
     }
     /* Left */
-    .skill-box h3 {
-        font-size: 80%;
-    }
-    .skill-box h4 {
-        letter-spacing: 0;
-        font-size: 65%;
-    }
-    .skill-box i {
-        font-size: 70%;
-        margin-right: -15px;
-    }
-    blockquote {
-        font-size: 70%;
-    }
-    /* Intro */
-    .skill-box p {
-        font-size: 65%;
-    }
     /* Right */
     #skill li {
         margin-top: 30%;
@@ -539,200 +477,7 @@
     .back-box {
         width: 90%;
     }
-    .arrow-reverse {
-        bottom: 21%;
-    }
-    @keyframes arrow-reverse-movement {
-        0% {
-            opacity: 0;
-            bottom: 19%;
-        }
-        70% {
-            opacity: 1;
-        }
-        100% {
-            opacity: 0;
-        }
-    }
 }
-
-@media only screen and (max-width: 767px) and (orientation: landscape) {
-    .arrow {
-        opacity: 0;
-        position: absolute;
-        left: 47%;
-        top: 92%;
-        transform-origin: 50% 50%;
-        transform: translate3d(-50%, -50%, 0);
-    }
-    /*  Arrow Animation */
-    @keyframes arrow-movement {
-        0% {
-            opacity: 0;
-            top: 85%;
-        }
-        70% {
-            opacity: 1;
-        }
-        100% {
-            opacity: 0;
-        }
-    }
-    /* TPL Cloud */
-    .section-tplcloud h2 {
-        font-size: 60%;
-        width: 55%;
-    }
-    .icon-coming {
-        left: 30%;
-        font-size: 50%;
-    }
-    /* Profile */
-    .avatar p {
-        font-size: 85%;
-    }
-    .skill-box {
-        height: 450px;
-    }
-    /* Profile Header */
-    .skill-box h3 {
-        font-size: 90%;
-    }
-    /* Profile left */
-    .skill-box h4 {
-        font-size: 70%;
-    }
-    .icon-small {
-        width: 30px;
-        font-size: 120%;
-        margin-left: 8px;
-        margin-right: -10px;
-    }
-    blockquote {
-        padding: 2%;
-        font-size: 65%;
-        line-height: 145%;
-        word-spacing: 1px;
-    }
-    /* Profile Medium */
-    .skill-box p {
-        font-size: 65%;
-    }
-    /* Profile right */
-    .skill-box h4 {
-        font-size: 65%;
-    }
-    #skill li {
-        margin-top: 18%;
-    }
-    #skill li:first-child {
-        margin-top: 12%;
-    }
-}
-
-@media only screen and (max-width: 680px) and (orientation: landscape) {
-    /* Profile */
-    .avatar p {
-        font-size: 80%;
-    }
-    .skill-box {
-        height: 470px;
-    }
-    /* Profile Header */
-    .skill-box h3 {
-        font-size: 75%;
-    }
-    /* Profile left */
-    .skill-box h4 {
-        font-size: 12px;
-    }
-    .icon-small {
-        width: 30px;
-        font-size: 120%;
-        margin-left: 8px;
-        margin-right: -10px;
-    }
-    blockquote {
-        padding: 2%;
-        font-size: 11px;
-        line-height: 145%;
-        word-spacing: 1px;
-    }
-    /* Profile Medium */
-    .skill-box p {
-        font-size: 65%;
-    }
-    /* Profile right */
-    #skill li {
-        margin-top: 18%;
-    }
-    #skill li:first-child {
-        margin-top: 12%;
-    }
-}
-
-@media only screen and (max-width: 640px) and (orientation: landscape) {
-    /* Profile */
-    .avatar p {
-        font-size: 65%;
-    }
-    .skill-box {
-        height: 460px;
-    }
-    /* Profile Header */
-    .skill-box h3 {
-        font-size: 65%;
-    }
-    /* Profile left */
-    .skill-box h4 {
-        letter-spacing: 0;
-    }
-    .icon-small {
-        margin-right: -17px;
-    }
-    blockquote {
-        font-size: 10px;
-    }
-    /* Profile Medium */
-    .skill-box p {
-        font-size: 60%;
-    }
-    /* Profile right */
-    #skill {
-        width: 85%;
-    }
-    #skill h4 {
-        margin-left: -3%;
-        width: 120%;
-    }
-    #skill li {
-        margin-top: 22%;
-    }
-    #skill li:first-child {
-        margin-top: 18%;
-    }
-    /* Footer */
-    .back-box {
-        width: 90%;
-    }
-    .arrow-reverse {
-        bottom: 5%;
-    }
-    @keyframes arrow-reverse-movement {
-        0% {
-            opacity: 0;
-            bottom: 3%;
-        }
-        70% {
-            opacity: 1;
-        }
-        100% {
-            opacity: 0;
-        }
-    }
-}
-
-/* Small phones: from 425px to 479px */
 
 @media only screen and (max-width: 479px) and (orientation: portrait) {
     .arrow {
@@ -761,35 +506,26 @@
         top: 15%;
         left: 40%;
     }
-    h1 {
-        font-size: 150%;
-    }
-    .hero-text-box {
+    /* .hero-text-box {
         width: 80%;
         top: 55%;
         left: 60%;
-    }
+    } */
     /* Graduation Project */
     .btn {
         width: 35%;
-    }
-    .alert-message {
-        font-size: 75%;
     }
     /* TPL Cloud */
     .section-tplcloud h1 {
         width: 90%;
         top: 40%;
         left: 10%;
-        font-size: 160%;
     }
     .section-tplcloud h2 {
         width: 90%;
         left: 5%;
-        font-size: 90%;
     }
     .icon-coming {
-        font-size: 70%;
         left: 9%;
         bottom: 7%;
     }
@@ -808,31 +544,13 @@
         width: 20%;
         margin-left: -5%;
     }
-    .avatar p {
-        font-size: 85%;
-    }
     .skill-box {
         margin-top: 7%;
         height: 500px;
     }
     /* Left */
-    .skill-box h3 {
-        font-size: 90%;
-    }
     .skill-box h4 {
         letter-spacing: 1px;
-        font-size: 75%;
-    }
-    .skill-box i {
-        font-size: 70%;
-        margin-right: -15px;
-    }
-    blockquote {
-        font-size: 80%;
-    }
-    /* Intro */
-    .skill-box p {
-        font-size: 85%;
     }
     /* Right */
     #skill {
@@ -857,66 +575,7 @@
         margin-top: 3%;
         margin-left: 20%;
     }
-    .arrow-reverse {
-        bottom: 5%;
-    }
-    @keyframes arrow-reverse-movement {
-        0% {
-            opacity: 0;
-            bottom: 4%;
-        }
-        70% {
-            opacity: 1;
-        }
-        100% {
-            opacity: 0;
-        }
-    }
-    .back-box {
-        width: 70%;
-    }
 }
-
-@media only screen and (max-height: 479px) and (orientation: landscape) {
-    h1 {
-        font-size: 180%;
-    }
-    .profile-box {
-        width: 30%;
-        top: 15%;
-        left: 34%;
-    }
-    /* Graduation Project */
-    .main-intro h1 {
-        font-size: 110%;
-    }
-    .bicover h1 {
-        font-size: 110%;
-    }
-    .main-intro p {
-        font-size: 60%;
-    }
-    .bicover p {
-        font-size: 60%;
-    }
-    .alert-message {
-        font-size: 65%;
-        padding: 3px;
-    }
-    .btn-full {
-        font-size: 60%;
-    }
-    /* Side Project */
-    .section-side h1 {
-        font-size: 100%;
-        left: 18%;
-    }
-    .section-tplcloud h2 {
-        width: 60%;
-    }
-}
-
-/* Small phones: from 375px to 425px */
 
 @media only screen and (max-width: 424px) and (orientation: portrait) {
     .profile-box {
@@ -924,23 +583,17 @@
         top: 15%;
         left: 34%;
     }
-    h1 {
-        font-size: 140%;
-    }
     .dot {
         display: none;
     }
-    .hero-text-box {
+    /* .hero-text-box {
         top: 55%;
         width: 80%;
         left: 60%;
-    }
+    } */
     /* Graduation Project */
     .btn {
         width: 40%;
-    }
-    .alert-message {
-        font-size: 60%;
     }
     /* Side Project */
     .section-side img {
@@ -950,115 +603,33 @@
         width: 30%;
     }
     .section-side h1 {
-        font-size: 110%;
         left: 0%;
     }
     /* TPL Cloud */
     .section-tplcloud h1 {
         width: 85%;
         left: 12%;
-        font-size: 140%;
     }
-    .icon-coming {
-        left: 10%;
-        bottom: 3%;
-    }
-    .alert-message {
-        font-size: 80%;
-    }
+    /* .icon-coming { */
+    /* left: 10%; */
+    /* bottom: 3%; */
+    /* } */
     /* Profile */
     .skill-box {
         height: 500px;
-    }
-    .skill-box p {
-        font-size: 80%;
     }
     #skill {
         margin-top: 10%;
     }
 }
 
-@media only screen and (max-height: 424px) and (orientation: landscape) {
-    h1 {
-        font-size: 130%;
-    }
-    .hero-text-box {
-        width: 80%;
-        top: 65%;
-        left: 56%;
-    }
-    .profile-box {
-        width: 14%;
-        left: 42%;
-    }
-    .close {
-        font-size: 125%;
-    }
-    /* Side Project */
-    .focus .pointer-cursor i {
-        font-size: 100%;
-    }
-    .bicover .pointer-cursor i {
-        font-size: 100%;
-    }
-    .pointer-cursor i {
-        font-size: 100%;
-    }
-    .section-side img {
-        width: 30%;
-    }
-    .github-corner img {
-        width: 15%;
-    }
-    .section-side ul {
-        font-size: 60%;
-    }
-    .webflow-style-input input {
-        font-size: 50%;
-    }
-    .webflow-style-input {
-        max-width: 290px;
-        max-height: 30px;
-        padding: 1px 3%;
-        bottom: 1%;
-    }
-    .webflow-style-input button {
-        font-size: 60%;
-        line-height: 100%;
-    }
-    /* TPL Cloud */
-    .section-tplcloud h2 {
-        width: 65;
-    }
-    .alert-message {
-        padding: 2px;
-    }
-    .pointer-cursor i {
-        font-size: 80%;
-    }
-    .pointer-cursor {
-        top: 3px;
-        left: 10px;
-    }
-    .icon-coming {
-        left: 20%;
-    }
-}
-
-/* Small phones: from 321px to 474px */
-
 @media only screen and (max-width: 374px) and (orientation: portrait) {
-    h1 {
-        font-size: 130%;
-    }
+    /* 
     .hero-text-box {
         top: 55%;
         width: 83%;
         left: 57%;
-    }
-    .profile-box p {
-        font-size: 80%;
-    }
+    } */
     /* Graduation Project */
     .btn {
         width: 43%;
@@ -1066,9 +637,6 @@
     .btn:link, .btn:visited {
         padding: 8px 8px;
         font-weight: 300;
-    }
-    .alert-message {
-        font-size: 60%;
     }
     .btn-full:link, .btn-full:visited {
         background-color: #0000FF;
@@ -1079,18 +647,12 @@
     .section-tplcloud h1 {
         width: 90%;
         left: 7%;
-        font-size: 140%;
     }
     /* Profile */
     .skill-box {
         height: 500px;
     }
-    .skill-box p {
-        font-size: 80%;
-    }
 }
-
-@media only screen and (max-height: 374px) and (orientation: landscape) {}
 
 /* Small phones: from 0 to 320px */
 
@@ -1098,14 +660,11 @@
     .profile-box {
         left: 38%;
     }
-    h1 {
-        font-size: 125%;
-    }
-    .hero-text-box {
+    /* .hero-text-box {
         top: 52%;
         width: 78%;
         left: 55%;
-    }
+    } */
     .section-graduation .focus img {
         width: 50%;
         float: left;
@@ -1113,7 +672,6 @@
         margin-right: 0;
     }
     .button {
-        font-size: 80%;
         position: absolute;
         width: 24%;
         left: 13%;
@@ -1134,7 +692,6 @@
     }
     .btn {
         width: 30%;
-        font-size: 50%;
     }
     /* Side Project */
     .section-side img {
@@ -1144,7 +701,6 @@
         width: 30%;
     }
     .section-side ul {
-        font-size: 80%;
         left: 20%;
     }
     .webflow-style-input {
@@ -1154,219 +710,22 @@
     /* TPL Cloud */
     .section-tplcloud h1 {
         width: 90%;
-        font-size: 120%;
-    }
-    .section-tplcloud h2 {
-        font-size: 70%;
     }
     .icon-coming {
         left: 5%;
-        font-size: 50%;
     }
     .icon-coming i {
         margin-left: 2px;
     }
     .alert-message {
-        font-size: 70%;
         padding: 2px;
     }
     .pointer-cursor {
         top: 5px;
         left: 10px;
     }
-    .pointer-cursor i {
-        font-size: 90%;
-    }
     /* Profile */
     #skill li {
         margin-top: 25%;
-    }
-}
-
-@media only screen and (max-height: 320px) and (max-width: 480px) and (orientation: landscape) {
-    .profile-box p {
-        font-size: 50%;
-    }
-    h1 {
-        font-size: 105%;
-    }
-    .hero-text-box {
-        width: 80%;
-        left: 55%;
-    }
-    /* Graduation Project */
-    .section-graduation .focus img {
-        width: 30%;
-        float: left;
-        margin-left: 5%;
-        margin-right: 0;
-    }
-    .main-intro h1 {
-        font-size: 90%;
-    }
-    .bicover h1 {
-        font-size: 90%;
-    }
-    .main-intro {
-        display: none;
-    }
-    .focus-small {
-        display: block;
-        float: right;
-        margin-right: 15%;
-        margin-top: 10%;
-    }
-    .focus-small h1 {
-        font-size: 90%;
-    }
-    .focus-small p {
-        font-size: 50%;
-    }
-    .bicover p {
-        font-size: 50%;
-    }
-    .alert-message {
-        font-size: 55%;
-    }
-    .button {
-        font-size: 10%;
-        position: absolute;
-        width: 15%;
-        left: 3%;
-        bottom: 20%;
-        z-index: 999;
-    }
-    .btn {
-        width: 50%;
-        margin-top: 8%;
-    }
-    .btn-full {
-        font-size: 50%;
-    }
-    .focus-small .btn:link, .btn:visited {
-        padding: 5px 5px;
-        font-weight: 300;
-    }
-    /* Bicover */
-    .bicover-big {
-        display: none;
-    }
-    .bicover-small {
-        display: inline-block;
-        margin-top: 12%;
-    }
-    .bicover-small .btn:link, .btn:visited {
-        padding: 5px 5px;
-        font-weight: 300;
-    }
-    .bicover-small .btn {
-        width: 50%;
-        margin-top: 8%;
-    }
-    .section-graduation .bicover img {
-        float: right;
-        width: 35%;
-        margin-top: 15%;
-        margin-right: 15%;
-    }
-    /* Side Project */
-    .section-side h1 {
-        font-size: 90%;
-    }
-    .section-side ul {
-        left: 30%;
-    }
-    .webflow-style-input {
-        max-width: 240px;
-    }
-    /* TPL Cloud */
-    .section-tplcloud h2 {
-        font-size: 50%;
-    }
-    /* Profile */
-    .avatar {
-        width: 90%;
-    }
-    .avatar div:first-child {
-        text-align: center;
-    }
-    .avatar div:last-child {
-        text-align: center;
-    }
-    .avatar img {
-        position: relative;
-        width: 20%;
-        margin-left: -5%;
-    }
-    .avatar p {
-        font-size: 100%;
-    }
-    .skill-box {
-        margin-top: 5%;
-        height: 540px;
-    }
-    /* Profile Header */
-    .skill-box h3 {
-        font-size: 120%;
-    }
-    /* Profile left */
-    .skill-box h4 {
-        font-size: 90%;
-        letter-spacing: 1px;
-    }
-    .icon-small {
-        margin-right: -5px;
-    }
-    blockquote {
-        font-size: 20px;
-    }
-    /* Profile Medium */
-    .skill-box p {
-        font-size: 100%;
-    }
-    /* Profile right */
-    #skill {
-        width: 90%;
-    }
-    #skill h4 {
-        margin-left: 1%;
-        width: 90%;
-    }
-    #skill li {
-        margin-top: 15%;
-    }
-    #skill li:first-child {
-        margin-top: 12%;
-    }
-    /* Footer */
-    .tpl {
-        float: none;
-        width: 50%;
-        margin-bottom: 3%;
-        margin-left: 25%;
-    }
-    .hust {
-        float: none;
-        width: 60%;
-        margin-top: 3%;
-        margin-left: 20%;
-    }
-    .back-box {
-        width: 70%;
-    }
-    .arrow-reverse {
-        bottom: 5%;
-    }
-    @keyframes arrow-reverse-movement {
-        0% {
-            opacity: 0;
-            bottom: 4%;
-        }
-        70% {
-            opacity: 1;
-        }
-        100% {
-            opacity: 0;
-        }
     }
 }
