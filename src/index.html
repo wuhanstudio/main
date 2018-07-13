@@ -10,7 +10,14 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
 
     <!-- Full Page Scroll -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.9.5/vendors/scrolloverflow.min.js"></script>
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.9.5/jquery.fullpage.min.js"></script>
+
+    <!-- Magnific Popup core JS file -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
+
+    <!-- Magnific Popup core CSS file -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css">
 
     <!-- My Script -->
 
@@ -185,6 +192,43 @@
 
         </div>
 
+        <!-- Upcoming -->
+        <div class="section section-tplcloud" id="section3">
+            <h1>Robots as a community</h1>
+
+            <!-- Alert Message -->
+            <div>
+                <div>
+                    <label for="com_but" class="pointer-cursor">
+                        <i class="ion-ios-information-outline"></i>
+                    </label>
+                </div>
+                <input type="checkbox" id="com_but" checked="false" class="hidden">
+                <label for="com_but" class="alert-message js--wp-3">
+                    My Future Perspective: A collaborative community for robots 
+                    <span class="close">×</span>
+                </label>
+            </div>
+
+            <!-- What it is used for -->
+            <div>
+                <h3> 
+                    - Robots may communicate as we humans do <br/>
+                    - No single omnipotence <br/>
+                    - We collaborate
+                </h3>
+                <a class="btn btn-full popup-vimeo" href="https://vimeo.com/252003238">I made a demo here</a>
+            </div>
+
+
+            <!-- Bottom Icons -->
+            <!-- <div class="icon-coming">
+                <i class="ion-android-sync"></i> Coming Soon
+                <i class="fa fa-docker"></i> Docker
+                <i class="ion-social-windows"></i> DotNet
+            </div> -->
+        </div>
+
         <!-- Hust & TPL -->
         <div class="section" id="section4">
 
@@ -204,38 +248,38 @@
                 <div class="col span-1-of-3">
                     <div class="skill-box">
                         <div>
-                            <h3>Building Blocks</h3>
+                            <h3>My Building Blocks</h3>
                         </div>
                         <ul>
                             <li>
                                 <h4>
                                     <i class="ion-ios-gear icon-small"></i> Machine Design</h4>
-                                <blockquote>UG , Solidworks</blockquote>
+                                <blockquote> Solidworks </blockquote>
                             </li>
                             <li>
                                 <h4>
                                     <i class="ion-usb icon-small"></i> Embeded Programming</h4>
-                                <blockquote>AVR , STM32 , ARM-Linux , FPGA</blockquote>
+                                <blockquote> AVR , STM32 , ARM-Linux </blockquote>
                             </li>
                             <li>
                                 <h4>
                                     <i class="ion-social-github icon-small"></i> Sofware Development</h4>
-                                <blockquote>C/C++ , C# , Java , Python , Android</blockquote>
+                                <blockquote> C/C++ , C# , Java , Python </blockquote>
                             </li>
                             <li>
                                 <h4>
                                     <i class="ion-social-python icon-small"></i> Machine Learning</h4>
-                                <blockquote> Hadoop , Spark , Tensorflow , Pytorch</blockquote>
+                                <blockquote> Tensorflow , Pytorch </blockquote>
                             </li>
                             <li>
                                 <h4>
                                     <i class="ion-ios-flame icon-small"></i> Simulation</h4>
-                                <blockquote>Ansys Fluent , OpenFOAM , COMSOL</blockquote>
+                                <blockquote>Ansys Fluent , COMSOL</blockquote>
                             </li>
                             <li>
                                 <h4>
                                     <i class="ion-load-a icon-small"></i> Others</h4>
-                                <blockquote>Web , Penetration Test , Docker , Jenkins</blockquote>
+                                <blockquote>Web Dev , Docker , Jenkins</blockquote>
                             </li>
                         </ul>
                     </div>
@@ -267,33 +311,39 @@
                 <div class="col span-1-of-3">
                     <div class="skill-box">
                         <div>
-                            <h3>Skill Bar</h3>
+                            <h3> Still Exploring </h3>
                         </div>
-                        <ul id="skill">
+                        <ul>
                             <li>
-                                <span class="bar machine-design"></span>
-                                <h4>Machine Desgin</h4>
+                                <h4>
+                                    <i class="ion-ios-gear icon-small"></i> Machine Design</h4>
+                                <blockquote> UG </blockquote>
                             </li>
                             <li>
-                                <span class="bar embedded-prog"></span>
-                                <h4>Embedded Programming</h4>
+                                <h4>
+                                    <i class="ion-usb icon-small"></i> Embeded Programming</h4>
+                                <blockquote> FPGA </blockquote>
                             </li>
                             <li>
-                                <span class="bar software-dev"></span>
-                                <h4>Software Development</h4>
+                                <h4>
+                                    <i class="ion-social-github icon-small"></i> Sofware Development</h4>
+                                <blockquote> Android </blockquote>
                             </li>
                             <li>
-                                <span class="bar machine-learning"></span>
-                                <h4>Machine Learning</h4>
+                                <h4>
+                                    <i class="ion-social-python icon-small"></i> Machine Learning</h4>
+                                <blockquote> Hadoop , Spark </blockquote>
                             </li>
                             <li>
-                                <span class="bar simulation"></span>
-                                <h4>Simulation</h4>
+                                <h4>
+                                    <i class="ion-ios-flame icon-small"></i> Simulation</h4>
+                                <blockquote> OpenFOAM </blockquote>
                             </li>
-                            <!-- <li>
-                                <span class="bar others"></span>
-                                <h4>Others</h4>
-                            </li> -->
+                            <li>
+                                <h4>
+                                    <i class="ion-load-a icon-small"></i> Others</h4>
+                                <blockquote> ROS </blockquote>
+                            </li>
                         </ul>
                     </div>
                 </div>

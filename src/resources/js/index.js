@@ -14,9 +14,18 @@ $(document).ready(function () {
         }
     }).observe()
 
+    $('.popup-youtube, .popup-vimeo, .popup-gmaps').magnificPopup({
+        disableOn: 700,
+        type: 'iframe',
+        mainClass: 'mfp-fade',
+        removalDelay: 160,
+        preloader: false,
+        fixedContentPos: false
+    });
+
     var gradTimer, sideTimer, comTimer;
     $('#fullpage').fullpage({
-        anchors: ['mainPage', 'gradPage', 'sidePage', 'comingPage', 'labPage'],
+        anchors: ['mainPage', 'gradPage', 'sidePage', 'robotPage', 'labPage'],
         sectionsColor: ['#DEDEDE', '#DDDDDD', '#202020', '#DEDEDE', '#e8e8e8'],
         controlArrows: false,
         slidesNavigation: true,
@@ -66,7 +75,7 @@ $(document).ready(function () {
                 sideTimer = setTimeout(" $('#side_but').attr('checked',true);", 9000);
             }
 
-            if (anchorLink == 'comingPage') {
+            if (anchorLink == 'robotPage') {
                 setTimeout("$('.js--wp-3').addClass('animated fadeInDown');", 200);
                 setTimeout(" $('#com_but').attr('checked',false);", 200);
                 window.clearTimeout(comTimer);
