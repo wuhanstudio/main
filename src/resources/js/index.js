@@ -1,4 +1,6 @@
 
+import lozad from 'lozad';
+
 $(document).ready(function () {
     // alert(window.screen.availWidth + ',' + window.screen.availHeight);
 
@@ -11,15 +13,6 @@ $(document).ready(function () {
             }
         }
     }).observe()
-
-    $('.popup-youtube, .popup-vimeo, .popup-gmaps').magnificPopup({
-        disableOn: 700,
-        type: 'iframe',
-        mainClass: 'mfp-fade',
-        removalDelay: 160,
-        preloader: false,
-        fixedContentPos: false
-    });
 
     var gradTimer, sideTimer, comTimer;
     $('#fullpage').fullpage({
@@ -131,3 +124,7 @@ $(document).ready(function () {
         }
     });
 });
+
+// CSS
+require('../../vendors/css/jquery.fullPage.css');
+require('../../resources/css/style.css');
