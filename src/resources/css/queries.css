@@ -1,8 +1,9 @@
-/* Big Desktop to 1600px */
 
-@media only screen and (max-width: 1600px) and (orientation: landscape) {
+/* Big Desktop to 1920px */
+
+@media only screen and (max-width: 1920px) and (orientation: landscape) {
     body {
-        font-size: 21px;
+        font-size: 22px;
     }
     .enter {
         display: none;
@@ -10,19 +11,77 @@
     .focus-enter {
         display: none;
     }
+
+    /* Profile */
+
     .skill-box {
         height: 600px;
+    }
+}
+
+/* Big Desktop to 1600px */
+
+@media only screen and (max-width: 1600px) and (orientation: landscape) {
+    
+    .profile-box {
+        padding-top: 25%;
+    }
+
+    /* Profile */
+
+    .avatar img {
+        top: 3%;
     }
 }
 
 /* Big Laptop to 1440px */
 
 @media only screen and (max-width: 1440px) and (orientation: landscape) {
+
     body {
         font-size: 20px;
     }
+
+    .button{
+        margin-top: -6%;
+    }
+
+    /* Side Projects */
+
+    .side-box{
+        margin-top: 30%;
+    }
+
+    .section-side ul {
+        margin-top: 10%;
+    }
+
+    /* robots */
+
+    .robots-box {
+        margin-top: 10%;
+    }
+
+    .robots-demo {
+        margin-left: 40%;
+    }
+
+    /* Profile */
+    .avatar img {
+        top: 8%;
+    }
+
     .skill-box {
-        height: 550px;
+        height: 500px;
+    }
+}
+
+/* Big Laptop to 1336px */
+
+@media only screen and (max-width: 1366px) and (orientation: landscape) {
+    /* Profile */
+    .avatar img {
+        top: 2%;
     }
 }
 
@@ -32,51 +91,117 @@
     body {
         font-size: 18px;
     }
-    .skill-box {
-        height: 500px;
-    }
+
     .hero-text-box {
         width: 65%;
     }
+    
+    /* Profile */
+    .skill-box {
+        height: 500px;
+    }
+
+    /* Profile */
+    .avatar img {
+        top: 3%;
+    }
 }
 
-/* Big tablet to 1200px (from 1024px to 1199px) */
+/* Big tablet to 1200px (from 1024px to 1200px) */
 
 @media only screen and (max-width: 1200px) and (orientation: landscape) {
+    
     body {
         font-size: 15px;
     }
-}
 
-/* Small tablet to big tablet: from 768px to 1023px */
+    /* Robots */
 
-@media only screen and (max-width: 1023px) and (orientation: landscape) {
-    body {
-        font-size: 14px;
+    .robots-box {
+        margin-top: 10%;
     }
+
+    .robots-demo {
+        margin-top: 10%;
+        margin-left: 30%;
+    }
+
+    /* Profile */
+
     .skill-box {
         height: 400px;
     }
+
+}
+
+/* Small tablet to big tablet: from 768px to 1024px */
+
+@media only screen and (max-width: 1024px) and (orientation: landscape) {
+    
+    body {
+        font-size: 14px;
+    }
+
+    .button {
+        margin-top: -7%;
+    }
+
+    /* Profile */
+
     #skill li h4 {
         top: -130%;
+    }
+
+    .avatar img {
+        top: 10%;
+    }
+}
+
+/* Small phones to small tablets: from 801px to 960px */
+
+@media only screen and (max-width: 960px) and (orientation: landscape) {
+
+    .avatar img {
+        top: 2%;
+    }
+}
+
+/* Small phones to small tablets: from 769px to 800px */
+@media only screen and (max-width: 800px) and (orientation: landscape) {
+    
+    .button {
+        margin-top: -8%;
+    }
+    
+    /* Robots */
+
+    .robots-box {
+        margin-top: 15%;
+    }
+
+    .robots-description{
+        width: 52%;
+        margin-top: 15%;
+    }
+
+    .robots-demo {
+        margin-left: 25%;
+    }
+
+    /* Profile */
+
+    .avatar img {
+        top: 3%;
     }
 }
 
 /* Small phones to small tablets: from 481px to 767px */
 
-@media only screen and (max-width: 767px) and (orientation: landscape) {
+@media only screen and (max-width: 768px) and (orientation: landscape) {
     body {
         font-size: 10px;
     }
-    .profile-box {
-        position: absolute;
-        top: 10%;
-        left: 41%;
-    }
-    .profile-box img {
-        width: 50%;
-        margin-left: 25%;
-    }
+
     .icon-small {
         margin-left: 8px;
         margin-right: -10px;
@@ -93,7 +218,9 @@
         margin-top: 10%;
         margin-right: 15%;
     }
+
     /* Side Project */
+
     .webflow-style-input {
         width: 45%;
     }
@@ -101,7 +228,29 @@
         font-size: 10px;
         line-height: 0.1rem;
     }
+
+    /* Robots */
+
+    .robots-box {
+        margin-top: 12%;
+    }
+
+    .robots-description{
+        width: 52%;
+        margin-top: 8%;
+    }
+
+    .robots-demo {
+        margin-top: 5%;
+        margin-left: 35%;
+    }
+
     /* Profile right */
+
+    .skill-box {
+        height: 300px;
+    }
+
     #skill {
         width: 85%;
     }
@@ -120,16 +269,23 @@
     body {
         font-size: 10px;
     }
-    .hero-text-box {
-        width: 70%;
+    
+    .arrow:before, .arrow:after {
+        height: 2px;
+        width:20px;
     }
-    .icon-coming {
-        left: 25%;
-    }
+
     .webflow-style-input {
         width: 50%;
     }
+
+    .button{
+        margin-top: -9%;
+    }
+
+
     /* Graduation Project */
+
     .alert-message {
         padding: 3px;
     }
@@ -139,25 +295,34 @@
     .section-graduation .bicover h1 {
         margin-top: 20%;
     }
+
+    /* Side PRojects */
+
+    .side-box{
+        margin-top: 20%;
+    }
+
     /* Profile left */
+
     .icon-small {
         margin-right: -14px;
     }
     .skill-box {
-        height: 370px;
+        height: 300px;
+    }
+
+    .avatar img{
+        margin-top: 0%;
     }
 }
 
 /* Small phones: from 425px to 479px */
 
-@media only screen and (max-width: 600px) and (orientation: landscape) {
+@media only screen and (max-width: 480) and (orientation: landscape) {
     body {
         font-size: 7px;
     }
-    /* Side Project */
-    .section-side h1 {
-        width: 60%;
-    }
+
     /* Profile left */
     .skill-box h4 {
         letter-spacing: 0;
@@ -183,17 +348,11 @@
     }
 }
 
-@media only screen and (max-height: 320px) and (max-width: 480px) and (orientation: landscape) {
+@media only screen and  (max-width: 480px) and (max-height: 320px)  and (orientation: landscape) {
     body {
         font-size: 6px;
     }
-    .profile-box {
-        left: 38%;
-    }
-    .profile-box img {
-        width: 30%;
-        margin-left: 35%;
-    }
+
     /* Graduation Project */
     .alert-message {
         font-size: 6px;
@@ -202,15 +361,18 @@
     .pointer-cursor {
         left: 10px;
     }
+
+    .main-intro {
+        display: none;
+    }
+    
     .section-graduation .focus img {
         width: 30%;
         float: left;
         margin-left: 5%;
         margin-right: 0;
     }
-    .main-intro {
-        display: none;
-    }
+
     .focus-small {
         display: block;
         float: right;
@@ -232,10 +394,12 @@
         padding: 5px 5px;
         font-weight: 300;
     }
+    
     /* Bicover */
     .bicover-big {
         display: none;
     }
+
     .bicover-small {
         display: inline-block;
         margin-top: 12%;
@@ -248,6 +412,7 @@
         width: 50%;
         margin-top: 8%;
     }
+
     .section-graduation .bicover h1 {
         margin-top: 30%;
     }
@@ -257,14 +422,12 @@
         margin-top: 15%;
         margin-right: 15%;
     }
+    
     /* Side Project */
     .section-side ul {
         left: 40%;
     }
-    /* TPL Cloud */
-    .section-tplcloud h3 {
-        width: 70%;
-    }
+
     .icon-coming {
         left: 20%;
     }
@@ -278,15 +441,34 @@
     .avatar div:last-child {
         text-align: center;
     }
-    .avatar img {
-        position: relative;
-        width: 20%;
-        margin-left: -5%;
+
+    /* Robots */
+
+    .robots-box {
+        margin-top: 15%;
     }
+
+    .robots-description {
+        margin-top: 10%;
+    }
+
+    .robots-demo {
+        -webkit-transform: translate(-50%, -50%);
+                transform: translate(-50%, -50%);    
+        margin-left: 20%;
+        margin-top: 5%;
+    }
+    
+    .section-robots .btn {
+        width: 35%;
+        margin-top: 8%;
+    }
+
     .skill-box {
         margin-top: 5%;
         height: 420px;
     }
+
     /* Profile Header */
     /* Profile left */
     .skill-box h4 {
@@ -310,6 +492,11 @@
     #skill li:first-child {
         margin-top: 9%;
     }
+
+    .skill-box {
+        height: 300px;
+    }
+
     /* Footer */
     .tpl {
         float: none;
@@ -323,9 +510,7 @@
         margin-top: 3%;
         margin-left: 28%;
     }
-    .back-box {
-        width: 70%;
-    }
+
 }
 
 /* ---------------------- */
@@ -334,52 +519,123 @@
 
 /* --------------------- */
 
-@media only screen and (max-width: 1023px) and (orientation: portrait) {
+@media only screen and (max-width: 1080px) and (orientation: portrait) {
+
     body {
-        font-size: 14px;
+        font-size: 22px;
     }
+
+    /* Header */
+
+    .profile-box {
+        padding-top: 80%;
+    }
+
+    .profile-box p {
+        margin-top: -5%;
+        text-align: center;
+        font-size: 200%;
+    }
+
     .enter {
         display: none;
     }
-    .hero-text-box {
-        width: 80%;
-        left: 55%;
+
+    .profile-box img {
+        width: 35%;
     }
-    .profile-box {
-        top: 20%;
+
+    .arrow:before, .arrow:after {
+        height: 3px;
+        width: 80px;
     }
-    .section-graduation h1 {
-        width: 100%;
+
+    .next-box a {
+        left: 38%;
+        top: 85%;
     }
-    /* Side Project */
-    .section-side h1 {
-        left: 10%;
+
+    /* Robots */
+
+    .robots-box {
+        margin-top: -60%;
     }
-    .section-side ul {
-        left: 40%;
+
+    .robots-description{
+        margin-top: 10%;
     }
-    /* TPL Cloud */
-    .section-tplcloud h1 {
-        left: 30%;
+
+    .robots-demo {
+        margin-left: 40%;
+        margin-top: 10%;
     }
-    .section-tplcloud h3 {
-        width: 60%;
+    
+    .robots-demo .btn{
+        font-size: 120%;
     }
-    .icon-coming {
-        left: 30%;
-    }
-    /* Profile */
-    .avatar img {
-        width: 12%;
-        top: 15%;
-    }
+
+    /* Skill */
+
     .skill-box {
-        height: 450px;
+        height: 700px;
     }
+
+    .avatar img {
+        width: 10%;
+        top: 24%;
+        left: 42%;
+    }
+
+}
+
+@media only screen and (max-width: 1024px) and (orientation: portrait) {
+
+    /* header */
+
+    .header-box{
+        margin-top:-25%;
+    }
+
+    .profile-box img {
+        width: 30%;
+    }
+
+    /* Profile */
+
+    .skill-box {
+        height: 720px;
+    }
+
     #skill li h4 {
         position: relative;
         top: -150%;
     }
+  
+    .avatar img {
+        width: 10%;
+        top: 10%;
+        left: 42%;
+    }
+
+    /* Robots */
+  
+    .robots-box {
+        margin-top: -35%;
+    }
+
+    .robots-description{
+        margin-top: 5%;
+        width:65%;
+    }
+
+    .robots-demo {
+        margin-top: 5%;
+    }
+
+    .skill-box {
+        height: 750px;
+    }
+
     /* Footer */
     .tpl {
         float: left;
@@ -397,21 +653,71 @@
     }
 }
 
-@media only screen and (max-width: 767px) and (orientation: portrait) {
-    .profile-box {
-        top: 20%;
-        left: 40%;
+@media only screen and (max-width: 900px) and (orientation: portrait) {
+ 
+    body {
+        font-size: 20px;
     }
+
+    /* Robots */
+  
+    .robots-box {
+        margin-top: -60%;
+    }
+
+    .robots-demo {
+        margin-top: 15%;
+    }
+
+    /* Focus */
+
+    .button {
+        margin-top: -10%;
+    }
+
+    /* Skill */
+    
+    .avatar img {
+        top: 18%;
+    }
+
+    .skill-box {
+        height: 800px;
+    }
+}
+
+@media only screen and (max-width: 800px) and (orientation: portrait) {
+
+    body {
+        font-size: 18px;
+    }
+
     .enter {
         display: inline;
     }
     .dot {
         display: none;
     }
-    .hero-text-box {
-        width: 60%;
-        left: 60%;
+
+    .arrow:before, .arrow:after {
+        height: 2px;
+        width:50px;
     }
+
+    /* Skill */
+
+    .avatar img {
+        top: 13%;
+    }
+
+    .skill-box {
+        height: 650px;
+    }
+
+}
+
+@media only screen and (max-width: 768px) and (orientation: portrait) {
+
     /* Graduation Project */
     .button {
         left: -3%;
@@ -427,45 +733,112 @@
     .section-graduation .bicover img {
         margin-top: 0;
     }
-    /* Side Project */
-    .section-side h1 {
-        width: 90%;
-        left: 5%;
+
+    .mcu-br{
+        display: block;
     }
-    /* TPL Cloud */
-    .icon-coming {
-        bottom: 3%;
+
+    .side-box{
+        margin-top:40%;
     }
+
+    /* Robots */
+  
+    .robots-box {
+        margin-top: -40%;
+    }
+
+    .robots-description{
+        width:80%;
+    }
+
+    .robots-demo {
+        margin-top: 5%;
+    }
+
     /* Profile */
+
     .avatar img {
-        width: 10%;
         top: 14%;
     }
+
     .skill-box {
-        height: 500px;
+        height: 650px;
     }
-    /* Left */
-    /* Right */
+
     #skill li {
         margin-top: 30%;
     }
     #skill li:first-child {
         margin-top: 25%;
     }
-    /* Footer */
-    .back-box {
-        width: 90%;
-    }
+
 }
 
-@media only screen and (max-width: 479px) and (orientation: portrait) {
+@media only screen and (max-width: 768px) and (max-height: 1024px) and (orientation: portrait) {
+
+    .avatar img {
+        top: 10%;
+    }
+
+}
+
+@media only screen and (max-width: 600px) and (orientation: portrait) {
+
     body {
         font-size: 14px;
     }
+
+    .arrow:before, .arrow:after {
+        height: 2px;
+        width: 30px;
+    }
+
+    .profile-box p {
+        font-size: 150%;
+    }
+
+    /* Robots */
+  
+    .robots-box {
+        margin-top: -55%;
+    }
+
+    .robots-description{
+        width:70%;
+    }
+
+    .robots-demo {
+        margin-top: 10%;
+    }
+
+    /* Skill */
+
+    .avatar img {
+        top: 15%;
+    }
+
+    .skill-box {
+        height: 500px;
+    }
+
+}
+@media only screen and (max-width: 479px) and (orientation: portrait) {
+
+    body {
+        font-size: 11px;
+    }
+
     .arrow {
         left: 45%;
         top: 85%;
     }
+
+    .next-box a {
+        left: 38%;
+        top: 80%;
+    }
+    
     /*  Arrow Animation */
     @keyframes arrow-movement {
         0% {
@@ -479,12 +852,7 @@
             opacity: 0;
         }
     }
-    .profile-box {
-        width: 20%;
-    }
-    .hero-text-box {
-        width: 80%;
-    }
+
     .pointer-cursor{
         top:7px;
         left:5px;
@@ -496,22 +864,11 @@
     .webflow-style-input {
         width: 70%;
     }
-    /* TPL Cloud */
-    .section-tplcloud h1 {
-        width: 85%;
-        top: 40%;
-        left: 10%;
+
+    .button{
+        margin-top: -7%;
     }
-    .section-tplcloud h3 {
-        width: 90%;
-        left: 5%;
-    }
-    .icon-coming {
-        left: 15%;
-    }
-    .icon-coming i {
-        margin-left: 8px;
-    }
+
     /* Profile */
     .avatar div:first-child {
         text-align: center;
@@ -519,11 +876,15 @@
     .avatar div:last-child {
         text-align: center;
     }
-    .avatar img {
-        position: relative;
-        width: 20%;
-        margin-left: -5%;
+
+    .avatar img{
+        display: none;
     }
+
+    .robots-demo .btn{
+       width: 80%;
+    }
+
     .skill-box {
         margin-top: 7%;
         height: 400px;
@@ -545,11 +906,15 @@
     #skill li h4 {
         top: -120%;
     }
+
+    .skill-box {
+        height: 350px;
+    }
 }
 
 @media only screen and (max-width: 424px) and (orientation: portrait) {
     body {
-        font-size: 12px;
+        font-size: 10px;
     }
     .dot {
         display: none;
@@ -564,11 +929,7 @@
     .github-corner img {
         width: 20%;
     }
-    /* TPL Cloud */
-    .section-tplcloud h1 {
-        width: 85%;
-        left: 12%;
-    }
+
     /* Profile */
     .skill-box {
         height: 400px;
@@ -576,16 +937,14 @@
     #skill {
         margin-top: 10%;
     }
+
+    .skill-box {
+        height: 350px;
+    }
 }
 
 @media only screen and (max-width: 374px) and (orientation: portrait) {
-    body {
-        font-size: 11px;
-    }
-    .profile-box {
-        width: 30%;
-        left: 35%;
-    }
+
     .alert-message {
         padding: 3px;
     }
@@ -625,7 +984,7 @@
     }
     /* Profile */
     .skill-box {
-        height: 330px;
+        height: 320px;
     }
     #skill li {
         margin-top: 10%;
@@ -639,11 +998,9 @@
 
 @media only screen and (max-width: 320px) and (orientation: portrait) {
     body {
-        font-size: 10px;
+        font-size: 8px;
     }
-    .profile-box {
-        left: 38%;
-    }
+
     .hero-text-box {
         top: 52%;
         width: 78%;
@@ -675,14 +1032,7 @@
     .section-side ul {
         left: 35%;
     }
-    /* TPL Cloud */
-    .section-tplcloud h1 {
-        width: 90%;
-    }
-    .section-tplcloud h3 {
-        left: 10px;
-        width: 95%;
-    }
+
     .icon-coming {
         left: 10%;
     }
@@ -698,7 +1048,7 @@
     }
     /* Profile */
     .skill-box {
-        height: 360px;
+        height: 280px;
     }
 
     #skill li {

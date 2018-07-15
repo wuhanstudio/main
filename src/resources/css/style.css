@@ -212,27 +212,41 @@ header p {
     border-radius: 50%;
 }
 
-.hero-text-box {
-    position: absolute;
+.header-box {
+    justify-content: center;
+    width: 100%;
+    margin-left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);    
+    text-align: center;
+}
+
+
+.profile-box {
+    justify-content: center;
     width: 60%;
-    top: 55%;
-    left: 55%;
+    margin-left: 50%;
+    padding-top: 30%;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);   
+}
+
+.profile-box img {
+    margin-left: 50%;
+    width: 12%;
     -webkit-transform: translate(-50%, -50%);
             transform: translate(-50%, -50%);
 }
 
-.profile-box {
-    position: absolute;
-    top: 10%;
-    left: 45%;
-}
-
-.profile-box img {
-    width: 80%;
-    margin-left: 10%;
-}
-
 .profile-box p {
+    margin-top: -5%;
+    text-align: center;
+    font-size: 100%;
+}
+
+
+.hero-box {
+    margin-top: -5%;
     text-align: center;
 }
 
@@ -255,13 +269,13 @@ header p {
     padding: 2% 10%;
     border: 2px solid #FFF;
     left: 38%;
-    top: 80%;
+    top: 83%;
 }
 
 .arrow {
     opacity: 0;
     position: absolute;
-    left: 47%;
+    left: 50%;
     top: 90%;
     -webkit-transform-origin: 50% 50%;
             transform-origin: 50% 50%;
@@ -304,52 +318,6 @@ header p {
             transform: rotate(-45deg) translateX(23%);
     -webkit-transform-origin: top right;
             transform-origin: top right;
-}
-
-.arrow-reverse {
-    opacity: 0;
-    position: absolute;
-    left: 50%;
-    bottom: 8%;
-    -webkit-transform-origin: 50% 50%;
-            transform-origin: 50% 50%;
-    -webkit-transform: translate3d(-50%, -50%, 0);
-            transform: translate3d(-50%, -50%, 0);
-}
-
-.arrow-reverse-first {
-    -webkit-animation: arrow-reverse-movement 1.5s 2.5s ease-in-out infinite;
-            animation: arrow-reverse-movement 1.5s 2.5s ease-in-out infinite;
-}
-
-.arrow-reverse-second {
-    -webkit-animation-delay: 1.7s;
-            animation-delay: 1.7s;
-    -webkit-animation: arrow-reverse-movement 1.5s 3.3s ease-in-out infinite;
-            animation: arrow-reverse-movement 1.5s 3.3s ease-in-out infinite;
-}
-
-.arrow-reverse:before, .arrow-reverse:after {
-    background: #fff;
-    content: '';
-    display: block;
-    height: 3px;
-    position: absolute;
-    width: 30px;
-}
-
-.arrow-reverse:before {
-    -webkit-transform: rotate(45deg) translateX(-9%) translateY(-0%);
-            transform: rotate(45deg) translateX(-9%) translateY(-0%);
-    -webkit-transform-origin: top left;
-            transform-origin: top left;
-}
-
-.arrow-reverse:after {
-    -webkit-transform: rotate(135deg) translateY(0%);
-            transform: rotate(135deg) translateY(0%);
-    -webkit-transform-origin: top left;
-            transform-origin: top left;
 }
 
 /*  Arrow Animation */
@@ -465,12 +433,9 @@ header p {
     font-size: 90%;
     font-family: "museo-sans", Arial, Verdana;
     font-weight: 500;
-    margin-top: -10%;
+    margin-top: -5%;
     margin-right: 15%;
     z-index: 2;
-}
-
-.button {
     text-transform: uppercase;
     -webkit-transition: all 0.15s ease-in-out;
     transition: all 0.15s ease-in-out;
@@ -570,6 +535,7 @@ header p {
 .btn {
     margin-top: 8%;
     margin-left: 45%;
+    text-align: center;
 }
 
 /*        Bicover          */
@@ -767,16 +733,12 @@ button {
     width: 100%;
 }
 
-.section-side h1 {
-    position: absolute;
-    left: 20%;
-    top: 35%;
+.side-box{
+    margin-top: 20%;
 }
 
 .section-side ul {
-    position: absolute;
-    left: 42%;
-    margin-top: 5px;
+    margin-top: 12%;
     font-size: 110%;
     padding-top: 20px;
     /* border-top:#F0F0F0 solid 1px; */
@@ -796,59 +758,26 @@ button {
     width:20%;
 }
 
+.mcu-br{
+    display: none;
+}
+
 /* ------------------------- */
 
 /*       Coming Robots       */
 
 /* ------------------------- */
 
-.section-tplcloud {
+.section-robots {
     background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.2)), to(rgba(0, 0, 0, 0.1))), url('../img/robots.png');
     background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.1)), url('../img/robots.png');
-    background-attachment: fixed;
+    /* background-attachment: fixed; */
     background-size: cover;
     background-position: right;
     height: 100vh;
 }
 
-.robots-text-box {
-    /* position: absolute; */
-    justify-content: center;
-    width: 60%;
-    margin-top: 10%;
-    margin-left: 50%;
-    margin-bottom: 10%;
-    transform: translate(-50%, -50%);
-}
-
-.robots-text-box h1 {
-    color: black;
-    text-align: center;
-}
-
-.robots-description{
-    /* position: absolute; */
-    width: 48%;
-    bottom: 30%;
-    left: 30px;
-    text-transform: none;
-    background: rgba(255, 255, 255, 0.75);
-    padding: 4px 8px;
-    color: black;
-    margin: 0;
-    text-align: left;
-    border-top-right-radius: 1%;
-    border-bottom-right-radius: 1%;
-    line-height: 180%;
-}
-
-.robots-button {
-
-    margin-bottom: 2%;
-    margin-left: 42%;
-}
-
-.section-tplcloud .alert-message{
+.section-robots .alert-message{
     border: 1px solid rgba(52, 73, 95, 0.25);
     color: rgba(0, 0, 0, .8);
     -webkit-box-shadow: 0px 10px 50px rgba(0, 0, 0, .1);
@@ -856,27 +785,51 @@ button {
     background: rgba(254, 254, 254, 0.219);
 }
 
-.section-tplcloud .pointer-cursor i {
+.section-robots .pointer-cursor i {
     color: #000;
 }
 
-.section-tplcloud .close {
+.section-robots .close {
     color: #000;
 }
 
-
-.icon-coming {
-    color: #AFAFAF;
-    letter-spacing: 2px;
-    position: absolute;
-    left: 35%;
-    bottom: 3%;
-    font-size: 90%;
+.robots-box {
+    margin-top: 15%;
 }
 
-.icon-coming i {
-    margin-left: 20px;
+.robots-box h1 {
+    color: black;
 }
+
+.robots-description{
+    /* position: absolute; */
+    width: 48%;
+    margin-left: 3px;
+    margin-top: 15%;
+    background: rgba(255, 255, 255, 0.75);
+    padding: 4px 8px;
+    color: black;
+    text-align: left;
+    border-top-right-radius: 1%;
+    border-bottom-right-radius: 1%;
+    line-height: 180%;
+}
+
+.robots-description h3{
+    text-transform: none;
+}
+
+.robots-demo {
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);    
+    margin-left: 45%;
+    margin-top: 5%;
+}
+
+.robots-demo .btn{
+    font-size: 120%;
+}
+
 
 /* ------------------------- */
 
@@ -931,10 +884,10 @@ button {
 .avatar img {
     position: absolute;
     width: 6%;
-    top: 1%;
+    top: 5%;
     left: 45%;
     border-radius: 50%;
-}
+} 
 
 .skill-box p {
     padding: 2%;
