@@ -807,20 +807,26 @@ button {
     background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.1)), url('../img/robots.png');
     background-attachment: fixed;
     background-size: cover;
-    background-position: center;
+    background-position: right;
     height: 100vh;
 }
 
-.section-tplcloud h1 {
+.robots-text-box {
     /* position: absolute; */
-    width: 50%;
-    margin-left: 25%;
+    justify-content: center;
+    width: 60%;
     margin-top: 10%;
+    margin-left: 50%;
     margin-bottom: 10%;
-    color: black;
+    transform: translate(-50%, -50%);
 }
 
-.section-tplcloud h3 {
+.robots-text-box h1 {
+    color: black;
+    text-align: center;
+}
+
+.robots-description{
     /* position: absolute; */
     width: 48%;
     bottom: 30%;
@@ -836,7 +842,7 @@ button {
     line-height: 180%;
 }
 
-.section-tplcloud a {
+.robots-button {
 
     margin-bottom: 2%;
     margin-left: 42%;
