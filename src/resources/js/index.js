@@ -31,6 +31,7 @@ $(document).ready(function () {
         slidesNavigation: true,
         scrollBar: true,
         autoScrolling: false,
+        // scrollOverflow: true,
         lazyLoading: false,
         // normalScrollElements: '.scrollable-element',
         // navigation: true,
@@ -132,6 +133,11 @@ $(document).ready(function () {
             // }
         }
     });
+    
+    $('body').css({
+        'overflow-x': 'hidden'
+    });
+    
 });
 
 // CSS
