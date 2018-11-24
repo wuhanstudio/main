@@ -819,15 +819,27 @@ button {
     text-transform: none;
 }
 
-.robots-demo {
-    -webkit-transform: translate(-50%, -50%);
-            transform: translate(-50%, -50%);    
-    margin-left: 45%;
-    margin-top: 5%;
+.robots-demo {    
+    width:100%;
 }
 
 .robots-demo .btn{
+    margin-left: 5%;
+    margin-bottom: 5%;
     font-size: 120%;
+}
+
+.robots-demo .idea{
+    background-color: #0000BB;
+    max-width: 200px;
+}
+
+.robots-demo .structure{
+    background-color: #0000DD;
+}
+
+.robots-demo .demo{
+    background-color: #0000FF;
 }
 
 
