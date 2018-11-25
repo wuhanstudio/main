@@ -27,7 +27,7 @@ $(document).ready(function () {
 		type: 'image',
 		closeOnContentClick: true,
 		closeBtnInside: false,
-		fixedContentPos: true,
+		fixedContentPos: false,
 		mainClass: 'mfp-no-margins mfp-with-zoom', // class to remove default margin from left and right side
 		image: {
 			verticalFit: false

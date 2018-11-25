@@ -794,7 +794,8 @@ button {
 }
 
 .robots-box {
-    margin-top: 15%;
+    top: 20%;
+    position: absolute;
 }
 
 .robots-box h1 {
@@ -821,17 +822,17 @@ button {
 
 .robots-demo {    
     width:100%;
+    margin-bottom: 0%;
 }
 
 .robots-demo .btn{
+    width: 13%;
     margin-left: 5%;
-    margin-bottom: 5%;
     font-size: 120%;
 }
 
 .robots-demo .idea{
     background-color: #0000BB;
-    max-width: 200px;
 }
 
 .robots-demo .structure{
