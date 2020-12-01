@@ -1,7 +1,7 @@
 ![](favicon.ico)
 
-## Focus Website 
+## Homepage
 
-Please visit --> [http://focus.wuhanstudio.cc](http://focus.wuhanstudio.cc)
+Please visit --> [http://wuhanstudio.cc](http://wuhanstudio.cc)
 
 ![](main.png)
