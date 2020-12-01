@@ -34,7 +34,7 @@
   "dependencies": {
     "babel-polyfill": "^6.26.0",
     "fullpage": "^1.4.2",
-    "jquery": "^3.3.1",
+    "jquery": "^3.5.0",
     "jquery-ui": "^1.12.1",
     "lozad": "^1.4.0",
     "magnific-popup": "^1.1.0"
