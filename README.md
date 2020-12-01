@@ -1,4 +1,4 @@
-![](favicon.ico)
+![](docs/favicon.ico)
 
 ## Homepage
 
