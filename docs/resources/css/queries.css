@@ -1,0 +1,1039 @@
+
+/* Big Desktop to 1920px */
+
+@media only screen and (max-width: 1920px) and (orientation: landscape) {
+    body {
+        font-size: 22px;
+    }
+    .enter {
+        display: none;
+    }
+    .focus-enter {
+        display: none;
+    }
+
+    /* Profile */
+
+    .skill-box {
+        height: 600px;
+    }
+}
+
+/* Big Desktop to 1600px */
+
+@media only screen and (max-width: 1600px) and (orientation: landscape) {
+    
+    .profile-box {
+        padding-top: 25%;
+    }
+
+    /* Profile */
+
+    .avatar img {
+        top: 3%;
+    }
+}
+
+/* Big Laptop to 1440px */
+
+@media only screen and (max-width: 1440px) and (orientation: landscape) {
+
+    body {
+        font-size: 20px;
+    }
+
+    .button{
+        margin-top: -6%;
+    }
+
+    /* Side Projects */
+
+    .side-box{
+        margin-top: 30%;
+    }
+
+    .section-side ul {
+        margin-top: 10%;
+    }
+
+    /* robots */
+
+/*    .robots-box {
+        margin-top: 10%;
+    }*/
+
+    /* Profile */
+    .avatar img {
+        top: 6%;
+    }
+
+    .skill-box {
+        height: 520px;
+    }
+}
+
+/* Big Laptop to 1336px */
+
+@media only screen and (max-width: 1366px) and (orientation: landscape) {
+    /* Profile */
+    .avatar img {
+        top: 2%;
+    }
+}
+
+/* Small laptop to 1280px */
+
+@media only screen and (max-width: 1280px) and (orientation:landscape) {
+    body {
+        font-size: 18px;
+    }
+
+    .hero-text-box {
+        width: 65%;
+    }
+    
+    /* Profile */
+    .skill-box {
+        height: 500px;
+    }
+
+    /* Profile */
+    .avatar img {
+        top: 3%;
+    }
+}
+
+/* Big tablet to 1200px (from 1024px to 1200px) */
+
+@media only screen and (max-width: 1200px) and (orientation: landscape) {
+    
+    body {
+        font-size: 15px;
+    }
+
+    /* Robots */
+
+    .robots-demo {
+        margin-top: 10%;
+    }
+
+    /* Profile */
+
+    .skill-box {
+        height: 400px;
+    }
+
+}
+
+/* Small tablet to big tablet: from 768px to 1024px */
+
+@media only screen and (max-width: 1024px) and (orientation: landscape) {
+    
+    body {
+        font-size: 14px;
+    }
+
+    .button {
+        margin-top: -7%;
+    }
+    
+    .robots-demo .btn{
+        margin-left: 3%;
+        margin-bottom: 5%;
+        font-size: 120%;
+    }
+
+    /* Profile */
+
+    #skill li h4 {
+        top: -130%;
+    }
+
+    .avatar img {
+        top: 10%;
+    }
+}
+
+/* Small phones to small tablets: from 801px to 960px */
+
+@media only screen and (max-width: 960px) and (orientation: landscape) {
+
+    .avatar img {
+        top: 2%;
+    }
+}
+
+/* Small phones to small tablets: from 769px to 800px */
+@media only screen and (max-width: 800px) and (orientation: landscape) {
+    
+    .button {
+        margin-top: -8%;
+    }
+    
+    /* Robots */
+
+    .robots-description{
+        width: 52%;
+        margin-top: 15%;
+    }
+
+    /* Profile */
+
+    .avatar img {
+        top: 3%;
+    }
+}
+
+/* Small phones to small tablets: from 481px to 767px */
+
+@media only screen and (max-width: 768px) and (orientation: landscape) {
+    body {
+        font-size: 10px;
+    }
+
+    .icon-small {
+        margin-left: 8px;
+        margin-right: -10px;
+    }
+    .section-graduation .focus img {
+        width: 45%;
+        margin-right: 15%;
+    }
+    .button {
+        width: 45%;
+    }
+    .section-graduation .bicover img {
+        width: 50%;
+        margin-top: 10%;
+        margin-right: 15%;
+    }
+
+    /* Side Project */
+
+    .webflow-style-input {
+        width: 45%;
+    }
+    .webflow-style-input input {
+        font-size: 10px;
+        line-height: 0.1rem;
+    }
+
+    /* Robots */
+
+    .robots-description{
+        width: 52%;
+        margin-top: 8%;
+    }
+
+    .robots-demo {
+        margin-top: 5%;
+        /* margin-left: 35%; */
+    }
+
+    /* Profile right */
+
+    .skill-box {
+        height: 300px;
+    }
+
+    #skill {
+        width: 85%;
+    }
+    #skill h4 {
+        width: 100%;
+    }
+    #skill li {
+        margin-top: 22%;
+    }
+    #skill li:first-child {
+        margin-top: 18%;
+    }
+}
+
+@media only screen and (max-width: 680px) and (orientation: landscape) {
+    body {
+        font-size: 10px;
+    }
+    
+    .arrow:before, .arrow:after {
+        height: 2px;
+        width:20px;
+    }
+
+    .webflow-style-input {
+        width: 50%;
+    }
+
+    .button{
+        margin-top: -9%;
+    }
+
+
+    /* Graduation Project */
+
+    .alert-message {
+        padding: 3px;
+    }
+    .section-graduation .main-intro {
+        margin-top: 10%;
+    }
+    .section-graduation .bicover h1 {
+        margin-top: 20%;
+    }
+
+    /* Side PRojects */
+
+    .side-box{
+        margin-top: 20%;
+    }
+
+    /* Profile left */
+
+    .icon-small {
+        margin-right: -14px;
+    }
+    .skill-box {
+        height: 300px;
+    }
+
+    .avatar img{
+        margin-top: 0%;
+    }
+}
+
+/* Small phones: from 425px to 479px */
+
+@media only screen and (max-width: 480) and (orientation: landscape) {
+    body {
+        font-size: 8px;
+    }
+
+    /* Profile left */
+    .skill-box h4 {
+        letter-spacing: 0;
+    }
+    .icon-small {
+        margin-right: -18px;
+    }
+    .skill-box {
+        height: 450px;
+    }
+    /* Profile right */
+    #skill {
+        width: 90%;
+    }
+    #skill h4 {
+        width: 110%;
+    }
+    #skill li {
+        margin-top: 30%;
+    }
+    #skill li:first-child {
+        margin-top: 20%;
+    }
+}
+
+@media only screen and  (max-width: 480px) and (max-height: 320px)  and (orientation: landscape) {
+    body {
+        font-size: 8px;
+    }
+
+    /* Graduation Project */
+    .alert-message {
+        font-size: 6px;
+        letter-spacing: 0;
+    }
+    .pointer-cursor {
+        left: 10px;
+    }
+
+    .main-intro {
+        display: none;
+    }
+    
+    .section-graduation .focus img {
+        width: 30%;
+        float: left;
+        margin-left: 5%;
+        margin-right: 0;
+    }
+
+    .focus-small {
+        display: block;
+        float: right;
+        margin-right: 15%;
+        margin-top: 10%;
+    }
+    .button {
+        position: absolute;
+        width: 15%;
+        left: 3%;
+        bottom: 20%;
+        z-index: 999;
+    }
+    .btn {
+        width: 50%;
+        margin-top: 8%;
+    }
+    .focus-small .btn:link, .btn:visited {
+        padding: 5px 5px;
+        font-weight: 300;
+    }
+    
+    /* Bicover */
+    .bicover-big {
+        display: none;
+    }
+
+    .bicover-small {
+        display: inline-block;
+        margin-top: 12%;
+    }
+    .bicover-small .btn:link, .btn:visited {
+        padding: 5px 5px;
+        font-weight: 300;
+    }
+    .bicover-small .btn {
+        width: 50%;
+        margin-top: 8%;
+    }
+
+    .section-graduation .bicover h1 {
+        margin-top: 30%;
+    }
+    .section-graduation .bicover img {
+        float: right;
+        width: 35%;
+        margin-top: 15%;
+        margin-right: 15%;
+    }
+    
+    /* Side Project */
+    .section-side ul {
+        left: 40%;
+    }
+
+    .icon-coming {
+        left: 20%;
+    }
+    /* Profile */
+    .avatar {
+        width: 90%;
+    }
+    .avatar div:first-child {
+        text-align: center;
+    }
+    .avatar div:last-child {
+        text-align: center;
+    }
+
+    /* Robots */
+
+    .robots-description {
+        margin-top: 25%;
+    }
+
+    .robots-demo {    
+        width:100%;
+        margin-bottom: 5%;
+    }
+
+    .robots-demo .btn{
+        margin-left: 1%;
+        padding: 5px 3px;
+    }
+
+    .section-robots .btn {
+        width: 15%;
+    }
+
+    /* Profile left */
+    .skill-box h4 {
+        letter-spacing: 1px;
+    }
+    .icon-small {
+        margin-right: -5px;
+    }
+
+    /* Profile right */
+    #skill {
+        width: 90%;
+    }
+    #skill h4 {
+        margin-left: 1%;
+        width: 90%;
+    }
+    #skill li {
+        margin-top: 10%;
+    }
+    #skill li:first-child {
+        margin-top: 9%;
+    }
+
+    .skill-box {
+        margin-top: 5%;
+        height: 450px;
+    }
+
+    /* Footer */
+    .tpl {
+        float: none;
+        width: 40%;
+        margin-bottom: 3%;
+        margin-left: 30%;
+    }
+    .hust {
+        float: none;
+        width: 50%;
+        margin-top: 3%;
+        margin-left: 28%;
+    }
+
+}
+
+/* ---------------------- */
+
+/*        Portrait       */
+
+/* --------------------- */
+
+@media only screen and (max-width: 1080px) and (orientation: portrait) {
+
+    body {
+        font-size: 22px;
+    }
+
+    /* Header */
+
+    .profile-box {
+        padding-top: 80%;
+    }
+
+    .profile-box p {
+        margin-top: -5%;
+        text-align: center;
+        font-size: 200%;
+    }
+
+    .enter {
+        display: none;
+    }
+
+    .profile-box img {
+        width: 35%;
+    }
+
+    .arrow:before, .arrow:after {
+        height: 3px;
+        width: 80px;
+    }
+
+    .next-box a {
+        left: 38%;
+        top: 85%;
+    }
+
+    /* Robots */
+
+    .robots-description{
+        margin-top: -15%;
+    }
+
+    .robots-demo {
+        margin-top: -45%;
+    }
+    
+    .robots-demo .btn{
+        width: 20%;
+    }
+
+    /* Skill */
+
+    .skill-box {
+        height: 700px;
+    }
+
+    .avatar img {
+        width: 10%;
+        top: 24%;
+        left: 42%;
+    }
+
+}
+
+@media only screen and (max-width: 1024px) and (orientation: portrait) {
+
+    /* header */
+
+    .header-box{
+        margin-top:-25%;
+    }
+
+    .profile-box img {
+        width: 30%;
+    }
+    
+    .robots-box {
+        margin-top: 0%;
+        top: 20%;
+        position: absolute;
+    }
+    
+    .robots-demo .btn{
+        margin-left: 5%;
+        width: 25%;
+    }
+
+    /* Profile */
+
+    .skill-box {
+        height: 720px;
+    }
+
+    #skill li h4 {
+        position: relative;
+        top: -150%;
+    }
+  
+    .avatar img {
+        width: 10%;
+        top: 10%;
+        left: 42%;
+    }
+
+    /* Robots */
+
+    .robots-description{
+        width:65%;
+    }
+
+    .skill-box {
+        height: 750px;
+    }
+
+    /* Footer */
+    .tpl {
+        float: left;
+        width: 30%;
+        margin-bottom: 3%;
+        margin-top: 3%;
+        margin-left: 5%;
+    }
+    .hust {
+        float: right;
+        width: 35%;
+        margin-top: 3%;
+        margin-bottom: 3%;
+        margin-right: 5%;
+    }
+}
+
+@media only screen and (max-width: 900px) and (orientation: portrait) {
+ 
+    body {
+        font-size: 20px;
+    }
+
+    /* Robots */
+
+    /* Focus */
+
+    .button {
+        margin-top: -10%;
+    }
+
+    /* Skill */
+    
+    .avatar img {
+        top: 18%;
+    }
+
+    .skill-box {
+        height: 800px;
+    }
+}
+
+@media only screen and (max-width: 800px) and (orientation: portrait) {
+
+    body {
+        font-size: 18px;
+    }
+
+    .enter {
+        display: inline;
+    }
+    .dot {
+        display: none;
+    }
+
+    .arrow:before, .arrow:after {
+        height: 2px;
+        width:50px;
+    }
+    
+    .robots-demo {
+        margin-top: -35%;
+    }
+
+    /* Skill */
+
+    .avatar img {
+        top: 13%;
+    }
+
+    .skill-box {
+        height: 650px;
+    }
+
+}
+
+@media only screen and (max-width: 768px) and (orientation: portrait) {
+
+    /* Graduation Project */
+    .button {
+        left: -3%;
+    }
+    .btn {
+        width: 60%;
+        margin-left: 30%;
+    }
+    .section-graduation .focus img {
+        width: 60%;
+        margin-right: 18%;
+    }
+    .section-graduation .bicover img {
+        margin-top: 0;
+    }
+
+    .mcu-br{
+        display: block;
+    }
+
+    .side-box{
+        margin-top:40%;
+    }
+
+    /* Robots */
+
+    .robots-description{
+        width:80%;
+    }
+
+    /* Profile */
+
+    .avatar img {
+        top: 14%;
+    }
+
+    .skill-box {
+        height: 650px;
+    }
+
+    #skill li {
+        margin-top: 30%;
+    }
+    #skill li:first-child {
+        margin-top: 25%;
+    }
+
+}
+
+@media only screen and (max-width: 768px) and (max-height: 1024px) and (orientation: portrait) {
+
+    .avatar img {
+        top: 6%;
+    }
+
+}
+
+@media only screen and (max-width: 600px) and (orientation: portrait) {
+
+    body {
+        font-size: 14px;
+    }
+
+    .arrow:before, .arrow:after {
+        height: 2px;
+        width: 30px;
+    }
+
+    .profile-box p {
+        font-size: 150%;
+    }
+
+    /* Robots */
+  
+    .robots-demo {
+        margin-top: -45%;
+    }
+
+    .robots-description{
+        width:70%;
+    }
+
+    /* Skill */
+
+    .avatar img {
+        top: 15%;
+    }
+
+    .skill-box {
+        height: 500px;
+    }
+
+}
+@media only screen and (max-width: 479px) and (orientation: portrait) {
+
+    body {
+        font-size: 11px;
+    }
+
+    .arrow {
+        left: 45%;
+        top: 85%;
+    }
+
+    .next-box a {
+        left: 38%;
+        top: 80%;
+    }
+    
+    /*  Arrow Animation */
+    @keyframes arrow-movement {
+        0% {
+            opacity: 0;
+            top: 80%;
+        }
+        70% {
+            opacity: 1;
+        }
+        100% {
+            opacity: 0;
+        }
+    }
+
+    .pointer-cursor{
+        top:7px;
+        left:5px;
+    }
+    /* Graduation Project */
+    .btn {
+        width: 35%;
+    }
+    .webflow-style-input {
+        width: 70%;
+    }
+
+    .button{
+        margin-top: -7%;
+    }
+
+    /* Profile */
+    .avatar div:first-child {
+        text-align: center;
+    }
+    .avatar div:last-child {
+        text-align: center;
+    }
+
+    .avatar img{
+        display: none;
+    }
+
+    .robots-demo .btn{
+       width: 28%;
+       margin-left: 2%;
+       margin-right: 2%;
+    }
+
+    .skill-box {
+        margin-top: 7%;
+        height: 400px;
+    }
+    /* Left */
+    .skill-box h4 {
+        letter-spacing: 1px;
+    }
+    /* Right */
+    #skill {
+        margin: 6% 4%;
+    }
+    #skill li {
+        margin-top: 10%;
+    }
+    #skill li:first-child {
+        margin-top: 10%;
+    }
+    #skill li h4 {
+        top: -120%;
+    }
+
+    .skill-box {
+        height: 400px;
+    }
+}
+
+@media only screen and (max-width: 424px) and (orientation: portrait) {
+    body {
+        font-size: 10px;
+    }
+    .dot {
+        display: none;
+    }
+    .btn {
+        width: 40%;
+    }
+    /* Side Project */
+    .section-side img {
+        width: 30%;
+    }
+    .github-corner img {
+        width: 20%;
+    }
+
+    .robots-demo {
+        margin-top: -50%;
+    }
+
+    .robots-demo .btn{
+       width: 30%;
+       margin-left: 1%;
+       margin-right: 1%;
+    }
+
+    /* Profile */
+
+    #skill {
+        margin-top: 10%;
+    }
+
+    .skill-box {
+        height: 400px;
+    }
+}
+
+@media only screen and (max-width: 374px) and (orientation: portrait) {
+
+    .alert-message {
+        padding: 3px;
+    }
+
+    .btn {
+        width: 43%;
+    }
+    .btn:link, .btn:visited {
+        padding: 8px 8px;
+        font-weight: 300;
+    }
+    .btn-full:link, .btn-full:visited {
+        background-color: #0000FF;
+        color: #fff;
+        margin-right: 25%;
+    }
+
+    .focus-detail {
+        display: none;
+    }
+    .bicover-detail {
+        display: none;
+    }
+    .section-graduation .focus img {
+        width: 50%;
+        left: 25%;
+        margin-right: 25%;
+    }
+    .button {
+        width: 50%;
+        margin-right: 22%;
+    }
+    .section-graduation .bicover h1 {
+        margin-top: 20%;
+    }
+    .section-graduation .bicover img {
+        width: 60%;
+        margin-right: 20%;
+    }
+    
+    .robots-demo .btn{
+       width: 30%;
+       margin-left: 1%;
+       margin-right: 1%;
+    }
+    
+    .robots-demo {
+        margin-top: -52%;
+    }
+
+    /* Profile */
+    .skill-box {
+        height: 375px;
+    }
+    #skill li {
+        margin-top: 10%;
+    }
+    #skill li:first-child {
+        margin-top: 0%;
+    }
+}
+
+/* Small phones: from 0 to 320px */
+
+@media only screen and (max-width: 320px) and (orientation: portrait) {
+    body {
+        font-size: 8px;
+    }
+
+    .hero-text-box {
+        top: 52%;
+        width: 78%;
+        left: 55%;
+    }
+    .section-graduation .focus img {
+        width: 50%;
+        float: left;
+        margin-left: 25%;
+        margin-right: 0;
+    }
+    .button {
+        position: absolute;
+        width: 24%;
+        left: 13%;
+        bottom: 45%;
+        z-index: 999;
+    }
+    .section-graduation .bicover img {
+        float: right;
+        width: 50%;
+        margin-top: 5%;
+        margin-right: 25%;
+    }
+    .btn {
+        width: 30%;
+    }
+    /* Side Project */
+    .section-side ul {
+        left: 35%;
+    }
+
+    .icon-coming {
+        left: 10%;
+    }
+    .icon-coming i {
+        margin-left: 2px;
+    }
+    .alert-message {
+        padding: 2px;
+    }
+    .pointer-cursor {
+        top: 5px;
+        left: 10px;
+    }
+    /* Profile */
+    .skill-box {
+        height: 350px;
+    }
+
+    #skill li {
+        margin-top: 15%;
+    }
+}

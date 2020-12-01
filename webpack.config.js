@@ -7,11 +7,11 @@ module.exports = {
 		front: './src/resources/js/front.js'
 	},
 	output: {
-		path: path.resolve(__dirname, 'dist'),
+		path: path.resolve(__dirname, 'docs'),
 		filename: 'js/[name]-bundle.js'
 	},
 	devServer: {
-		contentBase: './dist'
+		contentBase: './docs'
 	},
 	plugins: [
 		new HtmlWebpackPlugin({
@@ -32,11 +32,11 @@ module.exports = {
 				test: /\.css$/,
 				loaders: [
 					'style-loader',
-					'css-loader'
+					'css-loader',
 				]
 			},
 			{
-				test: /\.(svg|gif|png|eot|woff|ttf)$/,
+				test: /\.(svg|gif|jpg|png|eot|woff|ttf)$/,
 				loaders: [
 					'url-loader'
 				]
