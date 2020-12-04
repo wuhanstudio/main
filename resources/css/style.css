@@ -18,65 +18,12 @@ body::after {
     /* Set same as footer's height */
 }
 
-img{
+img {
     max-width: 100%;
     max-height: 100%;
 }
 
-.link span{
-    font-size: 15px;
-    display: block;
-}
-
-/*  Headings */
-#future h1, h2, h3 {
-    font-weight: 300;
-    text-transform: uppercase;
-}
-
-#future h1 {
-    margin: 0;
-    color: #FFF;
-    font-size: 240%;
-    font-weight: 300;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    word-spacing: 3px;
-    letter-spacing: 1px;
-}
-
-#future h2 {
-    font-size: 180%;
-    word-spacing: 2px;
-    text-align: center;
-    margin-bottom: 30px;
-    letter-spacing: 1px;
-}
-
-#future h3 {
-    font-size: 95%;
-    margin: 10px;
-}
-
-#future h4 {
-    font-size: 80%;
-    font-weight: 600;
-    letter-spacing: 1px;
-    margin: 5px;
-}
-
-.icon-small {
-    display: inline-block;
-    width: 30px;
-    color: #e67e22;
-    font-size: 120%;
-    margin-left: 8px;
-    margin-right: -12px;
-    /*secrets to align text and icons*/
-    line-height: 120%;
-    vertical-align: middle;
-    margin-top: -5px;
-}
+/*-------- Navbar --------*/
 
 .navbar .nav-link {
     font-size: 20px;
@@ -109,22 +56,29 @@ img{
     color: #000 !important; 
 }
 
+/*-------- Home --------*/
+
+.link span {
+    font-size: 15px;
+    display: block;
+}
+
 .home-avatar {
     border-radius: 50%;
     width: 50%;
 }
 
-.box {
+.box-border {
     border: 1px solid ;
     border-color: #cccccc;
     border-radius: 6px;
 }
 
-.box-border{
+.box-markdown {
     width: 100%;
 }
 
-.box-container{
+.box-container {
     width: 80%;
     margin-left: 10%;
 }
@@ -134,23 +88,62 @@ img{
     margin-left: 5%;
 }
 
-.box-markdown {
-    width: 96%;
-    margin-left: 2%;
+/*--------  Future Skills --------*/
+
+.box-skill {
+    width: 90%;
+    margin-left: 5%;
+}
+
+#future h1, h2, h3 {
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+#future h1 {
+    margin: 0;
+    color: #FFF;
+    font-size: 240%;
+    letter-spacing: 1px;
+    word-spacing: 3px;
+}
+
+#future h2 {
+    font-size: 180%;
+    text-align: center;
+    margin-bottom: 30px;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+}
+
+#future h3 {
+    font-size: 95%;
+    margin: 10px;
+}
+
+#future h4 {
+    margin: 5px;
+    font-size: 80%;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.icon-small {
+    display: inline-block;
+    width: 30px;
+    color: #e67e22;
+    font-size: 120%;
+    margin-left: 8px;
+    margin-right: -12px;
+    line-height: 120%;
+    vertical-align: middle;
+    margin-top: -5px;
 }
 
 .avatar {
     border-bottom: #333 solid 2px;
     font-size: 120%;
 }
-
-.avatar img {
-    border-radius: 50%;
-    position: absolute;
-    width: 20%;
-    margin-top: -5%;
-    left: 40%;
-} 
 
 .skill-box {
     background-color: #fff;
@@ -173,10 +166,8 @@ img{
 }
 
 .skill-box p {
-    /* padding: 2%; */
     margin: 2% 5%;
     font-size: 100%;
-    /* font-style: italic; */
     text-align: justify;
     line-height: 142%;
     word-spacing: 1px;
@@ -196,41 +187,7 @@ blockquote {
     background-color: #f8f8f8;
 }
 
-.machine-design {
-    width: 40%;
-    background-image: linear-gradient(to top, #f674a4, #e06995);
-}
-
-.embedded-prog {
-    width: 65%;
-    background-color: #f0bb4b;
-    background-image: linear-gradient(to top, #f0bb4b, #d9aa44);
-}
-
-.software-dev {
-    width: 75%;
-    background-color: #f5f107;
-    background-image: linear-gradient(to top, #a1ce5b, #91ba52);
-}
-
-.machine-learning {
-    width: 50%;
-    background-color: #a1ce5b;
-    background-image: linear-gradient(to top, #66b3cc, #5da3ba)
-}
-
-.simulation {
-    width: 30%;
-    background-color: #66b3cc;
-    background-image: linear-gradient(to top, #66b3cc, #5da3ba)
-}
-
-.others {
-    width: 0%;
-    /* animation: simulation 2s ease-out; */
-    background-color: #66b3cc;
-    background-image: linear-gradient(to top, #66b3cc, #5da3ba)
-}
+/*-------- Footer --------*/
 
 .hust {
     margin-top: 2%;
@@ -271,19 +228,45 @@ No media query since this is the default in Bootstrap because it is "mobile firs
 }
  
 /* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
-@media (min-width: 768px) {  
+@media (min-width: 768px) {
+
+    /*-------- Home --------*/
+
+    .box-border {
+        border: 1px solid ;
+        border-color: #cccccc;
+        border-radius: 6px;
+    }
+    
+    .box-container {
+        width: 80%;
+        margin-left: 10%;
+    }
+    
+    .box-avatar {
+        width: 90%;
+        margin-left: 5%;
+    }
+
+    .box-markdown {
+        width: 90%;
+        margin-left: 5%;
+    }
+
+    /*-------- Footer --------*/
+
     .hust {
         margin-top: 10%;
         margin-left: 5%;
         width: 90%;
     }
-    
+
     .tpl {
         margin-top: 9%;
         margin-left: 10%;
         width: 80%;
     }
-    
+
     .exeter {
         margin-top: 12%;
         margin-left: 25%;
@@ -303,32 +286,7 @@ No media query since this is the default in Bootstrap because it is "mobile firs
         border-radius: 50%;
         width: 100%;
     }
-    
-    .box {
-        border: 1px solid ;
-        border-color: #cccccc;
-        border-radius: 6px;
-    }
-    
-    .box-border{
-        width: 90%;
-        margin-left: 5%;
-    }
-    
-    .box-container{
-        width: 80%;
-        margin-left: 10%;
-    }
-    
-    .box-avatar {
-        width: 90%;
-        margin-left: 5%;
-    }
-    
-    .box-markdown {
-        width: 96%;
-        margin-left: 2%;
-    }
+
 }
  
 /* Large devices (desktops, 992px and up) */
