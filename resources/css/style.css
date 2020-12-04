@@ -1,0 +1,342 @@
+html, body {
+    font-family: 'Lato', 'Arial', 'sans-serif';
+    font-size:18px;
+    height: 100%;
+    width: 100%;
+    background-color: #FFF;
+}
+
+body {
+    position: relative;
+    min-height: 100vh;
+}
+
+body::after {
+    content: '';
+    display: block;
+    height: 200px;
+    /* Set same as footer's height */
+}
+
+img{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.link span{
+    font-size: 15px;
+    display: block;
+}
+
+/*  Headings */
+#future h1, h2, h3 {
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+#future h1 {
+    margin: 0;
+    color: #FFF;
+    font-size: 240%;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    word-spacing: 3px;
+    letter-spacing: 1px;
+}
+
+#future h2 {
+    font-size: 180%;
+    word-spacing: 2px;
+    text-align: center;
+    margin-bottom: 30px;
+    letter-spacing: 1px;
+}
+
+#future h3 {
+    font-size: 95%;
+    margin: 10px;
+}
+
+#future h4 {
+    font-size: 80%;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin: 5px;
+}
+
+.icon-small {
+    display: inline-block;
+    width: 30px;
+    color: #e67e22;
+    font-size: 120%;
+    margin-left: 8px;
+    margin-right: -12px;
+    /*secrets to align text and icons*/
+    line-height: 120%;
+    vertical-align: middle;
+    margin-top: -5px;
+}
+
+.navbar .nav-link {
+    font-size: 20px;
+    background-color: #04021c;
+    /* text-transform: uppercase; */
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
+}
+
+.bg-dark {
+    background-color: #04021c!important;
+}
+
+.navbar-nav > li > a:hover {
+    /* background-color: #FFFF00; */
+    transition: all 0.3s;
+    color: #FFF;
+}
+
+.navbar-nav > .active > a,
+.navbar-nav > .active > a:hover,
+.navbar-nav > .active > a:focus {
+    background: #FFF;
+    color: #000 !important;
+}
+
+.navbar-nav > li > a:hover, .navbar-nav > li > a:focus {
+    cursor:pointer;
+    background-color: #FFF;
+    color: #000 !important; 
+}
+
+.home-avatar {
+    border-radius: 50%;
+    width: 50%;
+}
+
+.box {
+    border: 1px solid ;
+    border-color: #cccccc;
+    border-radius: 6px;
+}
+
+.box-border{
+    width: 100%;
+}
+
+.box-container{
+    width: 80%;
+    margin-left: 10%;
+}
+
+.box-avatar {
+    width: 90%;
+    margin-left: 5%;
+}
+
+.box-markdown {
+    width: 96%;
+    margin-left: 2%;
+}
+
+.avatar {
+    border-bottom: #333 solid 2px;
+    font-size: 120%;
+}
+
+.avatar img {
+    border-radius: 50%;
+    position: absolute;
+    width: 20%;
+    margin-top: -5%;
+    left: 40%;
+} 
+
+.skill-box {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 2px 2px 3px 3px #efefef;
+}
+
+.skill-box ul {
+    list-style: none;
+    margin: 0; 
+    padding:0;
+}
+
+.skill-box div:first-child {
+    background-color: #f8f8f8;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    text-align: center;
+    padding: 1%;
+}
+
+.skill-box p {
+    /* padding: 2%; */
+    margin: 2% 5%;
+    font-size: 100%;
+    /* font-style: italic; */
+    text-align: justify;
+    line-height: 142%;
+    word-spacing: 1px;
+    background-color: #fff;
+    font-weight: 400;
+}
+
+blockquote {
+    padding: 1%;
+    font-size: 85%;
+    font-style: italic;
+    text-align: center;
+    line-height: 145%;
+    position: relative;
+    word-spacing: 2px;
+    margin: 0px 0px 0.5rem;
+    background-color: #f8f8f8;
+}
+
+.machine-design {
+    width: 40%;
+    background-image: linear-gradient(to top, #f674a4, #e06995);
+}
+
+.embedded-prog {
+    width: 65%;
+    background-color: #f0bb4b;
+    background-image: linear-gradient(to top, #f0bb4b, #d9aa44);
+}
+
+.software-dev {
+    width: 75%;
+    background-color: #f5f107;
+    background-image: linear-gradient(to top, #a1ce5b, #91ba52);
+}
+
+.machine-learning {
+    width: 50%;
+    background-color: #a1ce5b;
+    background-image: linear-gradient(to top, #66b3cc, #5da3ba)
+}
+
+.simulation {
+    width: 30%;
+    background-color: #66b3cc;
+    background-image: linear-gradient(to top, #66b3cc, #5da3ba)
+}
+
+.others {
+    width: 0%;
+    /* animation: simulation 2s ease-out; */
+    background-color: #66b3cc;
+    background-image: linear-gradient(to top, #66b3cc, #5da3ba)
+}
+
+.hust {
+    margin-top: 2%;
+    margin-left: 30%;
+    width: 48%;
+}
+
+.tpl {
+    margin-top: 2%;
+    margin-left: 30%;
+    width: 38%;
+}
+
+.exeter {
+    margin-top: 4%;
+    margin-left: 38%;
+    width: 25%;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 200px;
+    background-color: #04021c/*#2d3436*/;
+    color: #e0e0e0;
+}
+
+/* 
+Extra small devices (portrait phones, less than 576px) 
+No media query since this is the default in Bootstrap because it is "mobile first"
+*/
+ 
+ 
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {  
+
+}
+ 
+/* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
+@media (min-width: 768px) {  
+    .hust {
+        margin-top: 10%;
+        margin-left: 5%;
+        width: 90%;
+    }
+    
+    .tpl {
+        margin-top: 9%;
+        margin-left: 10%;
+        width: 80%;
+    }
+    
+    .exeter {
+        margin-top: 12%;
+        margin-left: 25%;
+        width: 50%;
+    }
+
+    .footer {
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        height: 160px;
+        background-color: #04021c/*#2d3436*/;
+        color: #e0e0e0;
+    }
+
+    .home-avatar {
+        border-radius: 50%;
+        width: 100%;
+    }
+    
+    .box {
+        border: 1px solid ;
+        border-color: #cccccc;
+        border-radius: 6px;
+    }
+    
+    .box-border{
+        width: 90%;
+        margin-left: 5%;
+    }
+    
+    .box-container{
+        width: 80%;
+        margin-left: 10%;
+    }
+    
+    .box-avatar {
+        width: 90%;
+        margin-left: 5%;
+    }
+    
+    .box-markdown {
+        width: 96%;
+        margin-left: 2%;
+    }
+}
+ 
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+ 
+}
+ 
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {  
+    
+}
