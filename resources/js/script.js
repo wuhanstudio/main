@@ -1,17 +1,24 @@
 $( document ).ready(function() {
     $('body').scrollspy({ target: '#main-nav', offset: 130 })
 
-    // $(window).on('activate.bs.scrollspy', function (e,obj) {
-    //   console.log(obj.relatedTarget);
-    // });
+    $(window).on('activate.bs.scrollspy', function (e, obj) {
+      // console.log(obj.relatedTarget);
+      // window.location.hash = obj.relatedTarget;
+    });
 
     var underFullpage = new fullpage('#fullpage', {
-      anchors: ['underPage', 'gradPage', 'phdPage'],
+      // anchors: ['underPage', 'gradPage', 'phdPage'],
       sectionsColor: ['#f8f8f8', '#ffffff', '#f8f8f8'],
       autoScrolling: false,
       css3: true,
-      fitToSection: false
+      fitToSection: false,
+      afterLoad: function(anchorLink, index) {
+        // history.pushState(null, null, "");
+        // console.log(anchorLink);
+      }
     });
+
+    fullpage_api.setRecordHistory(false);
 
     $('.popup-youtube, .popup-vimeo, .popup-gmaps').magnificPopup({
       disableOn: 700,
@@ -19,7 +26,6 @@ $( document ).ready(function() {
       mainClass: 'mfp-fade',
       removalDelay: 160,
       preloader: false,
-  
       fixedContentPos: false
     });
 
@@ -34,8 +40,16 @@ $( document ).ready(function() {
     
           // Using jQuery's animate() method to add smooth page scroll
           // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+          var offset = 0;
+          if (hash === "#home")
+          {
+            offset = -100;
+          }
+          else {
+            offset = -60;
+          }
           $('html, body').animate({
-            scrollTop: ($(hash).offset().top - 80)
+            scrollTop: ($(hash).offset().top + offset)
           }, 1000, function(){
             // Add hash (#) to URL when done scrolling (default click behavior)
             // window.location.hash = hash;
