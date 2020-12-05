@@ -22,6 +22,12 @@
     <link rel="stylesheet" type="text/css" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
     <script src="https://unpkg.com/ionicons@5.2.3/dist/ionicons.js"></script>
 
+    <!-- Magnific Popup core JS file -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
+
+    <!-- Magnific Popup core CSS file -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css">
+
     <script src="resources/js/script.js"></script>
 
     <!-- Fonts -->
@@ -145,7 +151,7 @@
         <div class="container-fluid mt-5 box-container">
             <div class="row mb-5">
                 <div class="col col-12 col-md-3">
-                    <div class="container box-avatar">
+                    <div class="container box-container-90">
                         <div class="row">
                             <img src="resources/img/wuhanstudio.jpg" alt="" class="home-avatar">
                         </div>
@@ -176,7 +182,7 @@
                     </div>
                 </div>
                 <div class="col col-12 col-md-9" >
-                    <div class="container box-markdown box-border">
+                    <div class="container box-container-90 box-border">
                         <div class="row mx-1">
                             <div class="col col-12 mt-3">
                                 <div id="targetDiv"></div>
@@ -192,7 +198,43 @@
         <div id="undergraduate">
             <div class="section " id="section0">
                 <div class="slide">
-
+                    <div class="container focus-container">
+                        <div class="row h-100">
+                            <!-- Video -->
+                            <div class="col col-12 col-md-6">
+                                <div class="row">
+                                    <!-- <img src="resources/img/3dcnc.jpg" alt="3D Printer CNC"> -->
+                                    <a class="popup-vimeo focus" href="https://vimeo.com/251140035"><img src="resources/img/3dcnc.jpg" alt="3D Printer CNC"></a>
+                                </div>
+                                <div class="row mt-5">
+                                    <div class="col col-12 text-center">
+                                        <a class="h5 popup-vimeo" href="https://vimeo.com/251140035">
+                                            Watch Video &nbsp;
+                                            <i class="ion-android-arrow-dropright-circle" aria-hidden="true"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Introduction -->
+                            <div class="col col-12 col-md-6 px-3 my-auto ">
+                                <div class="container">
+                                    <div class="row mt-5">
+                                        <p class="h3 ml-auto text-right"> 
+                                            A Five-Axis CNC Milling Machine
+                                        </p>
+                                        <p class="h3 ml-auto">
+                                            &amp;
+                                            3D Printer
+                                        </p>
+                                    </div>
+                                    <div class="row mt-4">
+                                        <a class="btn btn-primary ml-auto" href="https://focus.wuhanstudio.cc">Read More</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    <div class="separator mt-3 mb-3">Undergraduate Project</div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -200,7 +242,34 @@
         <div id="graduate">
             <div class="section " id="section1">
                 <div class="slide">
-
+                    <div class="container bicover-container">
+                        <div class="row h-100">
+                            <div class="col col-12 col-md-6">
+                                <div class="row">
+                                    <img src="resources/img/bicover.png" class="lozad" alt="Bicover">
+                                </div>
+                            </div>
+                            <!-- Introduction -->
+                            <div class="col col-12 col-md-6 px-3 my-auto ">
+                                <div class="container">
+                                    <div class="row mt-5">
+                                        <p class="h3 ml-auto"> 
+                                            Bicover
+                                        </p>
+                                    </div>
+                                    <div class="row">
+                                        <p class="h5 ml-auto text-right">
+                                            Keep you cool in heat extremities
+                                        </p>
+                                    </div>
+                                    <div class="row mt-4">
+                                        <a class="btn btn-primary ml-auto" href="https://bicover.wuhanstudio.cc">Read More</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="separator mt-3">Masters Project</div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -208,15 +277,117 @@
         <div id="phd">
             <div class="section " id="section2">
                 <div class="slide">
-
+                    <div class="container bicover-container">
+                        <div class="row h-100">
+                            <!-- Video -->
+                            <div class="col col-12 col-md-6">
+                                <div class="row">
+                                    <!-- <img src="resources/img/carla.jpg" alt="Carla"> -->
+                                    <a class="popup-youtube carla" href="https://www.youtube.com/watch?v=7jej46ALVRE"><img src="resources/img/carla.jpg" alt="Carla"></a>
+                                </div>
+                                <div class="row mt-5">
+                                    <div class="col col-12 text-center">
+                                        <a class="h5 popup-youtube" href="https://www.youtube.com/watch?v=7jej46ALVRE">
+                                            Watch Video &nbsp;
+                                            <i class="ion-android-arrow-dropright-circle" aria-hidden="true"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Introduction -->
+                            <div class="col col-12 col-md-6 px-3 my-auto ">
+                                <div class="container">
+                                    <div class="row mt-5">
+                                        <p class="h3 ml-auto"> 
+                                            Adversarial Driving
+                                        </p>
+                                    </div>
+                                    <div class="row">
+                                        <p class="h5 ml-auto text-right">
+                                            Attack autonomous driving systems
+                                        </p>
+                                    </div>
+                                    <div class="row mt-4">
+                                        <a class="btn btn-primary ml-auto" data-toggle="modal" data-target="#exampleModalCenter">Read More</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="separator mt-4">Doctoral Project (In Progress)</div>
+                    </div>
                 </div>
+            </div>
+        </div>
+
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-md" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLongTitle">Adversarial Driving</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+                </div>
+                <div class="modal-body">
+                    <div class="container mx-auto">
+                        <div class="row">
+                            <div class="col col-12">
+                                <div class="row text-center">
+                                    <div class="col col-12">
+                                        <p class="h5">Attack vehicles to the left</p>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col col-12">
+                                        <div class="embed-responsive embed-responsive-16by9 attack">
+                                            <iframe src="https://player.vimeo.com/video/487536641?title=0&byline=0&portrait=0" width="640" height="336" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col col-12 mt-3">
+                                <div class="row text-center">
+                                    <div class="col col-12">
+                                        <p class="h5">Attack vehicles to sway</p>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col col-12">
+                                        <div class="embed-responsive embed-responsive-16by9 attack">
+                                            <iframe class="attack-sway" src="https://player.vimeo.com/video/487536643?title=0&byline=0&portrait=0" width="640" height="264" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col col-12 mt-3">
+                                <div class="row text-center">
+                                    <div class="col col-12">
+                                        <p class="h5">Attack vehicles to the right</p>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col col-12">
+                                        <div class="embed-responsive embed-responsive-16by9 attack">
+                                            <iframe src="https://player.vimeo.com/video/487536675?title=0&byline=0&portrait=0" width="640" height="336" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
             </div>
         </div>
     </div>
 
     <!-- Future -->
     <section id="future">
-        <div class="container-fluid box-skill">
+        <div class="container-fluid box-skill mt-1 mb-1">
             <div class="row avatar pt-3 pt-lg-5 mx-2">
                 <div class="col col-md-4 text-center text-md-left">
                     <p>Look Inside</p>
@@ -315,13 +486,15 @@
                     </div>
                 </div>
             </div>
+
+            <div class="separator mt-3 mb-3">There's light, if not, be a lighthouse then.</div>
         </div>
     </section>
 
     <!-- Footer -->
     <section  id="main-footer">
         <div class="footer">
-            <div class="container">
+            <div class="container h-100 d-flex align-items-center">
                 <div class="row">
                     <div class="col col-12 col-md-4">
                         <a href="http://english.hust.edu.cn/" target="_blank">
@@ -339,25 +512,7 @@
                         </a>
                     </div>
                 </div>
-                <div class="row mt-1">
-                    <div class="col col-12 text-center">
-                        <span>Copyright &#169; Wuhanstudio</span>
-                    </div>
-                </div>
             </div>
     </section>
-
-    <script type="text/javascript">
-        $('body').scrollspy({ target: '#main-nav', offset: 130 })
-
-        var underFullpage = new fullpage('#fullpage', {
-            // anchors: ['undergraduate', 'graduate', 'phd'],
-            sectionsColor: ['#f8f8f8', '#ffffff', '#f0f0f0'],
-            autoScrolling: false,
-            css3: true,
-            fitToSection: false
-        });
-    </script>
-
 </body>
 </html>

@@ -61,7 +61,7 @@
 
 #### Honors
 
-- [2017] **Bronze Medal**. National Internet Innovation and Entrepreneurship Competition.
-- [2016] **Silver Medal**. HUAWEI Code Craft 2016.
-- [2015] **Special Award**. "Challenge Cup" National College Student Curricular Academic Science and Technology Works Competition.
-- [2015] **Special Award**. "Youfang Cup" IoT Electronics Design Competition.
+- [2017] **Bronze Medal**. National Internet Innovation and Entrepreneurship Competition. **互联网+ 创新创业大赛 铜奖**.
+- [2016] **Silver Medal**. HUAWEI Code Craft 2016. **华为软件精英挑战赛 武长16强**.
+- [2015] **Special Award**. "Challenge Cup" National College Student Curricular Academic Science and Technology Works Competition. **全国 "挑战杯" 特等奖**.
+- [2015] **Special Award**. "Youfang Cup" IoT Electronics Design Competition. **"有方杯" 物联网电子设计大赛 特等奖**.
