@@ -262,27 +262,27 @@ blockquote {
 /*-------- Footer --------*/
 
 .hust {
-    margin-top: 2%;
-    margin-left: 30%;
-    width: 45%;
+    margin-top: 1%;
+    margin-left: 31%;
+    width: 43%;
 }
 
 .tpl {
-    margin-top: 2%;
+    margin-top: 1%;
     margin-left: 33%;
-    width: 35%;
+    width: 32%;
 }
 
 .trustai {
-    margin-top: 2%;
-    margin-left: 35%;
-    width: 30%;
+    margin-top: 1%;
+    margin-left: 36%;
+    width: 28%;
 }
 
 .exeter {
     margin-top: 2%;
-    margin-left: 40%;
-    width: 20%;
+    margin-left: 39%;
+    width: 18%;
 }
 
 .footer {
@@ -304,30 +304,6 @@ No media query since this is the default in Bootstrap because it is "mobile firs
 @media (min-width: 576px) {  
     html, body {
         font-size: 16px;
-    }
-
-    .hust {
-        margin-top: 1%;
-        margin-left: 30%;
-        width: 45%;
-    }
-
-    .tpl {
-        margin-top: 0%;
-        margin-left: 30%;
-        width: 35%;
-    }
-
-    .trustai {
-        margin-top: 5%;
-        margin-left: 15%;
-        width: 70%;
-    }
-
-    .exeter {
-        margin-top: 0%;
-        margin-left: 38%;
-        width: 20%;
     }
 }
  
@@ -383,6 +359,12 @@ No media query since this is the default in Bootstrap because it is "mobile firs
         margin-top: 5%;
         margin-left: 10%;
         width: 80%;
+    }
+
+    .trustai {
+        margin-top: 5%;
+        margin-left: 15%;
+        width: 70%;
     }
 
     .exeter {
