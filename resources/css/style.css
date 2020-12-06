@@ -117,6 +117,7 @@ img {
    height: 80%;
    margin-left: 10%;
 }
+
 /*-------- Ph.D. --------*/
 
 .attack {
@@ -268,13 +269,19 @@ blockquote {
 
 .tpl {
     margin-top: 2%;
-    margin-left: 30%;
+    margin-left: 33%;
     width: 35%;
+}
+
+.trustai {
+    margin-top: 2%;
+    margin-left: 35%;
+    width: 30%;
 }
 
 .exeter {
     margin-top: 2%;
-    margin-left: 38%;
+    margin-left: 40%;
     width: 20%;
 }
 
@@ -300,19 +307,25 @@ No media query since this is the default in Bootstrap because it is "mobile firs
     }
 
     .hust {
-        margin-top: 2%;
+        margin-top: 1%;
         margin-left: 30%;
         width: 45%;
     }
-    
+
     .tpl {
-        margin-top: 2%;
+        margin-top: 0%;
         margin-left: 30%;
         width: 35%;
     }
-    
+
+    .trustai {
+        margin-top: 5%;
+        margin-left: 15%;
+        width: 70%;
+    }
+
     .exeter {
-        margin-top: 2%;
+        margin-top: 0%;
         margin-left: 38%;
         width: 20%;
     }
