@@ -1,7 +1,3 @@
-#### 吴晗 (Wu Han)
-
-    Look Inside · Think Different
-
 <div>
 <a>
   <img align="center" src="https://github-readme-stats.vercel.app/api?username=wuhanstudio&include_all_commits=true&show_icons=true&hide=issues&count_private=true" />
