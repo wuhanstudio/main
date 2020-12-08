@@ -6,7 +6,7 @@ $( document ).ready(function() {
       // window.location.hash = obj.relatedTarget;
     });
 
-    var underFullpage = new fullpage('#fullpage', {
+    $('#fullpage').fullpage({
       // anchors: ['underPage', 'gradPage', 'phdPage'],
       sectionsColor: ['#f8f8f8', '#ffffff', '#f8f8f8'],
       autoScrolling: false,
@@ -17,8 +17,6 @@ $( document ).ready(function() {
         // console.log(anchorLink);
       }
     });
-
-    fullpage_api.setRecordHistory(false);
 
     $('.popup-youtube, .popup-vimeo, .popup-gmaps').magnificPopup({
       disableOn: 700,
