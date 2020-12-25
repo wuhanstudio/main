@@ -14,7 +14,7 @@ body {
 body::after {
     content: '';
     display: block;
-    height: 90px;
+    height: 120px;
     /* Set same as footer's height */
 }
 
@@ -263,33 +263,33 @@ blockquote {
 
 .hust {
     margin-top: 1%;
-    margin-left: 31%;
-    width: 43%;
+    margin-left: 10%;
+    width: 80%;
 }
 
 .tpl {
     margin-top: 1%;
-    margin-left: 33%;
-    width: 32%;
+    margin-left: 10%;
+    width: 80%;
 }
 
 .trustai {
-    margin-top: 1%;
-    margin-left: 36%;
-    width: 28%;
+    margin-top: 3%;
+    margin-left: 15%;
+    width: 70%;
 }
 
 .exeter {
-    margin-top: 2%;
-    margin-left: 39%;
-    width: 18%;
+    margin-top: 4%;
+    margin-left: 25%;
+    width: 50%;
 }
 
 .footer {
     position: absolute;
     bottom: 0;
     width: 100%;
-    height: 90px;
+    height: 120px;
     background-color: #04021c/*#2d3436*/;
     color: #e0e0e0;
 }
