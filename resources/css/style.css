@@ -14,7 +14,7 @@ body {
 body::after {
     content: '';
     display: block;
-    height: 180px;
+    height: 90px;
     /* Set same as footer's height */
 }
 
@@ -289,7 +289,7 @@ blockquote {
     position: absolute;
     bottom: 0;
     width: 100%;
-    height: 180px;
+    height: 90px;
     background-color: #04021c/*#2d3436*/;
     color: #e0e0e0;
 }
