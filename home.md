@@ -24,8 +24,8 @@
 
 #### Projects
 
-[![8-bit CPU](https://github-readme-stats.wuhanstudio.vercel.app/api/pin/?username=wuhanstudio&repo=nand2tetris-iverilog&show_owner=true)](https://github.com/wuhanstudio/nand2tetris-iverilog)&nbsp;&nbsp;
-[![16-bit SoC](https://github-readme-stats.wuhanstudio.vercel.app/api/pin/?username=wuhanstudio&repo=picorv32_EG4S20&show_owner=true)](https://github.com/wuhanstudio/picorv32_EG4S20)
+[![16-bit CPU](https://github-readme-stats.wuhanstudio.vercel.app/api/pin/?username=wuhanstudio&repo=nand2tetris-iverilog&show_owner=true)](https://github.com/wuhanstudio/nand2tetris-iverilog)&nbsp;&nbsp;
+[![32-bit SoC](https://github-readme-stats.wuhanstudio.vercel.app/api/pin/?username=wuhanstudio&repo=picorv32_EG4S20&show_owner=true)](https://github.com/wuhanstudio/picorv32_EG4S20)
 
 [![RT-Thread](https://github-readme-stats.wuhanstudio.vercel.app/api/pin/?username=rt-thread&repo=rt-thread&show_owner=true)](https://github.com/RT-Thread/rt-thread)&nbsp;&nbsp;
 [![Zephyr](https://github-readme-stats.wuhanstudio.vercel.app/api/pin/?username=zephyrproject-rtos&repo=zephyr&show_owner=true)](https://github.com/zephyrproject-rtos/zephyr)
