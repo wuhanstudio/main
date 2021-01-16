@@ -404,7 +404,7 @@ No media query since this is the default in Bootstrap because it is "mobile firs
     }
 
     .box-container {
-        width: 86%;
-        margin-left: 7%;
+        width: 90%;
+        margin-left: 10%;
     }
 }
