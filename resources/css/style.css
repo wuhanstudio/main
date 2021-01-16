@@ -1,6 +1,6 @@
 html, body {
     font-family: 'Lato', 'Arial', 'sans-serif';
-    font-size:15px;
+    font-size:12px;
     height: 100%;
     width: 100%;
     background-color: #FFF;
@@ -26,7 +26,7 @@ img {
 /*-------- Navbar --------*/
 
 .navbar .nav-link {
-    font-size: 20px;
+    font-size: 100%;
     background-color: #04021c;
     padding-left: 1rem !important;
     padding-right: 1rem !important;
@@ -55,7 +55,7 @@ img {
 /*-------- Home --------*/
 
 .link span {
-    font-size: 15px;
+    font-size: 90%;
     display: block;
 }
 
@@ -69,6 +69,8 @@ img {
     border: 1px solid ;
     border-color: #cccccc;
     border-radius: 6px;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 
 .box-container {
@@ -303,7 +305,17 @@ No media query since this is the default in Bootstrap because it is "mobile firs
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {  
     html, body {
-        font-size: 16px;
+        font-size: 12px;
+    }
+
+    .box-container {
+        width: 96%;
+        margin-left: 2%;
+    }
+
+    .box-container-90 {
+        width: 100%;
+        margin-left: 0%;
     }
 }
  
@@ -311,7 +323,7 @@ No media query since this is the default in Bootstrap because it is "mobile firs
 @media (min-width: 768px) {
 
     html, body {
-        font-size: 18px;
+        font-size: 14px;
     }
 
     body::after {
@@ -320,11 +332,6 @@ No media query since this is the default in Bootstrap because it is "mobile firs
     }
 
     /*-------- Home --------*/
-
-    .box-container {
-        width: 80%;
-        margin-left: 10%;
-    }
 
     #phd .adv {
         width: 100%;
@@ -387,5 +394,17 @@ No media query since this is the default in Bootstrap because it is "mobile firs
  
 /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {  
-    
+
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1440px) {  
+    html, body {
+        font-size: 18px;
+    }
+
+    .box-container {
+        width: 86%;
+        margin-left: 7%;
+    }
 }
