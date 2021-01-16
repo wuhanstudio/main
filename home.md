@@ -30,6 +30,9 @@
 [![RT-Thread](https://github-readme-stats.wuhanstudio.vercel.app/api/pin/?username=rt-thread&repo=rt-thread&show_owner=true)](https://github.com/RT-Thread/rt-thread)&nbsp;&nbsp;
 [![Zephyr](https://github-readme-stats.wuhanstudio.vercel.app/api/pin/?username=zephyrproject-rtos&repo=zephyr&show_owner=true)](https://github.com/zephyrproject-rtos/zephyr)
 
+[![Carla](https://github-readme-stats.wuhanstudio.vercel.app/api/pin/?username=carla-simulator&repo=carla&show_owner=true)](https://github.com/carla-simulator/carla)&nbsp;&nbsp;
+[![Arisim](https://github-readme-stats.wuhanstudio.vercel.app/api/pin/?username=microsoft&repo=airsim&show_owner=true)](https://github.com/microsoft/airsim/)
+
 <!-- [![ReadMe Card](https://github-readme-stats.wuhanstudio.vercel.app/api/pin/?username=Immediate-Mode-UI&repo=Nuklear&show_owner=true)](https://github.com/Immediate-Mode-UI/Nuklear)&nbsp;&nbsp; -->
 <!-- [![ReadMe Card](https://github-readme-stats.wuhanstudio.vercel.app/api/pin/?username=wuhanstudio&repo=u8g2-arm-linux&show_owner=true)](https://github.com/wuhanstudio/u8g2-arm-linux) -->
 
