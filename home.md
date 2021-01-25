@@ -1,10 +1,6 @@
 <div>
-<a>
-  <img align="center" src="https://github-readme-stats.wuhanstudio.vercel.app/api?username=wuhanstudio&include_all_commits=true&show_icons=true&hide=issues&count_private=true" />
-</a>
-<a>
-  <img align="center" src="https://github-readme-stats.wuhanstudio.vercel.app/api/top-langs/?username=wuhanstudio&layout=compact" />
-</a>
+  <a href="https://wuhanstudio.github.io/github-statistics/"><img align="center" src="https://github-readme-stats.wuhanstudio.vercel.app/api?username=wuhanstudio&include_all_commits=true&show_icons=true&hide=issues&count_private=true" /></a>
+  <a href="https://wuhanstudio.github.io/github-statistics/"><img align="center" src="https://github-readme-stats.wuhanstudio.vercel.app/api/top-langs/?username=wuhanstudio&layout=compact" /></a>
 </div>
 
 --------
