@@ -18,6 +18,11 @@
 - [Stanford](https://web.stanford.edu/group/sdgc/youthleadership.html) Youth Creativity, Innovation and Sustainable Leadership Workshop, 2018
 - Game Development Intern in <a href="http://en.chukong-inc.com/">Chukong Technologies</a>, 2014
 
+#### Research
+
+[![Adversarial Driving](https://github-readme-stats.vercel.app/api/pin/?username=wuhanstudio&repo=adversarial-driving&show_owner=false)](https://github.com/wuhanstudio/adversarial-driving)&nbsp;&nbsp;
+[![Interpretable-ml-covid19](https://github-readme-stats.vercel.app/api/pin/?username=wuhanstudio&repo=interpretable-ml-covid-19&show_owner=false)](https://github.com/wuhanstudio/interpretable-ml-covid-19)
+
 #### Projects
 
 [![16-bit CPU](https://github-readme-stats.wuhanstudio.vercel.app/api/pin/?username=wuhanstudio&repo=nand2tetris-iverilog&show_owner=true)](https://github.com/wuhanstudio/nand2tetris-iverilog)&nbsp;&nbsp;
