@@ -42,6 +42,7 @@
 
 #### Papers
 
+- [2021] [Adversarial Driving: Attacking End-to-End Autonomous Driving Systems](https://arxiv.org/abs/2103.09151).
 - [2020] [Interpretable Machine Learning for COVID-19: An Empirical Study on Severity Prediction Task](https://arxiv.org/abs/2010.02006).
 - [2018] Micropump speed measurement and prediction using machine learning method. Thermal engineering annual academic report. 2018. 615-620.
 - [2018] System status prediction for temperature control system using recurrent neuralnetwork. The 20th energy and power engineering annual academic report.
