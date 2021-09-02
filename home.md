@@ -1,6 +1,6 @@
 ### [吴晗 (Wu Han)](https://github.com/wuhanstudio)
 
-Ph.D. Student at University of Exeter in the U.K. for Autonomous System Security. Prior research experience at RT-Thread, LAIX, Xilinx.
+Ph.D. Student at the University of Exeter in the U.K. for Autonomous System Security. Prior research experience at RT-Thread, LAIX, Xilinx.
 
 <div>
   <a href="https://vesoft-inc.github.io/github-statistics/"><img align="center" src="https://github-readme-stats.wuhanstudio.vercel.app/api?username=wuhanstudio&include_all_commits=true&show_icons=true&hide=issues&count_private=true" /></a>
