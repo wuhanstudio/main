@@ -423,7 +423,10 @@ No media query since this is the default in Bootstrap because it is "mobile firs
     html, body {
         font-size: 18px;
     }
+}
 
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1600px) {  
     .box-container {
         width: 90%;
         margin-left: 10%;
