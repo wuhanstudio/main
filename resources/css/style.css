@@ -409,24 +409,28 @@ No media query since this is the default in Bootstrap because it is "mobile firs
 }
  
 /* Large devices (desktops, 992px and up) */
-@media (min-width: 992px) { 
+@media (min-width: 992px) {
 
 }
  
 /* Extra large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) {  
+@media (min-width: 1200px) {
 
 }
 
 /* Extra large devices (large desktops, 1200px and up) */
-@media (min-width: 1440px) {  
+@media (min-width: 1440px) {
     html, body {
-        font-size: 18px;
+        font-size: 16px;
     }
 }
 
 /* Extra large devices (large desktops, 1200px and up) */
-@media (min-width: 1600px) {  
+@media (min-width: 1600px) {
+    html, body {
+        font-size: 18px;
+    }
+
     .box-container {
         width: 90%;
         margin-left: 10%;
