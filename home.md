@@ -50,7 +50,7 @@ Ph.D. Student at the University of Exeter in the U.K. for Autonomous System Secu
 [![Zephyr](https://github-readme-stats.vercel.app/api/pin/?username=zephyrproject-rtos&repo=zephyr&show_owner=true)](https://github.com/zephyrproject-rtos/zephyr)
 
 [![Carla](https://github-readme-stats.vercel.app/api/pin/?username=carla-simulator&repo=carla&show_owner=true)](https://github.com/carla-simulator/carla)&nbsp;&nbsp;
-[![Arisim](https://github-readme-stats.vercel.app/api/pin/?username=microsoft&repo=airsim&show_owner=true)](https://github.com/microsoft/airsim/)
+[![Taichi](https://github-readme-stats.vercel.app/api/pin/?username=taichi-dev&repo=taichi&show_owner=true)](https://github.com/taichi-dev/taichi)
 
 <!-- [![ReadMe Card](https://github-readme-stats.vercel.app/api/pin/?username=Immediate-Mode-UI&repo=Nuklear&show_owner=true)](https://github.com/Immediate-Mode-UI/Nuklear)&nbsp;&nbsp; -->
 <!-- [![ReadMe Card](https://github-readme-stats.vercel.app/api/pin/?username=wuhanstudio&repo=u8g2-arm-linux&show_owner=true)](https://github.com/wuhanstudio/u8g2-arm-linux) -->
