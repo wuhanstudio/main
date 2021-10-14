@@ -39,9 +39,9 @@ Ph.D. Student at the University of Exeter in the U.K. for Autonomous System Secu
 [![Adversarial Driving](https://github-readme-stats.vercel.app/api/pin/?username=wuhanstudio&repo=adversarial-driving&show_owner=false)](https://github.com/wuhanstudio/adversarial-driving)&nbsp;&nbsp;
 [![Adversarial-Detection](https://github-readme-stats.vercel.app/api/pin/?username=wuhanstudio&repo=adversarial-detection&show_owner=false)](https://github.com/wuhanstudio/adversarial-detection)
 
-<!-- [![Adversarial ROS Driving](https://github-readme-stats.vercel.app/api/pin/?username=wuhanstudio&repo=adversarial-ros-driving&show_owner=false)](https://github.com/wuhanstudio/adversarial-ros-driving)&nbsp;&nbsp;
+[![Adversarial ROS Driving](https://github-readme-stats.vercel.app/api/pin/?username=wuhanstudio&repo=adversarial-ros-driving&show_owner=false)](https://github.com/wuhanstudio/adversarial-ros-driving)&nbsp;&nbsp;
 [![Adversarial ROS Detection](https://github-readme-stats.vercel.app/api/pin/?username=wuhanstudio&repo=adversarial-ros-detection&show_owner=false)](https://github.com/wuhanstudio/adversarial-ros-detection)
- -->
+
  
 #### Projects
 
@@ -51,8 +51,8 @@ Ph.D. Student at the University of Exeter in the U.K. for Autonomous System Secu
 [![RT-Thread](https://github-readme-stats.vercel.app/api/pin/?username=rt-thread&repo=rt-thread&show_owner=true)](https://github.com/RT-Thread/rt-thread)&nbsp;&nbsp;
 [![Zephyr](https://github-readme-stats.vercel.app/api/pin/?username=zephyrproject-rtos&repo=zephyr&show_owner=true)](https://github.com/zephyrproject-rtos/zephyr)
 
-[![Carla](https://github-readme-stats.vercel.app/api/pin/?username=carla-simulator&repo=carla&show_owner=true)](https://github.com/carla-simulator/carla)&nbsp;&nbsp;
-[![Taichi](https://github-readme-stats.vercel.app/api/pin/?username=taichi-dev&repo=taichi&show_owner=true)](https://github.com/taichi-dev/taichi)
+<!-- [![Carla](https://github-readme-stats.vercel.app/api/pin/?username=carla-simulator&repo=carla&show_owner=true)](https://github.com/carla-simulator/carla)&nbsp;&nbsp; -->
+<!-- [![Taichi](https://github-readme-stats.vercel.app/api/pin/?username=taichi-dev&repo=taichi&show_owner=true)](https://github.com/taichi-dev/taichi) -->
 
 <!-- [![ReadMe Card](https://github-readme-stats.vercel.app/api/pin/?username=Immediate-Mode-UI&repo=Nuklear&show_owner=true)](https://github.com/Immediate-Mode-UI/Nuklear)&nbsp;&nbsp; -->
 <!-- [![ReadMe Card](https://github-readme-stats.vercel.app/api/pin/?username=wuhanstudio&repo=u8g2-arm-linux&show_owner=true)](https://github.com/wuhanstudio/u8g2-arm-linux) -->
