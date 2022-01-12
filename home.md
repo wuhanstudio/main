@@ -40,31 +40,25 @@ Ph.D. Student at the University of Exeter in the U.K. for **<a href="https://wuh
 
 #### Research
 
-<!-- [![Adversarial Driving](https://github-readme-stats.vercel.app/api/pin/?username=wuhanstudio&repo=adversarial-driving&show_owner=false)](https://github.com/wuhanstudio/adversarial-driving)&nbsp;&nbsp; -->
-<!-- [![Adversarial ROS Driving](https://github-readme-stats.vercel.app/api/pin/?username=wuhanstudio&repo=adversarial-ros-driving&show_owner=false)](https://github.com/wuhanstudio/adversarial-ros-driving)&nbsp;&nbsp; -->
-
 [![Whitebox Adversarial Toolbox](https://github-readme-stats.vercel.app/api/pin/?username=wuhanstudio&repo=whitebox-adversarial-toolbox&show_owner=false)](https://github.com/wuhanstudio/whitebox-adversarial-toolbox)&nbsp;&nbsp;
 [![Blackbox Adversarial Toolbox](https://github-readme-stats.vercel.app/api/pin/?username=wuhanstudio&repo=blackbox-adversarial-toolbox&show_owner=false)](https://github.com/wuhanstudio/blackbox-adversarial-toolbox)
 
-[![Adversarial Detection](https://github-readme-stats.vercel.app/api/pin/?username=wuhanstudio&repo=adversarial-detection&show_owner=false)](https://github.com/wuhanstudio/adversarial-detection)&nbsp;&nbsp;
-[![Adversarial ROS Detection](https://github-readme-stats.vercel.app/api/pin/?username=wuhanstudio&repo=adversarial-ros-detection&show_owner=false)](https://github.com/wuhanstudio/adversarial-ros-detection)
+<!-- [![Adversarial Driving](https://github-readme-stats.vercel.app/api/pin/?username=wuhanstudio&repo=adversarial-driving&show_owner=false)](https://github.com/wuhanstudio/adversarial-driving)&nbsp;&nbsp; -->
+<!-- [![Adversarial ROS Driving](https://github-readme-stats.vercel.app/api/pin/?username=wuhanstudio&repo=adversarial-ros-driving&show_owner=false)](https://github.com/wuhanstudio/adversarial-ros-driving)&nbsp;&nbsp; -->
+
+<!-- [![Adversarial Detection](https://github-readme-stats.vercel.app/api/pin/?username=wuhanstudio&repo=adversarial-detection&show_owner=false)](https://github.com/wuhanstudio/adversarial-detection)&nbsp;&nbsp;
+[![Adversarial ROS Detection](https://github-readme-stats.vercel.app/api/pin/?username=wuhanstudio&repo=adversarial-ros-detection&show_owner=false)](https://github.com/wuhanstudio/adversarial-ros-detection) -->
  
 #### Projects
 
 [![16-bit CPU](https://github-readme-stats.vercel.app/api/pin/?username=wuhanstudio&repo=nand2tetris-iverilog&show_owner=true)](https://github.com/wuhanstudio/nand2tetris-iverilog)&nbsp;&nbsp;
 [![32-bit SoC](https://github-readme-stats.vercel.app/api/pin/?username=wuhanstudio&repo=picorv32_EG4S20&show_owner=true)](https://github.com/wuhanstudio/picorv32_tang)
 
-[![RT-Thread](https://github-readme-stats.vercel.app/api/pin/?username=rt-thread&repo=rt-thread&show_owner=true)](https://github.com/RT-Thread/rt-thread)&nbsp;&nbsp;
-[![Zephyr](https://github-readme-stats.vercel.app/api/pin/?username=zephyrproject-rtos&repo=zephyr&show_owner=true)](https://github.com/zephyrproject-rtos/zephyr)
+<!-- [![RT-Thread](https://github-readme-stats.vercel.app/api/pin/?username=rt-thread&repo=rt-thread&show_owner=true)](https://github.com/RT-Thread/rt-thread)&nbsp;&nbsp;
+[![Zephyr](https://github-readme-stats.vercel.app/api/pin/?username=zephyrproject-rtos&repo=zephyr&show_owner=true)](https://github.com/zephyrproject-rtos/zephyr) -->
 
 <!-- [![Carla](https://github-readme-stats.vercel.app/api/pin/?username=carla-simulator&repo=carla&show_owner=true)](https://github.com/carla-simulator/carla)&nbsp;&nbsp; -->
 <!-- [![Taichi](https://github-readme-stats.vercel.app/api/pin/?username=taichi-dev&repo=taichi&show_owner=true)](https://github.com/taichi-dev/taichi) -->
-
-<!-- [![ReadMe Card](https://github-readme-stats.vercel.app/api/pin/?username=Immediate-Mode-UI&repo=Nuklear&show_owner=true)](https://github.com/Immediate-Mode-UI/Nuklear)&nbsp;&nbsp; -->
-<!-- [![ReadMe Card](https://github-readme-stats.vercel.app/api/pin/?username=wuhanstudio&repo=u8g2-arm-linux&show_owner=true)](https://github.com/wuhanstudio/u8g2-arm-linux) -->
-
-<!-- [![ReadMe Card](https://github-readme-stats.vercel.app/api/pin/?username=wuhanstudio&repo=rt-u8g2&show_owner=true)](https://github.com/wuhanstudio/rt-u8g2)&nbsp;&nbsp; -->
-<!-- [![ReadMe Card](https://github-readme-stats.vercel.app/api/pin/?username=wuhanstudio&repo=rt-rosserial&show_owner=true)](https://github.com/wuhanstudio/rt-rosserial) -->
 
 #### Papers
 
