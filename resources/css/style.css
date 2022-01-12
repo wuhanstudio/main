@@ -54,6 +54,11 @@ img {
 
 /*-------- Home --------*/
 
+h2#isdeeplearningsecureforrobots {
+    text-transform: none;
+    font-weight: bold;
+}
+
 .name {
     font-size: 160%;
 }
