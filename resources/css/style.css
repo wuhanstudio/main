@@ -59,6 +59,16 @@ img {
     font-weight: 500;
 }
 
+#research {
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+#projects {
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
 .name {
     font-size: 160%;
 }
