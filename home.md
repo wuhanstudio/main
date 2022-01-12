@@ -73,7 +73,7 @@ Ph.D. Student at the University of Exeter in the U.K. for **<a href="https://wuh
 - [2018] A hydraulic suspension micropump. International Patent. PCT/CN2017/071675.
 - [2017] A Micro Hydraulic Suspension Mechanical Pump. Patent of Invention. P.R. China Patent. CN106762694B.
 - [2017] A hydraulic suspension micropump. P.R China Patent CN 106762694A.
-- [2016] [A smart liquid cooling garment. P.R China Patent CN 106174783A](http://bicover.wuhanstudio.cc/).
+- [2016] [A smart liquid cooling garment. P.R China Patent CN 106174783A](https://bicover.wuhanstudio.cc/).
 - [2015] [A flexible switching structure for printing nozzle and milling tool. P.R. China Patent. CN201520004959.2](https://focus.wuhanstudio.cc).
 
 #### Copyrights
