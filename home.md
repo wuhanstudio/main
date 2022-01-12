@@ -40,6 +40,36 @@ Ph.D. Student at the University of Exeter in the U.K. for **<a href="https://wuh
 - [Stanford](https://web.stanford.edu/group/sdgc/youthleadership.html) Youth Creativity, Innovation and Sustainable Leadership Workshop, 2018
 - Game Development Intern in <a href="https://www.cocos.com/en/">Chukong Technologies Cocos2d-X</a>, 2015
 
+#### Papers
+
+- [2021] [Adversarial Driving: Attacking End-to-End Autonomous Driving Systems](https://arxiv.org/abs/2103.09151).
+- [2018] Micropump speed measurement and prediction using machine learning method. Thermal engineering annual academic report. 2018. 615-620.
+- [2018] System status prediction for temperature control system using recurrent neural network. The 20th energy and power engineering annual academic report.
+
+<!-- 
+#### Patents
+
+- [2018] A hydraulic suspension micropump. International Patent. PCT/CN2017/071675.
+- [2017] A Micro Hydraulic Suspension Mechanical Pump. Patent of Invention. P.R. China Patent. CN106762694B.
+- [2017] A hydraulic suspension micropump. P.R China Patent CN 106762694A.
+- [2016] [A smart liquid cooling garment. P.R China Patent CN 106174783A](https://bicover.wuhanstudio.cc/).
+- [2015] [A flexible switching structure for printing nozzle and milling tool. P.R. China Patent. CN201520004959.2](https://focus.wuhanstudio.cc). 
+
+#### Copyrights
+
+- [2017] TPL micropump design software. 2017SR158597.
+- [2015] Focus Sandrial 3D Printer. 2015SR208939.
+-->
+
+#### Honors
+
+- [2017] **Bronze Medal**. National Internet Innovation and Entrepreneurship Competition. **互联网+ 创新创业大赛 铜奖**.
+- [2016] **Silver Medal**. HUAWEI Code Craft 2016. **华为软件精英挑战赛 武长16强**.
+- [2015] **Special Award**. "Challenge Cup" National College Student Curricular Academic Science and Technology Works Competition. **全国 "挑战杯" 特等奖**.
+- [2015] **Special Award**. "Youfang Cup" IoT Electronics Design Competition. **"有方杯" 物联网电子设计大赛 特等奖**.
+
+---------
+
 #### Research
 
 [![Whitebox Adversarial Toolbox](https://github-readme-stats.vercel.app/api/pin/?username=wuhanstudio&repo=whitebox-adversarial-toolbox&show_owner=false)](https://github.com/wuhanstudio/whitebox-adversarial-toolbox)&nbsp;&nbsp;
@@ -50,7 +80,7 @@ Ph.D. Student at the University of Exeter in the U.K. for **<a href="https://wuh
 
 <!-- [![Adversarial Detection](https://github-readme-stats.vercel.app/api/pin/?username=wuhanstudio&repo=adversarial-detection&show_owner=false)](https://github.com/wuhanstudio/adversarial-detection)&nbsp;&nbsp;
 [![Adversarial ROS Detection](https://github-readme-stats.vercel.app/api/pin/?username=wuhanstudio&repo=adversarial-ros-detection&show_owner=false)](https://github.com/wuhanstudio/adversarial-ros-detection) -->
- 
+
 #### Projects
 
 [![16-bit CPU](https://github-readme-stats.vercel.app/api/pin/?username=wuhanstudio&repo=nand2tetris-iverilog&show_owner=true)](https://github.com/wuhanstudio/nand2tetris-iverilog)&nbsp;&nbsp;
@@ -61,29 +91,3 @@ Ph.D. Student at the University of Exeter in the U.K. for **<a href="https://wuh
 
 <!-- [![Carla](https://github-readme-stats.vercel.app/api/pin/?username=carla-simulator&repo=carla&show_owner=true)](https://github.com/carla-simulator/carla)&nbsp;&nbsp; -->
 <!-- [![Taichi](https://github-readme-stats.vercel.app/api/pin/?username=taichi-dev&repo=taichi&show_owner=true)](https://github.com/taichi-dev/taichi) -->
-
-#### Papers
-
-- [2021] [Adversarial Driving: Attacking End-to-End Autonomous Driving Systems](https://arxiv.org/abs/2103.09151).
-- [2018] Micropump speed measurement and prediction using machine learning method. Thermal engineering annual academic report. 2018. 615-620.
-- [2018] System status prediction for temperature control system using recurrent neural network. The 20th energy and power engineering annual academic report.
-
-#### Patents
-
-- [2018] A hydraulic suspension micropump. International Patent. PCT/CN2017/071675.
-- [2017] A Micro Hydraulic Suspension Mechanical Pump. Patent of Invention. P.R. China Patent. CN106762694B.
-- [2017] A hydraulic suspension micropump. P.R China Patent CN 106762694A.
-- [2016] [A smart liquid cooling garment. P.R China Patent CN 106174783A](https://bicover.wuhanstudio.cc/).
-- [2015] [A flexible switching structure for printing nozzle and milling tool. P.R. China Patent. CN201520004959.2](https://focus.wuhanstudio.cc).
-
-#### Copyrights
-
-- [2017] TPL micropump design software. 2017SR158597.
-- [2015] Focus Sandrial 3D Printer. 2015SR208939.
-
-#### Honors
-
-- [2017] **Bronze Medal**. National Internet Innovation and Entrepreneurship Competition. **互联网+ 创新创业大赛 铜奖**.
-- [2016] **Silver Medal**. HUAWEI Code Craft 2016. **华为软件精英挑战赛 武长16强**.
-- [2015] **Special Award**. "Challenge Cup" National College Student Curricular Academic Science and Technology Works Competition. **全国 "挑战杯" 特等奖**.
-- [2015] **Special Award**. "Youfang Cup" IoT Electronics Design Competition. **"有方杯" 物联网电子设计大赛 特等奖**.
