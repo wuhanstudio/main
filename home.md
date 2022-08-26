@@ -75,7 +75,7 @@ Interpretable Machine Learning for COVID-19: An Empirical Study on Severity Pred
 - [2015] **Special Award**. "Challenge Cup" National College Student Curricular Academic Science and Technology Works Competition. **全国 "挑战杯" 特等奖**.
 - [2015] **Special Award**. "Youfang Cup" IoT Electronics Design Competition. **"有方杯" 物联网电子设计大赛 特等奖**.
 
----------
+<!-- --------- -->
 
 <!-- #### Research Projects -->
 
