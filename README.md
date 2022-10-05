@@ -1,5 +1,3 @@
-## Homepage
-
-[https://wuhanstudio.cc](https://wuhanstudio.cc)
+## [Homepage](https://wuhanstudio.cc)
 
 ![](main.png)
