@@ -55,8 +55,11 @@ Ph.D. Student at the University of Exeter in the U.K. for **<a href="https://wuh
 - [2022] [Adversarial Driving: Attacking End-to-End Autonomous Driving](https://arxiv.org/abs/2103.09151).
 - [2020] [
 Interpretable Machine Learning for COVID-19: An Empirical Study on Severity Prediction Task](https://arxiv.org/abs/2010.02006), in IEEE Transactions on Artificial Intelligence.
+
+<!--
 - [2018] Micropump speed measurement and prediction using machine learning method. Thermal engineering annual academic report. 2018. 615-620.
 - [2018] System status prediction for temperature control system using recurrent neural network. The 20th energy and power engineering annual academic report.
+-->
 
 <!-- 
 #### Patents
@@ -83,7 +86,6 @@ Interpretable Machine Learning for COVID-19: An Empirical Study on Severity Pred
 <br />
 
 <!-- --------- -->
-
 <!-- #### Research Projects -->
 
 <!-- [![Whitebox Adversarial Toolbox](https://github-readme-stats.vercel.app/api/pin/?username=wuhanstudio&repo=whitebox-adversarial-toolbox&show_owner=false)](https://github.com/wuhanstudio/whitebox-adversarial-toolbox)&nbsp;&nbsp; -->
