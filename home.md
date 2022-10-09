@@ -28,7 +28,6 @@ Ph.D. Student at the University of Exeter in the U.K. for **<a href="https://wuh
 <!-- -->
 - [2022-07] New Supervisors: Prof. Johan Wahlström and Prof. Sareh Rowlands.
 <!-- [2022-04] PGR Conference Talk: Man-in-the-Middle Attack against Object Detection. [Talk slides](https://minm.wuhanstudio.uk/) -->
-- [2021-12] RT-Thread Community **Outstanding Contribution Award**.
 - [2021-11] Invited Talk: **Embedded System Programming**, Manipal University Jaipur. [Event Poster](https://wuhanstudio.cc/resources/img/manipal.png)
 - [2021-09] Invited Talk: **Adversarial Attacks against Deep Learning**, AI/ML in Industry and Finance. [Talk slides](https://orca.wuhanstudio.uk/)
 - [2021-09] Invited Talk: **Robot Operating System (ROS) on RT-Thread**, RT-Thread Global Tech Conference. [Talk slides](https://ros.wuhanstudio.uk/)
@@ -42,11 +41,11 @@ Ph.D. Student at the University of Exeter in the U.K. for **<a href="https://wuh
 - **B.Eng.** in Energy and Power Engineering, [Huazhong University of Science and Technology](https://www.hust.edu.cn/), China.[2012-2016]
 
 #### Internship
-- AI Accelerator FPGA Intern in <a href="https://www.xilinx.com/">Xilinx</a>, 2020
-- Deep Learning Research Intern in <a href="https://www.liulishuo.com/en">LAIX Inc</a>, 2020.
-- Embedded Software Engineering Intern in <a href="https://www.rt-thread.org/">RT-Thread</a>, 2019.
-- [Stanford](https://web.stanford.edu/group/sdgc/youthleadership.html) Youth Creativity, Innovation and Sustainable Leadership Workshop, 2018
-- Game Development Intern in <a href="https://www.cocos.com/en/">Chukong Technologies Cocos2d-X</a>, 2015
+- [2020] AI Accelerator FPGA Intern in <a href="https://www.xilinx.com/">Xilinx</a>.
+- [2020] Deep Learning Research Intern in <a href="https://www.liulishuo.com/en">LAIX Inc</a>.
+- [2019] Embedded Software Engineering Intern in <a href="https://www.rt-thread.org/">RT-Thread</a>.
+- [2018] [Stanford](https://web.stanford.edu/group/sdgc/youthleadership.html) Youth Creativity, Innovation and Sustainable Leadership Workshop.
+- [2015] Game Development Intern in <a href="https://www.cocos.com/en/">Chukong Technologies Cocos2d-X</a>.
 
 #### Papers
 
@@ -78,6 +77,7 @@ Interpretable Machine Learning for COVID-19: An Empirical Study on Severity Pred
 
 #### Honors
 
+- [2021] RT-Thread Community **Outstanding Contribution Award**.
 - [2017] **Bronze Medal**. National Internet Innovation and Entrepreneurship Competition. **互联网+ 创新创业大赛 铜奖**.
 - [2016] **Silver Medal**. HUAWEI Code Craft 2016. **华为软件精英挑战赛 武长16强**.
 - [2015] **Special Award**. "Challenge Cup" National College Student Curricular Academic Science and Technology Works Competition. **全国 "挑战杯" 特等奖**.
