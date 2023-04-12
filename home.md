@@ -77,16 +77,17 @@ Interpretable Machine Learning for COVID-19: An Empirical Study on Severity Pred
 
 - [2017] TPL micropump design software. 2017SR158597.
 - [2015] Focus Sandrial 3D Printer. 2015SR208939.
--->
 
-#### Honors
+-->
+<!-- #### Honors
 
 - [2021] RT-Thread Community **Outstanding Contribution Award**.
 - [2017] **Bronze Medal**. National Internet Innovation and Entrepreneurship Competition. **互联网+ 创新创业大赛 铜奖**.
 - [2016] **Silver Medal**. HUAWEI Code Craft 2016. **华为软件精英挑战赛 武长16强**.
 - [2015] **Special Award**. "Challenge Cup" National College Student Curricular Academic Science and Technology Works Competition. **全国 "挑战杯" 特等奖**.
 - [2015] **Special Award**. "Youfang Cup" IoT Electronics Design Competition. **"有方杯" 物联网电子设计大赛 特等奖**.
-
+ -->
+ 
 <br />
 
 <!-- --------- -->
