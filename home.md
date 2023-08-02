@@ -41,7 +41,7 @@ Ph.D. Student at the University of Exeter in the U.K. for **<a href="https://wuh
 <!-- -->
 - [2021-04] Paper: Interpretable Machine Learning for COVID-19: An Empirical Study on Severity Prediction Task. [PDF](https://arxiv.org/abs/2010.02006)
 <!-- -->
-- [2020-10] **The Beginning of my PhD Journey**.
+- [2020-10] **The Beginning of my Ph.D. Journey**.
 <!-- -->
 --------
 
@@ -62,10 +62,10 @@ Ph.D. Student at the University of Exeter in the U.K. for **<a href="https://wuh
 
 - [2022] [Distributed Black-box Attack against Image Classification Cloud Services](https://arxiv.org/abs/2210.16371).
 - [2022] [Man-in-the-Middle Attack against Object Detection Systems](https://arxiv.org/abs/2208.07174).
-- [2022] [Adversarial Detection: Attacking Object Detection in Real Time](https://arxiv.org/abs/2209.01962).
-- [2022] [Adversarial Driving: Attacking End-to-End Autonomous Driving](https://arxiv.org/abs/2103.09151).
+- [2022] [Adversarial Detection: Attacking Object Detection in Real Time](https://arxiv.org/abs/2209.01962), IEEE Intelligent Vehicles Symposium, 2023.
+- [2022] [Adversarial Driving: Attacking End-to-End Autonomous Driving](https://arxiv.org/abs/2103.09151), IEEE Intelligent Vehicles Symposium, 2023.
 - [2020] [
-Interpretable Machine Learning for COVID-19: An Empirical Study on Severity Prediction Task](https://arxiv.org/abs/2010.02006), IEEE Transactions on Artificial Intelligence.
+Interpretable Machine Learning for COVID-19: An Empirical Study on Severity Prediction Task](https://arxiv.org/abs/2010.02006), IEEE Transactions on Artificial Intelligence, 2021.
 
 <!--
 - [2018] Micropump speed measurement and prediction using machine learning method. Thermal engineering annual academic report. 2018. 615-620.
