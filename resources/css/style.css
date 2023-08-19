@@ -1,6 +1,6 @@
 html, body {
     font-family: 'Lato', 'Arial', 'sans-serif';
-    font-size:15px;
+    font-size:14px;
     height: 100%;
     width: 100%;
     background-color: #FFF;
@@ -92,8 +92,8 @@ img {
     border: 1px solid ;
     border-color: #cccccc;
     border-radius: 6px;
-    padding-left: 30px;
-    padding-right: 30px;
+    /* padding-left: 30px; */
+    /* padding-right: 30px; */
 }
 
 .box-container {
@@ -112,6 +112,10 @@ img {
 .box-container-90 {
     width: 90%;
     margin-left: 5%;
+}
+
+ol, ul {
+    padding-inline-start: 30px;
 }
 
 /*-------- Undergraduate --------*/
