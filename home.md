@@ -66,11 +66,11 @@ Ph.D. Student at the University of Exeter in the U.K. for **<a href="https://wuh
 
 #### Papers
 
-- [2022] [Distributed Black-box Attack against Image Classification Cloud Services](https://arxiv.org/abs/2210.16371).
-- [2022] [Man-in-the-Middle Attack against Object Detection Systems](https://arxiv.org/abs/2208.07174).
-- [2022] [Adversarial Detection: Attacking Object Detection in Real Time](https://ieeexplore.ieee.org/document/10186608), IEEE Intelligent Vehicles Symposium, 2023.
-- [2022] [Adversarial Driving: Attacking End-to-End Autonomous Driving](https://ieeexplore.ieee.org/document/10186386), IEEE Intelligent Vehicles Symposium, 2023.
-- [2020] [
+- [2024] [Distributed Black-box Attack against Image Classification Cloud Services](https://arxiv.org/abs/2210.16371).
+- [2024] [Man-in-the-Middle Attack against Object Detection Systems](https://arxiv.org/abs/2208.07174).
+- [2023] [Adversarial Detection: Attacking Object Detection in Real Time](https://ieeexplore.ieee.org/document/10186608), IEEE Intelligent Vehicles Symposium, 2023.
+- [2023] [Adversarial Driving: Attacking End-to-End Autonomous Driving](https://ieeexplore.ieee.org/document/10186386), IEEE Intelligent Vehicles Symposium, 2023.
+- [2021] [
 Interpretable Machine Learning for COVID-19: An Empirical Study on Severity Prediction Task](https://ieeexplore.ieee.org/document/9465748), IEEE Transactions on Artificial Intelligence, 2021.
 
 <!--
