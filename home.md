@@ -73,7 +73,7 @@ Ph.D. Student at the University of Exeter in the U.K. for **<a href="https://wuh
 #### Papers
 
 - [2024] [Distributed Black-box Attack against Image Classification Cloud Services](https://arxiv.org/abs/2210.16371).
-- [2024] [Man-in-the-Middle Attack against Object Detection Systems](https://arxiv.org/abs/2208.07174).
+- [2024] [Man-in-the-Middle Attack against Object Detection Systems](https://arxiv.org/abs/2208.07174), IEEE Transactions on Artificial Intelligence, 2024.
 - [2023] [Adversarial Detection: Attacking Object Detection in Real Time](https://ieeexplore.ieee.org/document/10186608), IEEE Intelligent Vehicles Symposium, 2023.
 - [2023] [Adversarial Driving: Attacking End-to-End Autonomous Driving](https://ieeexplore.ieee.org/document/10186386), IEEE Intelligent Vehicles Symposium, 2023.
 - [2021] [
