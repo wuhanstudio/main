@@ -29,7 +29,7 @@ Postdoc in Physics and Astronomy at University of Southampton in the U.K. Prior 
 <!-- -->
 - [2024-11] Postdoc in the School of Physics and Astronomy, University of Southampton.
 <!-- -->
-- **[2024-10] The End of my Ph.D. Journey.**
+- [2024-10] **The End of my Ph.D. Journey.**
 <!-- -->
 - [2024-10] Ph.D. degree in Computer Science awarded.
 - [2024-09] Ph.D. thesis minor corrections submitted.
