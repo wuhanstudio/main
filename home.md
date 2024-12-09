@@ -44,6 +44,11 @@ Postdoc in Physics and Astronomy at University of Southampton in the U.K. Prior 
 <!-- -->
 - [2024-05] **Ph.D. thesis submitted**.
 - [2024-03] Start writing my Ph.D. thesis.
+
+<!-- -->
+<details>
+  <summary> + [2023-2020] <strong> Details of Ph.D. Journey </strong> </summary>
+
 <!-- -->
 - [2023-11] Workshop: Introduction to HPC & ISCA. [Event Link](https://uniexeterrse.github.io/intro-to-isca/)
 - [2023-09] Data Study Groups: The Alan Turing Institute. [Event Link](https://www.turing.ac.uk/collaborate-turing/data-study-groups)
@@ -53,7 +58,7 @@ Postdoc in Physics and Astronomy at University of Southampton in the U.K. Prior 
 - [2023-06] IEEE Intelligent Vehicle Symposium, Anchorage, Alaska, USA. [Oral](https://onedrive.live.com/View.aspx?resid=307AE78484113A13!304&wdSlideId=256&wdModeSwitchTime=1685351149764&authkey=!AHZYQ7PAYuW3BQU) | [Poster](https://wuhanstudio.uk/file/IV23-Poster-Adversarial-Detection.pdf)
 <!-- -->
 - [2023-06] Invited Talk: **Deep Learning Security for Robots**, RT-Thread Global Tech Conference. [Talk Slides](https://rtt.wuhanstudio.uk/)
-- [2023-01] Invited Talk: An introduction to RT-Thread, OpenEuler Meetup. [Event Poster](https://wuhanstudio.cc/resources/img/openeuler.jpg)
+- [2023-01] Invited Talk: **An introduction to RT-Thread**, OpenEuler Meetup. [Event Poster](https://wuhanstudio.cc/resources/img/openeuler.jpg)
 - [2022-10] Invited Talk: **Deep Learning Security for IoT**, Manipal University Jaipur. [Event Poster](https://wuhanstudio.cc/resources/img/iot.jpg)
 <!-- -->
 - [2022-10] Paper: **Distributed Black-box Attack** against Image Classification Cloud Services. [PDF](https://arxiv.org/abs/2210.16371)
@@ -63,12 +68,15 @@ Postdoc in Physics and Astronomy at University of Southampton in the U.K. Prior 
 <!-- -->
 - [2022-07] New Supervisors: Dr. Johan Wahlström and Dr. Sareh Rowlands.
 <!-- [2022-04] PGR Conference Talk: Man-in-the-Middle Attack against Object Detection. [Talk Slides](https://minm.wuhanstudio.uk/) -->
+<!-- [2021-12] RT-Thread Community **Outstanding Contribution Award**. -->
 - [2021-11] Invited Talk: **Embedded System Programming**, Manipal University Jaipur. [Event Poster](https://wuhanstudio.cc/resources/img/manipal.png)
 - [2021-09] Invited Talk: **Adversarial Attacks against Deep Learning**, AI/ML in Industry and Finance. [Talk Slides](https://orca.wuhanstudio.uk/)
 - [2021-09] Invited Talk: **Robot Operating System (ROS) on RT-Thread**, RT-Thread Global Tech Conference. [Talk Slides](https://ros.wuhanstudio.uk/)
 <!-- -->
 - [2021-04] Paper: Interpretable Machine Learning for COVID-19: An Empirical Study on Severity Prediction Task. [PDF](https://ieeexplore.ieee.org/document/9465748)
 <!-- -->
+</details>
+
 - [2020-10] **The Beginning of my Ph.D. Journey**.
 <!-- -->
 --------
