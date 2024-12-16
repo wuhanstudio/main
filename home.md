@@ -48,7 +48,7 @@ Postdoc in Physics and Astronomy at University of Southampton in the U.K. Prior 
 
 <!-- -->
 <details>
-  <summary> + [2023-2020] <strong> Details of Ph.D. Journey </strong> </summary>
+  <summary> + [2023-2020] <strong> Click for Ph.D. details </strong> </summary>
 
 <!-- -->
 - [2023-11] Workshop: Introduction to HPC & ISCA. [Event Link](https://uniexeterrse.github.io/intro-to-isca/)
