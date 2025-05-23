@@ -371,11 +371,11 @@ No media query since this is the default in Bootstrap because it is "mobile firs
     }
 
     .motto {
-        font-size: 100%;
+        font-size: 80%;
     }
 
     .link span {
-        font-size: 90%;
+        font-size: 80%;
         display: block;
     }
 
