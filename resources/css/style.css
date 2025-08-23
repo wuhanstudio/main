@@ -292,7 +292,7 @@ blockquote {
 
 .hust {
     margin-top: 1%;
-    margin-left: 10%;
+    margin-left: 16%;
     width: 80%;
 }
 
@@ -303,8 +303,8 @@ blockquote {
 }
 
 .newcastle {
-    margin-top: 7%;
-    margin-left: 15%;
+    margin-top: 3%;
+    margin-left: 18%;
     width: 60%;
 }
 
@@ -321,7 +321,7 @@ blockquote {
 }
 
 .exeter {
-    margin-top: 4%;
+    margin-top: 8%;
     margin-left: 25%;
     width: 50%;
 }
@@ -420,6 +420,11 @@ No media query since this is the default in Bootstrap because it is "mobile firs
         width: 80%;
     }
 
+    .newcastle {
+        margin-top: 7%;
+        margin-left: 15%;
+        width: 60%;
+    }
     .trustai {
         margin-top: 5%;
         margin-left: 15%;
