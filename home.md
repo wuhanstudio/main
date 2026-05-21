@@ -4,7 +4,7 @@
 
 ---------
 
-Postdoc in Physics and Astronomy at University of Southampton in the U.K. Prior research experience at RT-Thread, LAIX, Xilinx.
+Research Associate in Embedded Machine Learning at Newcastle University in the U.K. Prior research experience at RT-Thread, LAIX, Xilinx.
 
 <div>
   <a href="https://wuhanstudio.uk">
