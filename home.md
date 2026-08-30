@@ -27,6 +27,9 @@ Research Associate in Embedded Machine Learning at Newcastle University in the U
 
 - **My latest research in the U.K.** [https://wuhanstudio.uk/](https://wuhanstudio.uk/)
 <!-- -->
+- [2026-09]  Lightning Talk: ML for Open-Source EDA Tools, ORConf 2026, Ghent, Belgium.
+- [2026-07]  Summer School: Computer Architecture Design, ACACES 2026, Fiuggi, Italy.
+<!-- -->
 - [2025-09] **Postdoc in Embedded Machine Learning, Newcastle University.**
 <!-- -->
 - [2025-03] ICLR Workshop: Do Not Overestimate Black-box Attacks. [Paper](https://openreview.net/forum?id=ojRs6YSx9m)
