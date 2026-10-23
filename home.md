@@ -27,7 +27,9 @@ Research Associate in Embedded Machine Learning at Newcastle University in the U
 
 - **My latest research in the U.K.** [https://wuhanstudio.uk/](https://wuhanstudio.uk/)
 <!-- -->
-- [2026-09]  Lightning Talk: ML for Open-Source EDA Tools, ORConf 2026, Ghent, Belgium.
+- [2026-10]  Lightning Talk: EDABench: ML for LibreLane, APRIL AI Hub Annual Summit, Sheffied, UK.
+- [2026-10]  Best Poster: Tsetlin Machine for NILM, ISTM 2026, Bengaluru, India. [Talk Slides](https://istm.wuhanstudio.uk/) |  [Poster](https://wuhanstudio.uk/file/ISTM26-Poster-TM-NILM.pdf)
+- [2026-09]  Lightning Talk: ML for Open-Source EDA Tools, ORConf 2026, Ghent, Belgium. [Talk Slides](https://orconf.wuhanstudio.uk/)
 - [2026-07]  Summer School: Computer Architecture Design, ACACES 2026, Fiuggi, Italy.
 <!-- -->
 - [2025-09] **Postdoc in Embedded Machine Learning, Newcastle University.**
