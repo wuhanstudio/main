@@ -73,7 +73,7 @@ Research Associate in Embedded Machine Learning at Newcastle University in the U
 <!-- -->
 - [2022-10] Paper: **Distributed Black-box Attack** against Image Classification Cloud Services. [PDF](https://arxiv.org/abs/2210.16371)
 - [2022-09] Paper: **Adversarial Detection**: Attacking Object Detection in Real Time. [PDF](https://ieeexplore.ieee.org/document/10186608) 
-- [2022-08] Paper: **Man-in-the-Middle Attack** against Object Detection Systems. [PDF](https://arxiv.org/abs/2208.07174)
+- [2022-08] Paper: **Man-in-the-Middle Attack** against Object Detection Systems. [PDF](https://ieeexplore.ieee.org/document/10599093)
 - [2022-08] Paper: **Adversarial Driving**: Attacking End-to-End Autonomous Driving. [PDF](https://ieeexplore.ieee.org/document/10186386) 
 <!-- -->
 - [2022-07] New Supervisors: Dr. Johan Wahlström and Dr. Sareh Rowlands.
@@ -101,7 +101,7 @@ Research Associate in Embedded Machine Learning at Newcastle University in the U
 #### Papers
 
 - [2025] [Distributed Black-box Attack against Image Classification Cloud Services](https://arxiv.org/abs/2210.16371), ICLR Workshop, 2025.
-- [2024] [Man-in-the-Middle Attack against Object Detection Systems](https://arxiv.org/abs/2208.07174), IEEE Transactions on Artificial Intelligence, 2024.
+- [2024] [Man-in-the-Middle Attack against Object Detection Systems](https://ieeexplore.ieee.org/document/10599093), IEEE Transactions on Artificial Intelligence, 2024.
 - [2023] [Adversarial Detection: Attacking Object Detection in Real Time](https://ieeexplore.ieee.org/document/10186608), IEEE Intelligent Vehicles Symposium, 2023.
 - [2023] [Adversarial Driving: Attacking End-to-End Autonomous Driving](https://ieeexplore.ieee.org/document/10186386), IEEE Intelligent Vehicles Symposium, 2023.
 - [2021] [
