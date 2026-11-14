@@ -71,7 +71,7 @@ Research Associate in Embedded Machine Learning at Newcastle University in the U
 - [2023-01] Invited Talk: **An introduction to RT-Thread**, OpenEuler Meetup. [Event Poster](https://wuhanstudio.cc/resources/img/openeuler.jpg)
 - [2022-10] Invited Talk: **Deep Learning Security for IoT**, Manipal University Jaipur. [Event Poster](https://wuhanstudio.cc/resources/img/iot.jpg)
 <!-- -->
-- [2022-10] Paper: **Distributed Black-box Attack** against Image Classification Cloud Services. [PDF](https://arxiv.org/abs/2210.16371)
+- [2022-10] Paper: **Distributed Black-box Attack** against Image Classification Cloud Services. [PDF](https://openreview.net/forum?id=ojRs6YSx9m)
 - [2022-09] Paper: **Adversarial Detection**: Attacking Object Detection in Real Time. [PDF](https://ieeexplore.ieee.org/document/10186608) 
 - [2022-08] Paper: **Man-in-the-Middle Attack** against Object Detection Systems. [PDF](https://ieeexplore.ieee.org/document/10599093)
 - [2022-08] Paper: **Adversarial Driving**: Attacking End-to-End Autonomous Driving. [PDF](https://ieeexplore.ieee.org/document/10186386) 
@@ -100,7 +100,7 @@ Research Associate in Embedded Machine Learning at Newcastle University in the U
 
 #### Papers
 
-- [2025] [Distributed Black-box Attack against Image Classification Cloud Services](https://arxiv.org/abs/2210.16371), ICLR Workshop, 2025.
+- [2025] [Distributed Black-box Attack against Image Classification Cloud Services](https://openreview.net/forum?id=ojRs6YSx9m), ICLR Workshop, 2025.
 - [2024] [Man-in-the-Middle Attack against Object Detection Systems](https://ieeexplore.ieee.org/document/10599093), IEEE Transactions on Artificial Intelligence, 2024.
 - [2023] [Adversarial Detection: Attacking Object Detection in Real Time](https://ieeexplore.ieee.org/document/10186608), IEEE Intelligent Vehicles Symposium, 2023.
 - [2023] [Adversarial Driving: Attacking End-to-End Autonomous Driving](https://ieeexplore.ieee.org/document/10186386), IEEE Intelligent Vehicles Symposium, 2023.
